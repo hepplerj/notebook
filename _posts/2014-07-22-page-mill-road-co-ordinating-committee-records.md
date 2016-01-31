@@ -1,0 +1,175 @@
+---
+layout: post
+title: Page Mill Road Co-ordinating Committee Records
+tags: [Stanford University, organization, Page Mill Road Coordinating Committee, Wallace Stegner, Committee for Green Foothills]
+categories:
+- Collections
+- Stanford University
+---
+
+> Page Mill Road Co-ordinating Committee Records, M0970, Dept. of Special Collections, Stanford University Libraries, Stanford, Calif.
+
+Information
+-----------
+
+* [Finding aid](http://www.oac.cdlib.org/findaid/ark:/13030/tf0k4000vb/entire_text/)
+* Contact: `speccollref@stanford.edu`
+
+Notes
+-----
+
+Looking at material on 2014-06-12:
+
+* Box 1
+    * Folder 1: Correspondence
+      * Dear Friend of the Foothills, May 20, 1964
+        * "we will lose the rural quality of our town"
+      * Letter from Eugene Breyman to Geroge Hogle, June 2, 1964
+        * Hogle listed as Vice President of Committee for Green Foothills
+        * Urging the Committee to check out the stretch of road (Robleda) from
+          Fremont to Chapin. A six-tenths mile. Urging so that members of the
+          Committee on the Proposed Standards for Subdividers and the Los Altos
+          Hills City Council can have "the advice of interested and affected
+          citizens." (1)
+            * Not photographed
+    * Letter from Stegner,
+    * Historical background on Page Mill
+    * Saving Page Mill
+    * Letter from Dick Clark to Page Mill Arastradero Association, Sept 13,
+    1964
+        * Writing that he cannot attend a meeting; has communicated to the
+          National Campers and Hikers Association Inc (NCHA), which voted to go on
+          record in support of Route II and communicate to Martin Spangler their
+          decision.
+        * Not photographed.
+    * Letter from Jerome White, 10/16/64
+        * Urging the passage of Route II / Alternate II
+            * Photographed
+    * Letter from the California Roadside Council, Sept 29, 1964
+        * Photographed
+        * Note especially the names on the back of this
+    * Page Mill addresses
+        * photographed
+    * CGF members
+        * photographed
+    * Letter from Warren R. Thoits to Board of Supervisors, Nov 6, 1964
+        * Hearings on Page Mill; Palo Alto Chamber of Commerce adopted a
+          resolution adopted Sept 9, 1964: "The Board of Directors of the Palo Alto
+          Chamber of Commerce recommends to the County of Santa Clara adoption of
+          Route II of the Page Mill Road link between Junipero Serra Freeway and
+          Foothill Expressway, as a four lane divided highway, to be constructed
+          at the earliest possible time."
+              * Not photographed
+        * Thoits is president of the Palo Alto Chamber of Commerce
+  * Folder 2
+      * Short mailer on Page Mill Road, March 23, 1965
+        * apparently included with a history of Page Mill Road. They urge the
+          signing of a petition to protect Page Mill so it "may be recognized as a
+          'recreation road' with trails, possible scenic easements and 'protection
+          from progress.' (It still can and will be made a safer road.)." Signed
+          by Committee for Green Foothills (Lois Hogle), Page Mill - Astradero
+          Assoc. (Mary Paulsen), and Sierra Club - Loma Prieta Chapter (Del Dow -
+          Conservation Committee)
+              * not photographed
+        * NB: This mailer was attached to a petition list that sought to include
+          Page Mill within the county's Scenic Road System. See the petitions in
+          Folder 8.
+      * Meeting minutes
+        * photographed
+      * Letter from Paul Bosholm to Mrs. Richard Hayes, Dec 17, 1965
+        * Photographed
+  * Folder 4
+      * Letter from Mary Moffat to George Hill, Jan 31, 1966
+        * Photographed
+        * **Thought: Much of the correspondence, at least by 1966, is about
+          safety. The road is considered unsafe for children, hikers, bicyclists,
+          and equestrians. See, e.g., Letter from Elizabeth Allyn to Robert
+          Bradford, Apr 26, 1966**
+      * Letter from Page Mill Committee to Alan Hart
+          * photographed
+          * the Johnson quote...
+      * Meeting minutes from Santa Clara County Parks and Recreation Commission,
+        Aug 24, 1966
+          * Photographed
+  * Folder 6
+      * Essay on Page Mill (no author, no date)
+          * photographed
+      * Committee for Regional Planning flyer on referendum
+          * photographed
+          * is this related to Battle of the Hills? Or something else?
+  * Folder 7
+      * CGF members list
+          * photographed
+  * Folder 9
+      * "Historical Notes of Interest Surrounding Page Mill Road and Environs"
+        by Ralph Hansen, Palo Alto City Historian, n.d.
+          * Page Mill originally "Page's Mill Road" that's "indicative of the
+            importance of the lumber mill" and dates to around 1860. Connected to
+            William Page, a lumberman from New York (b. Mar 31 1826) who came to El
+            Dorado County, Calif., in 1850. In the 1860s he got into lumbering and
+            in 1879 purchased a lumber yard and timber lands in Mill Creek.
+          * Also near here is Frenchman's Tower. Peter Coutts came to Mayfield in
+            1875 and purchased 1242 acres from locals. In September 1876 he bought a
+            parcel of 160 acres on Page Mill Road and here built the tower,
+            possibly for the storage of water. Leland Stanford bought Frenchman's
+            place in 1882, along with Escondido Cottage, the Library, and Hacienda,
+            all on Escondido Road near Stanford Avenue.
+  * Folder 10
+      * Letter from Mr. and Mrs. Leonard E. Ginzton to Mary Gordon
+          * Gordon is chairman of the sub-committee on Freeway Interchange at Page
+            Mill Road
+          * photographed
+          * **Thought: Lots about equestrianism in these letters, this letter also
+            has thoughts of living in the country. Maybe I need to explore this
+            city/country divide a bit more.**
+      * California Roadside Council bulletin, Summer Issue 1965
+          * photographed
+      * Page Mill Coordinating Committee members
+          * photographed
+          * **For the membership lists, inlcuding the one above, I have addresses.
+            Let's map the residences of the activists, businesses, and environmental
+            concerns...***
+  * Folder 11
+      * Maps
+          * photographed
+          * These are included in the final report "A Study of Page Mill Road",
+            pp. 10-11.
+  * Folder 12
+      * "A Study of Page Mill Road"
+          * photographed
+  * Folder 13
+      * Mislabeled in finding aid. Actually contains a short flyer about
+        Interstate 280 and its aesthetics. Not photographed.
+  * Folder 14 Photographs
+      * Get reproductions for book?
+          * not phorographed
+  * Folder 16
+      * "What is the future of Stanford lands?", 1960
+          * photographed
+      * Questions and Answers about the Stanford lands, 1971
+          * photographed
+      * Memo from Planning Officer to Planning Commission, Sept 22, 1967
+          * photographed
+          * Come back to this folder...
+
+Material to Examine
+-------------------
+
+* Box 1
+    * Folder 1 Correspondence 1964
+    * Folder 2 Correspondence and minutes 1965
+    * Folder 3 Minutes 1965
+    * Folder 4 Correspondence 1966
+    * Folder 5 Correspondence 1967-1968
+    * Folder 6 Correspondence and notes n.d.
+    * Folder 7 Membership List n.d.
+    * Folder 8 Petition 1965
+    * Folder 9 "Historical notes of interest surrounding Page Mill Road and Environs," by Ralph Hansen, Palo Alto Historian n.d.
+    * Folder 10 Material used in Page Mill - Serra Interchange report 1965
+    * Folder 11 Maps n.d.
+    * Folder 12 Reports: "A study of Page Mill Road" (3 copies), and "Proposal for a pathway system through the Page Mill - Junipero Serra Interchange." 1965
+    * Folder 13 Correspondence 1964
+    * Folder 14 Photographs (8 x 10, black and white glossies), 5 prints, 10 negatives, (in envelope marked "Esther Litton." n.d.
+    * Folder 15 Blueprint n.d.
+    * Folder 16 News Clippings 1964 - 1966
+    * Folder 17 Stanford development 1960 - 1970

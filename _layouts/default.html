@@ -8,9 +8,15 @@
     {% include header.html %}
 
     <div class="page-content">
-      <div class="wrapper">
+    <div class="container-fluid">
+      <div class="row-fluid">
+        {% include sidebar.html %}
+
+        <div class="span9">
         {{ content }}
+        </div>
       </div>
+    </div>
     </div>
 
     {% include footer.html %}

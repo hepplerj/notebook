@@ -1,0 +1,1 @@
+---title: Bay Area Rapid Transit (BART)layout: posttags: [BART, transportation]---The Bay Area Rapid Transit (BART) system.

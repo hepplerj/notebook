@@ -4,8 +4,12 @@ title: Categories
 permalink: /categories/
 ---
 
+<p>Notes organized by category.</p>
+
 {% for category in site.categories %}
-## {{ category | first }}
+
+### {{ category | first }}
+
 <ul>
 {% for posts in category %}
   {% for post in posts %}
@@ -15,4 +19,5 @@ permalink: /categories/
   {% endfor %}
 {% endfor %}
 </ul>
+
 {% endfor %}

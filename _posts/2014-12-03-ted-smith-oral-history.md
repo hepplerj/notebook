@@ -1,0 +1,94 @@
+---
+layout: post
+title: Ted Smith Oral History
+tags: [Ted Smith, oral history, San Jose, water contamination, Silicon Valley Toxics Coalition, hazardous materials]
+categories:
+- Oral History
+---
+
+
+> Ted Smith, "Pioneer Activist for Environmental Justice in Silicon Valley, 1967-2000," an oral history conducted in 2000 by Carl Wilmsen, Regional Oral History Office, The Bancroft Library, University of California, Berkeley, 2003.
+
+- Smith was born in Schenectady, New York, but the family moved to Richland, WA, where his father worked at the Hanford Atomic Power Plant and, later, moved back to Schenectady where he worked at Knolls Atomic Power Lab before he left to work at General Electric in Rye, New York. (1)
+- His mother was "kind of a traditional housewife." Both parents came from the Midwest; mother from Iowa and Wisconsin, father from Illinois. (1)
+- Mom was "a bit more of a social activist" than his father. She was involved with the League of Women Voters and the YWCA, the World Youth Convention.
+    - "I think some of her experiences and sensibilities were passed on." (2)
+- While he was in college, he started to pay more attention to worldly issues. He started tutoring kids in neighboring communities, learned about what was going on in Southeast Asia at a time when the antiwar movement was just starting to take hold on campus. (3)
+- While in college he was exposed to FIGHT (an organization in Rochester, NY, fighting with Kodak) that led him to learn about social justice and workers' rights; he went to a Kodak board of directors meeting in New Jersey to hear Saul Alinsky; MLK came to campus on several occasions (the campus had a religious faculty deeply involved with civil rights). (3)
+- Finished college in 1967.
+- Thought about going to law school at the University of Chicago, where he was offered a scholarship. Also had a Fulbright offer to teach Algerian kids in France. But he was afraid of being drafted into the war, so he joined up with VISTA in the hopes it would "provide a bit more of a shield against the draft."
+    - Joining VISTA was "the most life-transforming thing that happened to me" (4)
+- Smith worked with the Head Start Program in Washington, D.C., living with other VISTA's at Ninth and S. Northwest in downtown Washington, a "ground zero for a whole number of issues that were all coming to a head in the late sixties" (4)
+- He got involved with people working on the Poor People's Campaign, involved in the peace movement, other local Washington campaigns—Marion Barry ("a local organizer in the neighborhood"), Stokely Carmichael ("a local organizer in that same neighborhood"); when MLK was shot "Washington burned. Right around the neighborhood . . . Were the main commercial streets that burned, and we were right between them." (4)
+- Remembers lots of urban issues and protests.
+    - When Bobby Kennedy was killed "the city went up in flames" (4)
+    - "Many, many times while I was there there were urban rebellions, and our neighbors who we made friends with had to hide us and protect us. We were the only white folks living in the area anywhere around where we were. To me it was just such radical change from what I'd been use to: living in small towns, going to a small college and, you know, having just an emerging intellectual sense of what was going on in terms of the injustice around me but not being part of it until I got there." (4)
+- The environment "wasn't on my horizon" (4)
+    - More involved with civil rights and peace movement. (4)
+- Smith says he learned from animosity from Herman Kitchens, a SNCC organizer from the South, who told Smith he had no business being in the neighborhood. They eventually developed a "mutual respect for each other."
+    - He took his message: "if you want to work for peace and justice, do it in a community where you have some roots; do it in a community where you can actually relate to people and make a difference, and don't bring your white man's burden into a neighborhood where you don't belong." (5)
+- Smith accuses mainstream environmental groups as being "too elitist." (6)
+    - "They really do too often care more about trees and birds than they do about people." (6)
+- Smith was with VISTA for two years. (7)
+- Smith moved to California in the spring of 1969. His younger brother was a Stanford student and went to find him. He learned he was involved in a sit-in.
+    - "I found him at the Applied Electronics Lab [AEL], where the Stanford students had just done a sit-in because they had discovered that the AEL was involved in doing military research, and that was the first major action at Stanford in the antiwar movement." (8)
+- Smith talks about meeting George Moscone, George Miller, John Vasconcellos. (9)
+- "I had been to California a couple of times and liked it. '67 was the summer of love, and I wanted to come to California and have flowers in my hair and be a radical activist, and that was kind of what I wanted to do." (9)
+- "I was never much of a student, but I developed a much sharper critique of what was at the time called monopoly capitalism and imperialism, and developed an anti-imperialist critique of the war, of the role of the multinational corporations . . . But it was the perspective that there were military interests that were trying to control and dominate the world over resource allocation and oil and other kinds of things." (10)
+- Recalls Earth Day 1970, was initially dismissive and skeptical, thought Earth Day was trying to co-opt the peace movement. (10)
+- Smith grew up in a family that "loved to camp, that loved the outdoors. . . . In terms of appreciation for nature and the outdoors, I always had a lot of that. But I never saw the environment as a political issue until that early stirrings that occurred around Earth Day 1970." (10)
+- After his second year at Stanford, Smith moved to San Jose and worked as an "extern" under law professor Tony Amsterdam. He worked with the Black Berets (similar to the Brown Berets), what Smith called a "street-savvy Chicano group." (11)
+- Smith learned more about the canneries and seasonal workers of the Bay Area, started working with the Chicano Cannery Workers Committee and helping people get elected. He worked on a few health and safety issues, but nothing connected to the environment. (12)
+- Smith learned of some of the industrial chemical problems through is (future) wife Amanda Hawes, who was a legal services attorney. She started getting clients who were getting sick from their jobs. (12)
+    - Amanda "began to start realizing that this new industry that we saw growing up around us, the high-tech industry, the electronics industry, was actually a chemical-handling industry." (13)
+- Amanda Hawes was one of the founding members of PHASE (Project on Health and Safety in Electronics). (13)
+- Smith maintained that people didn't care about workers rights because it didn't connect with them personally in most cases. But when the Fairchild leak was discovered in 1982, "a light bulb started going off in my head" and he thought he could connect drinking water pollution with workers rights. That the two issues were actually connected. (14)
+- Lorraine Ross went door to door to talk to her neighbors, and got in touch with Smith (Hawes?) to figure out what to do. (15)
+- Smith realized that 1) there was "a potential to get some local legislation together that would have potentially a major impact" and 2) that they needed a community-based organization. Thus, SVTC. (15)
+- In 1983 the model ordinance came into being and adopted by the county. In 1984, Byron Sher adapted the ordinance into state law and took it to the Legislature. Two years later, it became part of the amendments to the Federal Resource Conservation and Recovery Act (RARA). The local traveled all the way to the national. (15)
+- Fire fighters were very involved in the model ordinance plan. As first responders, they wanted to know what they were potentially exposed to. (16)
+- Shares a story of Jerry Floyd, a fire fighter who was on the roof of a semiconductor company when fire fighters were battling a blaze. Floyd came very close to cutting through a toxic gas line that would've leveled the block. (16)
+- Smith says the "trade secrets" excuse by companies was just that---an excuse. (17)
+- PHASE became the Santa Clara Center for Occupational Safety and Health (SCCOSH), what Smith calls "our sister organization." SVTC was originally a project of SCCOSH, but spun into its own 501(c)(3) by the mid-1980s. (17)
+    - Smith says there's a division of labor: SCCOSH focuses in the workplace, SVTC focuses on the neighborhoods. (17)
+- IBM was next to Fairchild and was polluting the same ground. (19)
+- SVTC worked to help pass AB 1362 (Byron Sher's bill) which passed the legislature. (20)
+- AB 1362 set up "stringent double containment requirements for storage of underground chemicals. Right-to-know provisions were passed separately. The state law was modeled on the local Santa Clara law. State law was passed in 1984; federal law passed in 1986. (22)
+- In 1984 SVTC tried to get the EPA Superfund program involved with Silicon Valley.  (23)
+- "We learned, as did everybody, that it's a lot easier to pollute ground water than it is to clean it up." (25)
+- Smith recalls the MEW site in Mountain View where Intel, Fairchild, and Raytheon contaminated the ground (all three became Superfund sites). The EPA's original estimate of the cleanup went as long as 300 years; SVTC pressured the EPA to shorten the timetable, which dropped to 30 years. (27)
+- Smith discussing the aeration cleanup strategy where water is sprayed into a pipe and TCE and other chemicals evaporate into the air.
+    - At MEW, Netscape was built on top of the original semiconductor companies. The old buildings were torn down: "just like a phoenix rising out of the ashes of the old---they've built this new industry, which is the internet industry." (28)
+    - There's a pipe coming out of the ground at Netscape that looks like a statue, but it's an aeration tower where groundwater is pumped out and sprayed out. (28)
+    - "It is the strategy of dispersion. It's not cleanup; it's just reallocating the pollution." (28)
+    - "Dilution is not the solution to pollution" slogan (28)
+- Smith credits the regional water quality control board for taking action in groundwater contamination at a time when "they really didn't have the resources and no budget to do so." (29)
+- Not just the 29 Superfund sites; there are over 150 ground water contamination sites from leaking solvent tanks to leaking fuel tanks. (30)
+- SVTC involved in a Superdrive for Superfund campaign where they drove four trucks set out from different parts of the country going from community to community that had Superfund sites. They held a campaign out in front of Ed Zschau's office. (36)
+- In 1988 it was found that Fairchild and IBM were dumping contaminated water into streams rather than go through remediation. (43-44)
+- SVTC received a tip from an anonymous source on the Regional Water Board that IBM was dumping contaminated water into streams. SVTC did their own investigation and alerted public agencies and the media. (44)
+- IBM was pumping groundwater from the basin and sending it back into streams. Smith says that IBM was essentially doing the aeration technique, but "they weren't even running it through an air filter, they were just pumping it and dumping it." (44)
+- Companies routinely report to the Regional Water Board test results they're finding in ground water---the wells they're monitoring, what materials they're finding, what levels and concentrations exist. (45)
+- The media was central to the Fairchild and IBM leaks. Smith says that the Mercury played a big role---especially Susan Yokum—but it also became a TV story as people came forward with stories. (45)
+- The Safe Water Council was a coalition of city and county governments working with regional government agencies. SWC tried to "both coordinate and also come up with policy initiatives that could be taken up to Sacramento and passed as statewide legislative initiatives." (46)
+- Smith says a lot of the tech industries were zoned as light industry. ("There's really a pattern here of residential neighborhoods and semiconductor plants right next to each other, and that was because they sold it as clean industry, and the planning commissioners didn't know anything different, so it sounds good." (47)
+    - This is a key quote. Hints at the spatial problem here.
+- In 1987 the Mercury named Smith one of the hundred most powerful people in Silicon Valley. (47)
+- SVTC also worked on a model toxic gas ordinance. This was more contentious than the hazardous materials one. Smith thinks this is because the hazardous materials ordinance operated with "a crisis mentality." But toxic gases appeared different because it was a preventative measure, meant to prevent a serious gas accident rather than tackle an existing problem. SVTC started working on this after the Bhopal incident in December 1984. (51-52)
+- Silicon Valley used large amounts of arsine, phosphine, diborane, and silane. Smith cites an article by Joe La Dou in Technology Review, an MIT alumni journal, saying that the release of a single canister would overwhelm emergency rooms in the Bay Area. (52)
+- Smith says a New Jersey supplier of gas canisters had an accident where a canister exploded. It was minor, but they recalled the canisters. The companies in the Bay Area didn't know what to do with the recall, so they exploded the cylinders on the mud flats. (52)
+    - The media found out and started looking into the issue. (53)
+- SVTC asked a group at SJSU to do a study using EPA air models what a toxic gas leak would do to the Bay Area. They found that the dispersal would be enormous, some as far as twenty kilometers wide. SVTC held a press conference and caught the attention of the City Managers Association. Simultaneously, the MEW site had a toxic gas facility on the site. The City Managers Association finally decided to create a task force to develop an ordinance to deal with the toxic gas situation. (53)
+- The gases are what are called "dopant gases" used to "dope" wafers to give them electrical conducting properties using ion implantation. Silicon doesn't conduct electricity; arsenic and phosphorus and boron and other metal hybrids can.
+    - "You could call this the arsenic industry rather than the silicon industry. Arsenic is just as important an element of the chips as is silicon, but it wouldn't sound as good." (54)
+- Smith notes the gas ordinance was more controversial and never became adopted as a statewide or national plan (like the hazardous materials plan). (55)
+- Smith critical of the language companies use in their ideas about the environment. Calling things "ozone depletion" instead of "ozone destruction," etc. (61)
+    - "The vocabulary becomes pretty damn important, where you communicate ideas." (61)
+- The Moffett area had combinations of chlorinated solvents and fuel spills mingling together. This became clear when Moffett discovered vinyl chloride in the groundwater, "the most toxic of all the chlorinated compounds." But more worrisome is that nobody uses vinyl chloride, "which meant that it was a breakdown product of something else." (62)
+    - Perchloroethylenes and trichloroethylenes were breaking down into dichloroethylenes and vinyl chlorides. What was causing the problem was their mixture with petroleum byproducts that accelerated the reaction. (62)
+- Smith talks about CLEAN South Bay (Coalition for Effluent Action Now), Bay Area environmental groups that wanted to protect the San Francisco Bay. CLEAN was compiled from Communities for a Better Environment, Save the Bay, Audubon Society, other wetlands protection groups. (96)
+- SVTC and CLEAN sued sewage treatment plants in San Jose, Palo Alto, and Santa Clara under the claim they were violating the Clean Water Act and allowing the destruction of the Bay. Smith saw two problems:
+    - Excessive amounts of water coming from the plants that was converting the marshland away from saltwater marsh into freshwater marsh, changing the ecosystem and endangering species in the area. (97)
+    - Industrial discharge was putting too many pollutants into the Bay, in violation of discharge permits. (97)
+- Smith: "The reason we got involved in the water pollution stuff was because of the concerns about health." (118)
+- Smith: Heros are Clarence Darrow, Eugene Debs, and Paul Robeson. (140)

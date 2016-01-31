@@ -1,15 +1,38 @@
 # Site settings
-title: Quals Reading Notes
-description: > # this means to ignore newlines until "baseurl:"
-  Notes on readings for my qualifying exams.
-baseurl: "/quals" # the subpath of your site, e.g. /blog/
-url: "http://jhamrick.github.io" # the base hostname & protocol for your site
-twitter_username: jhamrick
-github_username:  jhamrick
+title: Open History Notebook
+description: >
+  The open history notebook of historian Jason A. Heppler.
+baseurl: ""
+url: "http://hepplerj.github.io"
+twitter_username: jaheppler
+github_username:  hepplerj
+avatar: me.jpg
+email: jason@jasonheppler.org
+homeurl: http://jasonheppler.org
 highlighter: pygments
-gems: ['jekyll/scholar']
+gems:
+  - jekyll/scholar
+  - jekyll-archives
+permalink: /:title/
+
+# Jekyll settings
+root: /
+destination: public
 
 # Build settings
 markdown: kramdown
-exclude: ['jekyll-post.py', 'jekyll-post.tpl', 'jekyll_nbconvert.py', 'readings', 'Makefile']
+# pandoc:
+#   extensions:
+#     - smart
+exclude: ['jekyll-post.py', 'jekyll-post.tpl', 'jekyll_nbconvert.py', 'readings', 'Makefile', '_drafts']
 include: ['readings.pdf']
+
+# Tagging
+tag_page_layout: tag_page
+tag_page_dir: tag
+
+# Author information
+author:
+  name: Jason A. Heppler
+  givenName: Jason
+  familyName: Heppler

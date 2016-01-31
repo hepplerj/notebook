@@ -5,14 +5,94 @@
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
+    <meta name="author" content="{{ site.author.name }}"/>
 
+    <!-- Get date last modified from git log. (Uses current time if file entry not found, e.g. projects/)  -->
+    {% capture modified %} {{ page.path | git_modified }} {% endcapture %}
+
+    <!-- For posts, page.date is the date they are published under, which we use as their 'canonical' dc:date -->
+    {% if page.date %}
+      {% assign date = page.date %}
+      {% else %} <!-- If we don't have a page.date, then use modified time (pages) -->
+      {% assign date = modified %}
+    {% endif %}
+
+    <!-- RDFa Metadata (in DublinCore) -->
+    <meta property="dc:title" content="{{ page.title }}" />
+    <meta property="dc:creator" content="{{ site.author.name }}" />
+    <meta property="dc:date" content="{{date | date_to_xmlschema }}" />
+    <meta property="dc:format" content="text/html" />
+    <meta property="dc:language" content="en" />
+    <meta property="dc:identifier" content="{{ page.url }}" />
+    <meta property="dc:rights" content="CC BY-NC-SA 3.0" />
+    <meta property="dc:source" content="{{ site.title }}" />
+    <meta property="dc:subject" content="History" />
+    <meta property="dc:type" content="website" />
+
+    <!-- RDFa Metadata (in OpenGraph) -->
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:author" content="{{site.baseurl}}/bio.html" />
+    <meta property="og:site_name" content="{{ site.title }}" />
+    <meta property="og:url" content="{{site.baseurl}}{{ page.url }}" />
+    <meta property="og:type" content="website" />
+
+    <!-- Google Scholar Metadata -->
+    <meta name="citation_author" content="{{ site.author.name }}"/>
+    <meta name="citation_date" content="{{date | date_to_xmlschema }}"/>
+    <meta name="citation_title" content="{{page.title}}"/>
+    <meta name="citation_journal_title" content="{{site.title}}"/>
+
+    <!-- Twitter cards -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="{{ site.twitter_username}}">
+    <meta name="twitter:creator" content="{{ site.titter_username }}">
+    <meta name="twitter:url" content="{{ site.baseurl }}">
+    <meta name="twitter:title" content="{{ site.title }}">
+    <meta name="twitter:description" content="{{ site.description }}">
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:100,400,400italic,700' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="{{ "/components/bootstrap/dist/css/bootstrap.min.css" | prepend: site.baseurl }}">
+    <script type="text/javascript" src="{{ "/components/bootstrap/dist/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ "/components/jquery/dist/jquery.min.js" | prepend: site.baseurl }}"></script>
+
+    <!-- Custom Styling -->
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/custom.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/bigfoot-default.css" | prepend: site.baseurl }}">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-3dkvEK0WLHRJ7/Csr0BZjAWxERc5WH7bdeUya2aXxdU= sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg==" crossorigin="anonymous">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
+    <!-- MathTeX -->
     <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
       tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
     });
     </script>
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+    <!-- Initialize Bigfoot.js -->
+    <script type="text/javascript" src="{{ "/components/bigfoot/bigfoot.js" | prepend: site.baseurl}}"></script>
+    <script type="text/javascript">
+        $.bigfoot();
+    </script>
+
+    <!-- Todo lists (via Lincoln Mullen) -->
+    <script type="text/javascript">
+      /* <![CDATA[ */
+      $(document).ready(function() {
+        $("li:contains('[ ]')").html(function(_, html) {
+          return html.replace('[ ]', '<span style="color:red;">☐</span>');
+        });
+        $("li:contains('[s]')").html(function(_, html) {
+          return html.replace('[s]', '<span style="color:gold;">☐</span>');
+        });
+        $("li:contains('[x]')").html(function(_, html) {
+          return html.replace('[x]', '<span style="color:green;">☑</span>');
+        });
+      });
+      /* ]]> */
+    </script>
 </head>

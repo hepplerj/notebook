@@ -1,23 +1,51 @@
 ---
 layout: default
+date: 2015-11-14 05:56:38
 ---
 
-<div class="home">
+  {% markdown front.md %}
 
-  <h1 class="page-heading">Posts</h1>
+  <h3 class="page-heading">Recent Essays and Posts</h3>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.category %} • {{ post.category }}{% endif %}</span>
+  <table class="table-stripped">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+  {% for post in site.categories["Essays"] limit:5 %}
+
+    <tr>
+    <td style="width: 15%;">{{ post.date | date: "%b %-d, %Y" }}</td>
+    <td style="width: 85%;"><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></td>
+    </tr>
+
+  {% endfor %}
+  </table>
+
+  <h3 class="page-heading">Recent Notes</h3>
+
+  <table class="table-stripped">
+    <tr>
+      <th>Date</th>
+      <th>Title</th>
+    </tr>
+    {% assign nonessays = site.posts | posts_without_essays %}
+    {% for post in nonessays limit:10 | sort:'date' %}
+
+      <td width="15%;">{{ post.date | date_to_string }}</td>
+      <td width="85%;"><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></td>
+      </tr>
+
     {% endfor %}
-  </ul>
+    <tr>
+    <td></td>
+    <td><a href="{{ "/archive/" | prepend: site.baseurl }}">All notes &rarr;</a></td>
+    </tr>
+  </table>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <hr class="separator">
 
-</div>
+  <i class="fa fa-github-square"></i> <a href="http://github.com/hepplerj">Github Activity</a>
+
+  {% github_feed hepplerj, 8 %}
+
+  <hr>
+
+  <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
