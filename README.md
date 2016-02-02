@@ -20,11 +20,11 @@ and use `jekyll serve` or `rake preview` to run it locally. It will load up unde
 
 # Features to Come:
 
-[ ] Easier linking between posts
-[ ] Better global search
-[ ] sitemap.xml and robots.txt
-[ ] 404.html
-[ ] PDF export with Pandoc
+- [ ] Easier linking between posts
+- [ ] Better global search
+- [ ] sitemap.xml and robots.txt
+- [ ] 404.html
+- [ ] PDF export with Pandoc
 
 # License
 
