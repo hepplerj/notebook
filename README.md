@@ -1,6 +1,8 @@
 **IN DEVELOPMENT**
 
-This thing is still a work in progress, so use it at your own risk. Or help me develop it. Feel free to issue tickets or open push requests.
+This thing is still a work in progress, so use it at your own risk. There are a lot of things still broken, workflows that aren't completely clear, or things that just simply don't work yet.
+
+Or help me develop it. Feel free to issue tickets or open push requests.
 
 # Details
 
