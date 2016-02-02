@@ -9,7 +9,7 @@ categories:
 * Table of Contents
 {:toc}
 
-> {% reference fogelson2001downtown %}
+<h5>{% reference fogelson2001downtown %}</h5>
 
 ## Thesis
 

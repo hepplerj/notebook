@@ -3,13 +3,13 @@ layout: post
 title: marx1969machinegarden
 tags: [reading notes]
 categories:
-- project:readings
+- Readings
 ---
 
 * Table of Contents
 {:toc}
 
-> {% reference marx1969machinegarden %}
+<h5>{% reference marx1969machinegarden %}</h5>
 
 ### Notes
 

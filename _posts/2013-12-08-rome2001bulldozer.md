@@ -3,12 +3,12 @@ layout: post
 title: rome2001bulldozer
 tags: [reading notes, open space, California, environmentalism, urban sprawl]
 categories:
-- project:readings
+- Readings
 ---
 * Table of Contents
 {:toc}
 
-> {% reference rome2001bulldozer %}
+<h5>{% reference rome2001bulldozer %}</h5>
 
 Introduction
 ------------

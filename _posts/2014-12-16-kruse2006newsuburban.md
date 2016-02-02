@@ -3,12 +3,12 @@ layout: post
 title: kruse2006newsuburban
 tags: [reading notes, suburbanization]
 categories:
-- project:readings
+- Readings
 ---
 * Table of Contents
 {:toc}
 
-> {% reference kruse2006newsuburban %}
+<h5>{% reference kruse2006newsuburban %}</h5>
 
 Introduction
 ============

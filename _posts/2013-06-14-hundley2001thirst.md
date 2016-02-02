@@ -10,7 +10,7 @@ categories:
 * Table of Contents
 {:toc}
 
-{% reference hundley2001thirst %}
+<h5>{% reference hundley2001thirst %}</h5>
 
 ## General Notes
 

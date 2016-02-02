@@ -13,7 +13,7 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-family: "proxima-nova","Open Sans",Helvetica,sans-serif;
+  font-family: $base-font-family;
   font-size: $base-font-size;
   line-height: 24px;
   background: $background-color;
@@ -52,6 +52,7 @@ h4,
 h5,
 h6 {
   text-rendering: optimizeLegibility;
+  font-family: $header-font;
 }
 
 h1 {

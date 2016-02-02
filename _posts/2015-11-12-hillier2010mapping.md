@@ -5,12 +5,12 @@ date: Sun Nov 22 09:49:01 2015
 date modified: Sun Nov 22 09:49:01 2015
 tags: [reading notes, spatial history]
 categories:
-- Reading Notes
+- Readings
 ---
 * Table of Contents
 {:toc}
 
-{% reference hillier2010mapping %}
+<h5>{% reference hillier2010mapping %}</h5>
 
 p. 122: Suggests that while historians have focused on the spatial patterns within cities, the role of geography in understanding how cities form, function, and dysfunction has not been fully investigated.
 

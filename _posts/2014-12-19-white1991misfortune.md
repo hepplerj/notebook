@@ -3,12 +3,12 @@ layout: post
 title: white1991misfortune
 tags: [reading notes, Richard White, American West, urban growth]
 categories:
-- project:readings
+- Readings
 ---
 * Table of Contents
 {:toc}
 
-> {% reference white1991misfortune %}
+<h5>{% reference white1991misfortune %}</h5>
 
 "The boundaries of the American West are a series of doors pretending to be walls." (3)
 

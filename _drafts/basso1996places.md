@@ -64,3 +64,13 @@ p. 106: "anthropologists have paid scant attention to one of the most basic dime
 p. 106: Drawing on Martin Heidegger (1977), proposes "the concept of *dwelling* assigns importance to the forms of consciousness with which individuals perceive and apprehend geographical space."
 
 p. 107: "When places are actively sensed, the physical landscape becomes wedded to the landscape of the mind, to the roving imagination, and where the latter may lead is anybody's guess."
+
+p. 109: "relationships to places are lived most often in the company of other people, and it is on these communal occasions---when places are sensed *together*---that native views of the physical world become accessible to strangers."
+
+p. 110: "places and their meanings are continually woven into the fabric of social life, anchoring it to features of the landscape and blanketing it with layers of significance that few can fail to appreciate."
+
+p. 111: "Places and their sensings deserve our close attention."
+
+p. 143: "sense of place---or, as I would prefer to say, *sensing* of place---is a form of cultural activity."
+
+

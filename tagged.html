@@ -9,22 +9,13 @@ title: Tagged Notes
 <div class="tag-page">
 <p>Click on a tag to see relevant list of notes.</p>
 
-<ul class="tags">
-{% for tag in site.tags %}
-  {% assign t = tag | first %}
-  <li><a href="/tagged/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }}</a></li>
-{% endfor %}
-</ul>
-
- <hr class="separator">
-
-<h3>Tag Cloud</h3>
-
 {% assign tags = site.tags | sort %}
 {% for tag in tags %}
  <span class="site-tag">
     <span style="font-size: {{ tag | last | size | times: 4 | plus: 90  }}%">
+    <a href="/tagged/#{{ tag[0] | downcase | replace: " ", "-" }}">
             {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
+    </a>
     </span>
 </span>
 {% endfor %}

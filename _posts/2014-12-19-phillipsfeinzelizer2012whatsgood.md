@@ -3,10 +3,10 @@ layout: post
 title: phillipsfeinzelizer2012whatsgood
 tags: [reading notes, business]
 categories:
-- project:readings
+- Readings
 ---
 * Table of Contents
 {:toc}
 
-> {% reference phillipsfeinzeliser2012whatsgood %}
+<h5>{% reference phillipsfeinzeliser2012whatsgood %}</h5>
 

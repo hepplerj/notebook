@@ -3,7 +3,7 @@ layout: post
 title: Spatial History Annotated Bibliography
 tags: [reading notes]
 categories:
-- project:readings
+- Readings
 ---
 
 **Akerman, James R. and Robert W. Karrow Jr. eds. *Maps: Finding Our Place in
