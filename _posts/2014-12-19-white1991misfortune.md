@@ -3,8 +3,10 @@ layout: post
 title: white1991misfortune
 tags: [reading notes, Richard White, American West, urban growth]
 categories:
-- Readings
+- project:readings
 ---
+* Table of Contents
+{:toc}
 
 > {% reference white1991misfortune %}
 

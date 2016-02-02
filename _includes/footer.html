@@ -8,7 +8,7 @@
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
           <figure class="image-left">
-            <img class="avatar" src="{{ site.baseurl }}/images/{{ site.avatar }}" height="120" width="120"/>
+            <img class="avatar" src="{{ site.baseurl }}/images/{{ site.author.avatar }}" height="120" width="120"/>
           </figure>
           <p class="text">I am a historian at Stanford University. I'm affiliated with the <a href="http://cesta.stanford.org">Center for Spatial and Textual Analysis</a> and <a href="https://library.stanford.edu/research/center-interdisciplinary-digital-research-cidr">Center for Interidsciplinary Digital Research</a>.</p>
 
@@ -29,18 +29,18 @@
       <div class="footer-col  footer-col-2">
         <ul class="social-media-list">
           <li>
-            <i class="fa fa-globe"></i> <a href="{{ site.homeurl }}">jasonheppler.org</a>
+            <i class="fa fa-globe"></i> <a href="{{ site.author.homeurl }}">jasonheppler.org</a>
           </li>
-          {% if site.github_username %}
+          {% if site.author.github_username %}
           <li>
-              <i class="fa fa-github-square"></i> <a href="https://github.com/{{ site.github_username }}"><span class="username">{{ site.github_username }}</span>
+              <i class="fa fa-github-square"></i> <a href="https://github.com/{{ site.author.github_username }}"><span class="username">{{ site.author.github_username }}</span>
             </a>
           </li>
           {% endif %}
 
-          {% if site.twitter_username %}
+          {% if site.author.twitter_username %}
           <li>
-              <i class="fa fa-twitter-square"></i> <a href="https://twitter.com/{{ site.twitter_username }}"><span class="username">{{ site.twitter_username }}</span>
+              <i class="fa fa-twitter-square"></i> <a href="https://twitter.com/{{ site.author.twitter_username }}"><span class="username">{{ site.author.twitter_username }}</span>
             </a>
           </li>
           {% endif %}
@@ -51,7 +51,7 @@
         Jason Heppler<br/>
         <ul class="social-media-list">
           <li><i class="fa fa-university"></i> Department of History, Building 200, 450 Serra Mall, Stanford University</li>
-          <li><i class="fa fa-envelope"></i> <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li><i class="fa fa-envelope"></i> <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
         </ul>
       </div>
     </div>

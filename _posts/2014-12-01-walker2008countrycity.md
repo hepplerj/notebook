@@ -1,12 +1,14 @@
 ---
 layout: post
-title: walker2008countrycity
+title: walker2007countrycity
 tags: [reading notes, open space, Bay Area, environmentalism, political culture, Stanford University, Committee for Green Foothills, Karl Belser, Wallace Stegner]
 categories:
-- Readings
+- project:readings
 ---
+* Table of Contents
+{:toc}
 
-[@walker2008countrycity]
+> {% reference walker2007countrycity %}
 
 **Thesis**: Walker posits that the San Francisco Bay Area is exceptionally
 "green," which traces itself to groups of (mostly white) middle-class

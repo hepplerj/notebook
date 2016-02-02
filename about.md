@@ -4,9 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-Hi, I'm Jason Heppler, a historian working at Stanford University.
-
-I am a 20th century U.S. historian specializing in environmental, the North American West, and digital and public history. I'm completing my dissertation through the University of Nebraska-Lincoln. My dissertation research focuses on the urban and environmental history of Silicon Valley and the rise of environmental politics in the American Sunbelt.
+Hi, I'm Jason Heppler, a historian working at Stanford University. I am a 20th century U.S. historian specializing in environmental, the North American West, and digital and public history. I'm completing my dissertation through the University of Nebraska-Lincoln. My dissertation research focuses on the urban and environmental history of Silicon Valley and the rise of environmental politics in the American West.
 
 I also work full time as a digital historian in the Department of History at Stanford University. I work with faculty and graduate students on applying computational and informational techniques to research and publishing.
 

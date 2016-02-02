@@ -3,8 +3,10 @@ layout: post
 title: mozingo2011pastoral
 tags: [reading notes, capitalism, design, urban design, labor, workplaces, suburbanization, urbanization]
 categories:
-- Readings
+- project:readings
 ---
+* Table of Contents
+{:toc}
 
 > {% reference mozingo2011pastoral %}
 

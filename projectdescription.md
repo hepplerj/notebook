@@ -106,7 +106,7 @@ I am interested in GIS methods for historical research, so I am exploring how
 GIS might be used in my research. I am looking at ArcGIS software to construct
 maps that attempt to track the movement of people into and out of Santa Clara
 Valley and using D3.js for building interactive scholarly works. I am keeping
-a [GIS Log]({% post_url 2014-09-04-gis-log  %}) of my work as I go along.
+a [GIS Log]() of my work as I go along.
 
 My current thinking about building such maps are:
 
@@ -139,7 +139,7 @@ business leaders, politicians, and institutions such as universities,
 environmental  organizations, and community organizations. How these might play
 out I am unsure of, but the visualization might show interesting connections
 between people in the community that suggests something about how people and
-organizations worked together. I am keeping a [Network Log]({% post_url 2016-01-30-network-log %}) to track my work
+organizations worked together. I am keeping a [Network Log]() to track my work
 as I go along.
 
 

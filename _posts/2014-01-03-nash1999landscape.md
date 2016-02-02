@@ -3,10 +3,12 @@ layout: post
 title: nash1999landscape
 tags: [reading notes, World War II]
 categories:
-- Readings
+- project:readings
 ---
+* Table of Contents
+{:toc}
 
-[@nash1990transformed]
+> {% reference nash1990transformed %}
 
 Nash writes about the centrality of the federal government in shaping the West
 in the twentieth century. He notes the government "may not have been the only

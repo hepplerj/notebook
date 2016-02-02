@@ -76,21 +76,30 @@ desc "New draft post"
 task :draft do |t|
 
   title    = get_stdin("What is the title of your post? ")
-  filename = "_drafts/#{title.to_url}.md"
+  filename = "_Rmd/#{title.to_url}.Rmd"
 
   puts "Creating new draft: #{filename}"
   open(filename, "w") do |post|
     post.puts "---"
     post.puts "layout: post"
     post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
-    # post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
+    post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
     post.puts "tags: []"
     post.puts "categories: "
     post.puts "- "
     post.puts "..."
+    post.puts "\n"
+    post.puts "* Table of Contents\n{:toc}"
   end
 
 end
+
+# desc "Parse YAML and move _md to _posts"
+# task :yaml, [:arg] do |args|
+#   yml = YAML::load(File.open('#{args}'))
+#   dated = yml['date']
+#   puts dated
+# end
 
 desc "Move a post from _drafts to _posts"
 task :publish do
@@ -124,6 +133,14 @@ task :preview do
   [jekyllPid].each { |pid| Process.wait(pid) }
 end
 
+task :rmdpost do
+  system "Rscript _Rmd/rmd2jekyll.R"
+end
+
+task :mdpost do
+  system "Rscript _md/md2jekyll.R"
+end
+
 desc "rsync to server"
 task :rsync do
 	puts "\nDeploying the site via rsync..."
@@ -132,7 +149,7 @@ task :rsync do
 	ssh_user       = "jasonhep@jasonheppler.org"
 	rsync_delete   = true
 	rsync_options  = "--checksum --stats -avz -e"
-	public_dir     = "_site/"
+	public_dir     = "public/"
 	document_root  = "~/public_html/notebook/"
 
 	exclude = ""

@@ -3,8 +3,10 @@ layout: post
 title: phillipsfeinzelizer2012whatsgood
 tags: [reading notes, business]
 categories:
-- Readings
+- project:readings
 ---
+* Table of Contents
+{:toc}
 
-[@phillipsfeinzeliser2012whatsgood]
+> {% reference phillipsfeinzeliser2012whatsgood %}
 

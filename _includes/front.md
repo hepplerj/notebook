@@ -1,13 +1,11 @@
 ## Welcome
 
-My name is [Jason Heppler](http://jasonheppler.org) and I am a digital historian in the Department of History at Stanford University. You can get in touch with me at `jason@jasonheppler.org`.
+My name is [Jason Heppler](http://jasonheppler.org) and I am a digital historian in the Department of History at Stanford University. You can get in touch with me at `jason@jasonheppler.org`. This is my open research notebook which contains notes of my ongoing research projects. The best places to start are:
 
-This is my open research notebook which contains notes of my ongoing research projects. The best places to start are:
+- [Recent activity](/archive/): listing the most recent updates to the notebook
+- [All pages](/archive-alphabetical/): see all pages in the notebook alphabetically
 
-- [Recent activity](): listing the most recent updates to the notebook
-- [All pages](): see all pages in the notebook alphabetically
-
-I also maintain [GitHub repositories](http://github.com/hepplerj) for other work related to my research and scholarship.
+Also, check out the project tabs along the lefthand side. I also maintain [GitHub repositories](http://github.com/hepplerj) for other work related to my research and scholarship.
 
 ### Active Projects
 

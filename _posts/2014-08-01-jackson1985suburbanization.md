@@ -1,14 +1,16 @@
 ---
 layout: post
-title: "jackson1985suburbanization"
-date: Sun Nov 22 09:59:15 2015
+title: "jackson1985crabgrass"
+date: 2014-08-01
 date modified: Sun Nov 22 09:59:15 2015
-tags: [suburbanization, reading notes]
+tags: [suburbanization, urbanization, cities, reading notes]
 categories:
--
+- Readings
 ---
+* Table of Contents
+{:toc}
 
-{% reference jackson1985suburbanization %}
+> {% reference jackson1985crabgrass %}
 
 ## Introduction
 

@@ -7,7 +7,8 @@ tags: [reading notes, spatial history]
 categories:
 - Reading Notes
 ---
-
+* Table of Contents
+{:toc}
 
 {% reference hillier2010mapping %}
 

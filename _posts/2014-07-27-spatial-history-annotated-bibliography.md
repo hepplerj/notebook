@@ -3,7 +3,7 @@ layout: post
 title: Spatial History Annotated Bibliography
 tags: [reading notes]
 categories:
-- Readings
+- project:readings
 ---
 
 **Akerman, James R. and Robert W. Karrow Jr. eds. *Maps: Finding Our Place in
@@ -443,4 +443,45 @@ Siglio, 2010.**
 Digital
 -------
 
-* [Spatial History Project](http://web.stanford.edu/group/spatialhistory/cgi-bin/site/pub.php?id=89)
+- [American Migrations to 1880](http://benschmidt.org/migration2/)
+- [Atlantic Networks Project](https://sites.google.com/site/atlanticnetworksproject/home)
+- [Atlas of the Historical Geography of the United States](http://dsl.richmond.edu/historicalatlas/)
+- [Counties Blue and Red, Moving Right and Left](http://www.nytimes.com/interactive/2012/11/11/sunday-review/counties-moving.html)
+- [David Rumsey Map Collection](http://www.davidrumsey.com/)
+- [Digital Atlas of Roman and Medieval Civilizations](http://darmc.harvard.edu/icb/icb.do)
+- [Digital Harlem](http://digitalharlem.org/)
+- [Digital Harrisburg](http://digitalharrisburg.com/)
+- Flowing Data: [Coffee](http://flowingdata.com/2014/03/18/coffee-place-geography/), [Pizza](http://flowingdata.com/2013/10/14/pizza-place-geography/), [Burgers](http://flowingdata.com/2014/06/24/burger-place-geography/)
+- [Geography of the Post](http://cameronblevins.org/gotp/)
+- [Going to the Show](http://docsouth.unc.edu/gtts/)
+- [Hestia: Home for Geospatial Analysis of Herodotus's Histories](http://hestia.open.ac.uk/)
+- [Hidden Florence](http://hiddenflorence.org/)
+- [Histories of the National Mall](http://mallhistory.org/)
+- [History Pin](https://www.historypin.org/)
+- [Holocaust Geographies Collective](http://web.stanford.edu/group/spatialhistory/cgi-bin/site/project.php?id=1015)
+- [How Your Hometown Affects Your Chances of Marriage](http://www.nytimes.com/interactive/2015/05/15/upshot/the-places-that-discourage-marriage-most.html?rref=upshot&abt=0002&abg=1)
+- [Hypercities](http://www.hypercities.com/)
+- [Locating London's Past](http://www.locatinglondon.org/)
+- [A Map of Baseball Nation](http://www.nytimes.com/interactive/2014/04/24/upshot/facebook-baseball-map.html), [Baseball’s Second-Place Favorites: Go, Mets](http://www.nytimes.com/2014/04/27/upshot/there-is-one-more-baseball-map-we-love-showing-the-second-favorite-teams.html)
+- [Mapping the Republic of Letters](http://republicofletters.stanford.edu/)
+- [Mapping the State of the Union](http://www.theatlantic.com/features/archive/2015/01/mapping-the-state-of-the-union/384576/)
+- [Mapping Texts](http://mappingtexts.org/)
+- [Map of Early Modern London](http://mapoflondon.uvic.ca/index.htm)
+- [Mapping Gothic France](http://mappinggothic.org/)
+- [Mapping the Medieval Townscape](http://archaeologydataservice.ac.uk/archives/view/atlas_ahrb_2005/atlas.cfm)
+- [Mapping Poverty in America](http://www.nytimes.com/newsgraphics/2014/01/05/poverty-map/)
+- [Midterm Elections](http://www.nytimes.com/interactive/2014/11/04/upshot/senate-maps.html)
+- [Murder Map](http://www.antievictionmappingproject.net/murdermap.html)
+- [NYPL Map Warper](http://maps.nypl.org/warper/maps?show_warped=1)
+- [Orbis](http://orbis.stanford.edu/)
+- [PhilaPlace](http://www.philaplace.org/)
+- [Pelagoios](http://pelagios-project.blogspot.com/)
+- [Pleiades](http://pleiades.stoa.org/home)
+- [Stop and Frisk is All But Gone from New York](http://www.nytimes.com/interactive/2014/09/19/nyregion/stop-and-frisk-is-all-but-gone-from-new-york.html)
+- [Railroads and the Making of Modern America](http://railroads.unl.edu/)
+- [Redlining Richmond](http://dsl.richmond.edu/holc/)
+- Ben Schmidt, [Mapping ship logs](http://sappingattention.blogspot.com/2012/11/reading-digital-sources-case-study-in.html)
+- [Spread of U.S. Slavery, 1790–1860](http://lincolnmullen.com/projects/slavery/)
+- [Stanford Spatial History Project](http://web.stanford.edu/group/spatialhistory/cgi-bin/site/projects.php)
+- [Travelers in the Middle East Archive](https://scholarship.rice.edu/handle/123456789/1)
+- [Visualizing Emancipation](http://dsl.richmond.edu/emancipation/)

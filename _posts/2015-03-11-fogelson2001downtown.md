@@ -1,21 +1,15 @@
 ---
 layout: post
-title: "raw/fogelson2001downtown"
-date: Tue Nov 17 16:44:19 2015
+title: "fogelson2001downtown"
+date: 2015-03-11
 tags: [downtown]
-categories: 
-- 
+categories:
+- Readings
 ---
+* Table of Contents
+{:toc}
 
-~~~~~{.bib}
-@Book{ fogelson2001downtown,
-	author      = {Robert M. Fogelson},
-	title       = {Downtown: Its Rise and Fall, 1880--1950},
-	address     = {New Haven},
-	publisher   = {Yale University Press},
-	year        = {2001}
-}
-~~~~~
+> {% reference fogelson2001downtown %}
 
 ## Thesis
 

@@ -3,10 +3,12 @@ layout: post
 title: zukin1991landscapes
 tags: [reading notes, landscape, methodology, postindustrial]
 categories:
-- Readings
+- project:readings
 ---
+* Table of Contents
+{:toc}
 
-[@zukin1991landscapes]
+> {% reference zukin1991landscapes %}
 
 Argues Joseph Schumpeter's "creative destruction" never accounted for local communities. In the face of market changes and the "post-postwar period of economic growth" Schumpeter's ideas of progress are harder to square with economic realities today. "These days," she writes, "workers are important because they consume, not because they produce anything the culture values." The result is that "abstract market forces that detach people from social institutions have overpowered specific forces of attachment identified with place." (4)
 

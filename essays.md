@@ -3,7 +3,7 @@ layout: page
 title: Essays
 permalink: /essays/
 ---
-  <table class="table table-condensed">
+  <table class="table-stripped">
 
   {% for post in site.categories["Essays"] %}
 

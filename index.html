@@ -8,12 +8,16 @@ date: 2015-11-14 05:56:38
   <h3 class="page-heading">Recent Essays and Posts</h3>
 
   <table class="table-stripped">
-
-  {% for post in site.categories["Essays"] limit:5 %}
-
     <tr>
-    <td style="width: 15%;">{{ post.date | date: "%b %-d, %Y" }}</td>
-    <td style="width: 85%;"><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></td>
+      <th>Date</th>
+      <th>Title</th>
+      <th>Categories</th>
+    </tr>
+  {% for post in site.categories["Essays"] limit:5 %}
+    <tr>
+      <td width="15%;">{{ post.date | date_to_string }}</td>
+      <td width="70%;"><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></td>
+      <td style="width: 15%;"><span class="label label-success">{{post.categories}}</span></td>
     </tr>
 
   {% endfor %}
@@ -25,12 +29,14 @@ date: 2015-11-14 05:56:38
     <tr>
       <th>Date</th>
       <th>Title</th>
+      <th>Categories</th>
     </tr>
     {% assign nonessays = site.posts | posts_without_essays %}
     {% for post in nonessays limit:10 | sort:'date' %}
 
       <td width="15%;">{{ post.date | date_to_string }}</td>
-      <td width="85%;"><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></td>
+      <td width="70%;"><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></td>
+      <td style="width: 15%;"><span class="label label-success">{{post.categories}}</span></td>
       </tr>
 
     {% endfor %}

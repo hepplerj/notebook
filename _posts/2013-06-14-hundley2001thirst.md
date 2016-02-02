@@ -5,8 +5,10 @@ date: Sun Nov 22 09:53:07 2015
 date modified: Sun Nov 22 09:53:07 2015
 tags: [California, water, infrastructure, Central Valley]
 categories:
--
+- Readings
 ---
+* Table of Contents
+{:toc}
 
 {% reference hundley2001thirst %}
 

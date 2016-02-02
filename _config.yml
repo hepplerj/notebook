@@ -4,20 +4,21 @@ description: >
   The open history notebook of historian Jason A. Heppler.
 baseurl: ""
 url: "http://hepplerj.github.io"
-twitter_username: jaheppler
-github_username:  hepplerj
-avatar: me.jpg
-email: jason@jasonheppler.org
-homeurl: http://jasonheppler.org
 highlighter: pygments
 gems:
   - jekyll/scholar
   - jekyll-archives
 permalink: /:title/
+repo: notebook
 
 # Jekyll settings
 root: /
 destination: public
+
+scholar:
+  style: chicago-fullnote-bibliography
+  source: ./_bibliography
+  bibliography: bibliography.bib
 
 # Build settings
 markdown: kramdown
@@ -36,3 +37,8 @@ author:
   name: Jason A. Heppler
   givenName: Jason
   familyName: Heppler
+  avatar: me.jpg
+  email: jason@jasonheppler.org
+  twitter_username: jaheppler
+  github_username:  hepplerj
+  homeurl: http://jasonheppler.org

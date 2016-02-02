@@ -4,14 +4,14 @@
 @charset "utf-8";
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-family: 'futura-pt','Open Sans', Helvetica, Arial, sans-serif;
+$base-font-size:   1.4em;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
+$text-color:       #202020;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
 
@@ -21,11 +21,8 @@ $grey-color-dark:  darken($grey-color, 25%);
 $blue-color-dark: #2B3A42;
 $white-color-off: #f2f2f2;
 
-
 $on-palm:          600px;
 $on-laptop:        800px;
-
-
 
 // Using media queries with like this:
 // @include media-query($palm) {
