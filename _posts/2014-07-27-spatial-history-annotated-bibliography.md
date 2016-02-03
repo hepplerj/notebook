@@ -1,10 +1,15 @@
 ---
 layout: post
-title: Spatial History Annotated Bibliography
-tags: [reading notes]
+title: Reading List - Spatial History
+tags: [reading notes, spatial history]
 categories:
 - Readings
 ---
+* Table of Contents
+{:toc}
+
+Books and Articles
+------------------
 
 **Akerman, James R. and Robert W. Karrow Jr. eds. *Maps: Finding Our Place in
 the World*. Chicago: University of Chicago Press, 2007.**

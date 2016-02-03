@@ -119,11 +119,11 @@ task :publish do
   end
 end
 
-desc "Preview the site with Jekyll"
+desc "Preview the site with POW"
 task :preview do
   puts "Previewing the site locally with Jekyll."
 
-  jekyllPid  = Process.spawn("jekyll serve --watch")
+  jekyllPid  = Process.spawn("jekyll serve --watch --config _config.yml, _config-pow.yml")
 
   trap("INT") {
     [jekyllPid].each { |pid| Process.kill(9, pid) rescue Errno::ESRCH }
