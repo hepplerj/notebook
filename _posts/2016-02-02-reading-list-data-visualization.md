@@ -21,6 +21,28 @@ categories:
 - David McCandless, *The Visual Miscellaneum*
 - Herbert Bayer, *World Geographic Atlas*
 - Joost Grootens, *Metropolitan World Atlas*
+- Rosenberg, *Cartographies of Time* (2010)
+- Shawn Graham, Ian Milligan, Scott Weingart, *Exploring Big Historical Data: The Historian’s Macroscope*
+- Daniel Kaplan, *Data Computing: An Introduction to Wrangling and Visualization with R*
+- Isabel Meirelles, *Design for Information: An Introduction to the Histories, Theories, and Best Practices Behind Effective Information Visualizations*
+- Susan Schulten, *Mapping the Nation: History and Cartography in Nineteenth-Century America*
+- *Form+Code*
+- *Close Up at a Distance*
+- Myra, *Interdisciplinary Conversations*
+- Lima, *Visual Complexity*
+- *Let Them Eat Data*
+
+# Data
+
+- Tilton and Arnold, *[Humanities Data in R](http://www.springer.com/us/book/9783319207018)*
+- Mullen, [Digital History Methods in R](http://dh-r.lincolnmullen.com/)
+- *Raw Data is an Oxymoron*
+
+# Courses
+
+- Kieran Healy, [Data Visualization](http://socviz.github.io/soc880/)
+- Jenny Bryan, [Data wrangling, exploration, and analysis with R](https://stat545-ubc.github.io/)
+- Lincoln Mullen, [Data Visualization in Digital History](http://lincolnmullen.com/courses/data-dh.2016/)
 
 # Sites
 
