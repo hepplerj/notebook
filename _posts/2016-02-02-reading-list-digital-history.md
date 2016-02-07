@@ -10,6 +10,8 @@ categories:
 * Table of Contents
 {:toc}
 
+> This is the comprehensive exam list I maintain for graduate students looking to add digital history to their fields.
+
 # Overview
 
 Daniel Cohen and Roy Rosenzweig, *[Digital History: A Guide to Gathering, Preserving, and Presenting the Past on the Web](http://chnm.gmu.edu/digitalhistory/)* (University of Pennsylvania Press, 2005).
