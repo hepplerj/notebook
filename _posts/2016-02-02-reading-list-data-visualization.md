@@ -2,7 +2,7 @@
 layout: post
 title: "Reading List - Data Visualization"
 date: 2016-02-02 17:37
-tags: [data visualization, information visualization, digital history]
+tags: [visualization, digital history]
 categories:
 - Readings
 ...
