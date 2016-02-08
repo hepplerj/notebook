@@ -2,7 +2,7 @@
 layout: post
 title: "Reading List - North American West"
 date: 2016-02-02 20:17
-tags: [American West]
+tags: [American West, comprehensives]
 categories:
 - Readings
 ...

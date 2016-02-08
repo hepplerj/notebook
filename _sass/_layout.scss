@@ -7,7 +7,7 @@
     // Positioning context for the mobile navigation icon
     position: relative;
 
-    // background-color: $blue-color-dark;
+    background-color: $blue-color-dark;
 
     border-bottom: 1px solid rgba(0,0,0,0.07);
     margin-bottom: 15px;
@@ -24,6 +24,10 @@
     padding-left: 15px;
 }
 
+.site-header ul li a {
+  color: $white-color-off;
+}
+
 .site-title {
     font-size: 26px;
     line-height: 56px;
@@ -35,7 +39,7 @@
 
     &,
     &:visited {
-        color: $text-color;
+        color: $white-color-off;
     }
     &:hover {
       text-decoration: none;
@@ -115,6 +119,7 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    font-size: 14px;
 }
 
 .footer-heading {
@@ -184,6 +189,10 @@
 }
 
 .page-heading {
+}
+
+.post {
+  width: 820px;
 }
 
 .post-list {
@@ -358,6 +367,7 @@ ul#post-categories li:last-child:after {
 
 .sidebar-nav {
   padding: 9px 0;
+  font-family: $header-font;
 }
 
 /* =Sidebar
@@ -375,6 +385,7 @@ ul#post-categories li:last-child:after {
   margin-left: -15px;
   margin-right: -15px;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  font-size: $small-font-size;
 }
 .nav-list > li > a {
   padding: 3px 15px;
@@ -501,7 +512,7 @@ hr {
 
 /* external links */
 /* borrowed from Lincoln Mullen */
-a[href*="//"]:not([href*="localhost"]) {
+a[href*="//"]:not([href*="notebook.dev"]) {
   background-position: center right;
   background-repeat: no-repeat;
   background-image: linear-gradient(transparent,transparent),url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwIiBoZWlnaHQ9IjEwIj48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtODI2LjQyOSAtNjk4Ljc5MSkiPjxyZWN0IHdpZHRoPSI1Ljk4MiIgaGVpZ2h0PSI1Ljk4MiIgeD0iODI2LjkyOSIgeT0iNzAyLjMwOSIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjMDZjIi8+PGc+PHBhdGggZD0iTTgzMS4xOTQgNjk4Ljc5MWg1LjIzNHY1LjM5MWwtMS41NzEgMS41NDUtMS4zMS0xLjMxLTIuNzI1IDIuNzI1LTIuNjg5LTIuNjg5IDIuODA4LTIuODA4LTEuMzExLTEuMzExeiIgZmlsbD0iIzA2ZiIvPjxwYXRoIGQ9Ik04MzUuNDI0IDY5OS43OTVsLjAyMiA0Ljg4NS0xLjgxNy0xLjgxNy0yLjg4MSAyLjg4MS0xLjIyOC0xLjIyOCAyLjg4MS0yLjg4MS0xLjg1MS0xLjg1MXoiIGZpbGw9IiNmZmYiLz48L2c+PC9nPjwvc3ZnPg==);

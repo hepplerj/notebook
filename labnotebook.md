@@ -35,11 +35,10 @@ title: "white1995misfortune"
 tags: [american west, dissertation, survey]
 categories:
 - Readings
-- Secondary
 ---
 ~~~
 
-Toward the bottom of the YAML header, the note belongs to the categorires `Readings` and `Secondary`, relating the note to two categories that I can then sort by and parse. These categories are used in the notebook itself to build lists from project pages.
+Toward the bottom of the YAML header, the note belongs to the categorires `Readings`, relating the note to categories that I can then sort by and parse. These categories are used in the notebook itself to build lists from project pages.
 
 Essays, in contrast, are related to specific projects or collections of notes, meant for me to make things more comprehensible or extend the context around historical information. For example, an essay might include the following metadata:
 
@@ -49,17 +48,20 @@ layout: essay
 title: "Urbanization and the American West"
 tags: [urban history, urbanization, suburbanization, american west, dissertation]
 categories:
-- essays
+- Essays
 ---
 ~~~
 
-The essay isn't related to a specific project necessarily. The category `essays` will put it in a list of essays and general writings in the notebook. I also give the essay a different layout, which has a few minor UI tweaks from the post format.
+The essay isn't related to a specific project necessarily. The category `Essays` will put it in a list of essays and general writings in the notebook. I also give the essay a different layout, which has a few minor UI tweaks from the post format.
 
-Each post also has a series of tags which I often use for grouping together topics, and allows me to explore the notes through a tag cloud (in the [Notes by Tag)](/tags/).
+Each post also has a series of [tags](/tagged/) which I often use for grouping together by topic or theme. [Categories](/categories/) are a higher level than tags, meant for grouping posts together more by their genre than their thematic or topical similarity. Categories are a controlled vocabulary and consist of a smaller set of words than tagging. Right now, the available categories are:
+
+- Readings
+- Essays
+- Archive
+- Administrative
 
 ## Documentation
-
-- [Adding a Project](/doc/adding-project/)
 
 There are a few scripts to make it easy to create new notes and essays. Most of these are contained in the `Rakefile`. The task `newnote` copies a template Markdown file with proper YAML header information and date stamp to the `_md` directory. The task `newessay` does the same thing. The task `prep` copies over the `_md` files into `_posts` with the appropriate date appended to the filename.
 

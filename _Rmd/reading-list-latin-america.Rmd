@@ -2,7 +2,7 @@
 layout: post
 title: "Reading List - Latin America"
 date: 2016-02-02 20:14
-tags: [Latin America, Mexico, revolution]
+tags: [Latin America, Mexico, revolution, comprehensives]
 categories:
 - Readings
 ...

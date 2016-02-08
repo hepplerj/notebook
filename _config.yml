@@ -1,36 +1,13 @@
 # Site settings
 title: Open History Notebook
-description: >
-  The open history notebook of historian Jason A. Heppler.
-baseurl: ""
-url: "http://hepplerj.github.io"
+description: "The open history notebook of historian Jason A. Heppler."
+baseurl: "http://notebook.jasonheppler.org"
+url: "http://notebook.jasonheppler.org"
+root: /
 highlighter: pygments
-gems:
-  - jekyll/scholar
-  - jekyll-archives
+gems: ['jekyll/scholar']
 permalink: /:title/
 repo: notebook
-
-# Jekyll settings
-root: /
-destination: public
-
-scholar:
-  style: chicago-fullnote-bibliography
-  source: ./_bibliography
-  bibliography: bibliography.bib
-
-# Build settings
-markdown: kramdown
-# pandoc:
-#   extensions:
-#     - smart
-exclude: ['jekyll-post.py', 'jekyll-post.tpl', 'jekyll_nbconvert.py', 'readings', 'Makefile', '_drafts']
-include: ['readings.pdf']
-
-# Tagging
-tag_page_layout: tag_page
-tag_page_dir: tag
 
 # Author information
 author:
@@ -42,3 +19,18 @@ author:
   twitter_username: jaheppler
   github_username:  hepplerj
   homeurl: http://jasonheppler.org
+
+# Scholar settings
+scholar:
+  style: chicago-fullnote-bibliography
+  source: ./_bibliography
+  bibliography: bibliography.bib
+
+# Build settings
+destination: public
+markdown: kramdown
+# pandoc:
+#   extensions:
+#     - smart
+markdown_ext:  markdown,mkdown,mkdn,mkd,md,Rmd,rmd
+exclude: ['Makefile', 'Rakefile', '_drafts']

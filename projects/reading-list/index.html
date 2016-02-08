@@ -7,6 +7,10 @@ permalink: /reading-notes/
 ---
 
 <table class="table-stripped">
+<tr>
+      <th>Date</th>
+      <th>Title</th>
+    </tr>
 {% assign sorted_posts = (site.categories["Readings"] | sort: 'title') %}
 {% for post in sorted_posts %}
   <tr>

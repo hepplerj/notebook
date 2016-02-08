@@ -8,3 +8,7 @@ _site
 .sass-cache
 .jekyll-metadata
 public
+.bundle
+_drafts
+Gemfile.lock
+

@@ -25,6 +25,7 @@ DATE = Time.now.strftime("%Y-%m-%d")
 # Directories
 POSTS = "_posts"
 DRAFTS = "_drafts"
+RDRAFTS = "_Rmd"
 
 # == Helpers ===================================================================
 # Execute a system command
@@ -73,7 +74,7 @@ end
 
 # == Tasks =====================================================================
 desc "New draft post"
-task :draft do |t|
+task :rdraft do |t|
 
   title    = get_stdin("What is the title of your post? ")
   filename = "_Rmd/#{title.to_url}.Rmd"
@@ -91,15 +92,51 @@ task :draft do |t|
     post.puts "\n"
     post.puts "* Table of Contents\n{:toc}"
   end
-
 end
 
-# desc "Parse YAML and move _md to _posts"
-# task :yaml, [:arg] do |args|
-#   yml = YAML::load(File.open('#{args}'))
-#   dated = yml['date']
-#   puts dated
-# end
+desc "New draft post"
+task :draft do |t|
+
+  title    = get_stdin("What is the title of your post? ")
+  filename = "_drafts/#{title.to_url}.md"
+
+  puts "Creating new draft: #{filename}"
+  open(filename, "w") do |post|
+    post.puts "---"
+    post.puts "layout: post"
+    post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
+    post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
+    post.puts "tags: []"
+    post.puts "categories: "
+    post.puts "- "
+    post.puts "..."
+    post.puts "\n"
+    post.puts "* Table of Contents\n{:toc}"
+  end
+end
+
+
+desc "New reading note"
+task :readnote do |t|
+
+  title    = get_stdin("What is the title of your note? ")
+  filename = "_Rmd/#{title.to_url}.Rmd"
+
+  puts "Creating new draft: #{filename}"
+  open(filename, "w") do |post|
+    post.puts "---"
+    post.puts "layout: post"
+    post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
+    post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
+    post.puts "tags: []"
+    post.puts "categories: "
+    post.puts "- Readings"
+    post.puts "..."
+    post.puts "\n"
+    post.puts "* Table of Contents\n{:toc}"
+    post.puts "\n<h4>{% reference #{title} %}</h4>"
+  end
+end
 
 desc "Move a post from _drafts to _posts"
 task :publish do
@@ -123,7 +160,7 @@ desc "Preview the site with POW"
 task :preview do
   puts "Previewing the site locally with Jekyll."
 
-  jekyllPid  = Process.spawn("jekyll serve --watch --config _config.yml, _config-pow.yml")
+  jekyllPid  = Process.spawn("jekyll serve --watch --drafts --incremental --config _config.yml, _config-pow.yml")
 
   trap("INT") {
     [jekyllPid].each { |pid| Process.kill(9, pid) rescue Errno::ESRCH }
@@ -178,6 +215,11 @@ CLOBBER.include('public/*')
 desc "Edit drafts"
 task :write do
   sh %[mvim _drafts/*]
+end
+
+desc "Edit Rmd drafts"
+task :rwrite do
+  sh %[mvim _Rmd/*]
 end
 
 task :version do

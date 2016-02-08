@@ -12,7 +12,7 @@ title: Tagged Notes
 {% assign tags = site.tags | sort %}
 {% for tag in tags %}
  <span class="site-tag">
-    <span style="font-size: {{ tag | last | size | times: 4 | plus: 90  }}%">
+    <span style="font-size: {{ tag | last | size | times: 3 | plus: 90  }}%">
     <a href="/tagged/#{{ tag[0] | downcase | replace: " ", "-" }}">
             {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
     </a>

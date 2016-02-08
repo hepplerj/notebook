@@ -11,7 +11,7 @@ date: 2015-11-14 05:56:38
     <tr>
       <th>Date</th>
       <th>Title</th>
-      <th>Categories</th>
+      <th>Category</th>
     </tr>
   {% for post in site.categories["Essays"] limit:5 %}
     <tr>
@@ -29,7 +29,7 @@ date: 2015-11-14 05:56:38
     <tr>
       <th>Date</th>
       <th>Title</th>
-      <th>Categories</th>
+      <th>Category</th>
     </tr>
     {% assign nonessays = site.posts | posts_without_essays %}
     {% for post in nonessays limit:10 | sort:'date' %}

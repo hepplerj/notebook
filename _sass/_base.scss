@@ -25,10 +25,12 @@ figcaption {
   font-size: 86%;
   font-style: italic;
 }
+
 ins,
 u {
   text-decoration: underline;
 }
+
 mark {
   background-color: #ffd61e;
   color: #202020;
@@ -311,6 +313,7 @@ table caption {
 table th,
 table td {
   font-size: 94%;
+  font-family: $header-font;
   border-bottom: 1px solid rgba(0, 0, 0, 0.04);
   padding: 16px;
   padding-bottom: 15px;
