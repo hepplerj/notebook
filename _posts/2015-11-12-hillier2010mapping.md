@@ -3,7 +3,7 @@ layout: post
 title: "hillier2010mapping"
 date: Sun Nov 22 09:49:01 2015
 date modified: Sun Nov 22 09:49:01 2015
-tags: [reading notes, spatial history, gis, urban history, planning history]
+tags: [reading notes, spatial history, GIS, urban history, planning history]
 categories:
 - Readings
 ---
