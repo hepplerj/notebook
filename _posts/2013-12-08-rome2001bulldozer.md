@@ -8,17 +8,7 @@ categories:
 * Table of Contents
 {:toc}
 
-<h5>{% reference rome2001bulldozer %}</h5>
-
-Introduction
-------------
-
-
-
-Chapter 1
----------
-
-
+<h4>{% reference rome2001bulldozer %}</h4>
 
 Chapter 4
 ---------

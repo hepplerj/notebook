@@ -8,7 +8,7 @@ categories:
 * Table of Contents
 {:toc}
 
-<h5>{% reference white1991misfortune %}</h5>
+<h4>{% reference white1991misfortune %}</h4>
 
 "The boundaries of the American West are a series of doors pretending to be walls." (3)
 

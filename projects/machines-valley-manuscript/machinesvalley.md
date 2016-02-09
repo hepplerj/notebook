@@ -161,16 +161,20 @@ as I go along.
 
 Notes organized by [research archive](/research-archives/).
 
-## Posts
+## Related Notes
 
-<ul class="listing">
-{% for post in site.categories.dissertation %}
-    <li>
-        <span>{{ post.date | date: "%B %e, %Y" | ordinalize  }}</span>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-{% endfor %}
-</ul>
+<table class="table-stripped">
+    <tr>
+      <th>Date</th>
+      <th>Title</th>
+    </tr>
+    {% for post in site.tags["dissertation"] %}
+    <tr>
+      <td width="15%;">{{ post.date | date_to_string }}</td>
+      <td width="70%;"><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></td>
+      </tr>
+    {% endfor %}
+  </table>
 
 [^1]: Carl Abbott, "Frontiers and Sections: Cities and Regions in American Growth," *American Quarterly* 37 (1985): 398.
 

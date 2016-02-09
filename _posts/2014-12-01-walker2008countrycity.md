@@ -8,7 +8,7 @@ categories:
 * Table of Contents
 {:toc}
 
-<h5>{% reference walker2007countrycity %}</h5>
+<h4>{% reference walker2007countrycity %}</h4>
 
 **Thesis**: Walker posits that the San Francisco Bay Area is exceptionally
 "green," which traces itself to groups of (mostly white) middle-class

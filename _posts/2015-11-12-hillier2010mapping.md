@@ -3,14 +3,14 @@ layout: post
 title: "hillier2010mapping"
 date: Sun Nov 22 09:49:01 2015
 date modified: Sun Nov 22 09:49:01 2015
-tags: [reading notes, spatial history]
+tags: [reading notes, spatial history, gis, urban history, planning history]
 categories:
 - Readings
 ---
 * Table of Contents
 {:toc}
 
-<h5>{% reference hillier2010mapping %}</h5>
+<h4>{% reference hillier2010mapping %}</h4>
 
 p. 122: Suggests that while historians have focused on the spatial patterns within cities, the role of geography in understanding how cities form, function, and dysfunction has not been fully investigated.
 

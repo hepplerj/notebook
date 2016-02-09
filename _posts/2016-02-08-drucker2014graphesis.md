@@ -2,7 +2,7 @@
 layout: post
 title: "drucker2014graphesis"
 date: 2016-02-06 20:10
-tags: [visualization]
+tags: [visualization, reading notes]
 categories: 
 - Readings 
 ...
@@ -10,7 +10,7 @@ categories:
 * Table of Contents
 {:toc}
 
-#### {% reference drucker2014graphesis %}
+<h4>{% reference drucker2014graphesis %}</h4>
 
 p. 4: Not a history of visualization but "an outline of principles and precepts 
 that structure visual forms of knowledge production and representation in 

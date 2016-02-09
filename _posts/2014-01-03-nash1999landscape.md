@@ -8,7 +8,7 @@ categories:
 * Table of Contents
 {:toc}
 
-<h5>{% reference nash1990transformed %}</h5>
+<h4>{% reference nash1990transformed %}</h4>
 
 Nash writes about the centrality of the federal government in shaping the West
 in the twentieth century. He notes the government "may not have been the only

@@ -1,7 +1,7 @@
 # Site settings
 title: Open History Notebook
 description: "The open history notebook of historian Jason A. Heppler."
-baseurl: "http://notebook.jasonheppler.org"
+baseurl: ""
 url: "http://notebook.jasonheppler.org"
 root: /
 highlighter: pygments

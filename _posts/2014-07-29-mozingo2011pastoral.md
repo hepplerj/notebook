@@ -8,7 +8,7 @@ categories:
 * Table of Contents
 {:toc}
 
-<h5>{% reference mozingo2011pastoral %}</h5>
+<h4>{% reference mozingo2011pastoral %}</h4>
 
 Says little of the existing scholarship on suburbs says much about suburban corporate workplaces, but their frequent presence on the fringes of the urban core merits further investigation. They also merit further attention "because of the institutions they house" -- places that have come to dominate large sectors of the national and international economy. (2)
 

@@ -10,7 +10,7 @@ categories:
 * Table of Contents
 {:toc}
 
-<h5>{% reference jackson1985crabgrass %}</h5>
+<h4>{% reference jackson1985crabgrass %}</h4>
 
 ## Introduction
 

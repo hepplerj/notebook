@@ -9,7 +9,7 @@ categories:
 * Table of Contents
 {:toc}
 
-<h5>{% reference marx1969machinegarden %}</h5>
+<h4>{% reference marx1969machinegarden %}</h4>
 
 ### Notes
 

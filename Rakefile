@@ -120,7 +120,7 @@ desc "New reading note"
 task :readnote do |t|
 
   title    = get_stdin("What is the title of your note? ")
-  filename = "_Rmd/#{title.to_url}.Rmd"
+  filename = "_drafts/#{title.to_url}.md"
 
   puts "Creating new draft: #{filename}"
   open(filename, "w") do |post|

@@ -2,7 +2,7 @@
 layout: post
 title: "theibault2013visualization"
 date: 2016-02-04 14:21
-tags: [visualization, narrative]
+tags: [visualization, narrative, reading notes]
 categories: 
 - Readings
 ...
@@ -10,7 +10,7 @@ categories:
 * Table of Contents
 {:toc}
 
-#### {% reference theibault2013visualization %}
+<h4>{% reference theibault2013visualization %}</h4>
 
 Full book: <http://dx.doi.org/10.3998/dh.12230987.0001.001>
 

@@ -2,7 +2,7 @@
 layout: post
 title: "staley2014visualization"
 date: 2016-02-04 14:17
-tags: [visualization, digital history]
+tags: [visualization, digital history, reading notes]
 categories: 
 - Readings
 ...

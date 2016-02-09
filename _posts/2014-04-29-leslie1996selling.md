@@ -8,7 +8,7 @@ categories:
 * Table of Contents
 {:toc}
 
-<h5>{% reference leslie1996selling %}</h5>
+<h4>{% reference leslie1996selling %}</h4>
 
 p. 435: "If anyone deserved to be called 'the father of Silicon Valley,' it was
 Frederick Terman. . . . it was Terman who first envisioned Silicon Valley's
