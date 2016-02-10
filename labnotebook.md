@@ -14,7 +14,7 @@ My notebook is built on top of Github using Jekyll, a static site generator buil
 - The ability to link to articles and posts within the notebook with persistent URLs and bibliographic references, since the notebook is a record of work before it appears in publication elsewhere.
 - The ability to render software code in a pleasing manner.
 
-I've long been intrigued by Carl Boettiger's [open science notebook](http://carlboettiger.info), as well as [Caleb McDaniel's open history notebook](). And I'm also inspired by [Lincoln Mullen's notebook](http://notebook.lincolnmullen.com) and [Shawn Graham's notebook](). So, welcome to my notebook. Here's how things work.
+I've long been intrigued by Carl Boettiger's [open science notebook](http://carlboettiger.info), as well as [Caleb McDaniel's open history notebook](). And I'm also inspired by [Lincoln Mullen's notebook](http://notebook.lincolnmullen.com) and [Shawn Graham's notebook](http://electricarchaeology.ca/2015/10/06/an-elegant-open-notebook/). So, welcome to my notebook. Here's how things work.
 
 ## Overview
 
