@@ -14,7 +14,7 @@ My notebook is built on top of Github using Jekyll, a static site generator buil
 - The ability to link to articles and posts within the notebook with persistent URLs and bibliographic references, since the notebook is a record of work before it appears in publication elsewhere.
 - The ability to render software code in a pleasing manner.
 
-I've long been intrigued by Carl Boettiger's [open science notebook](http://carlboettiger.info), as well as [Caleb McDaniel's open history notebook](). And I'm also inspired by [Lincoln Mullen's notebook](http://notebook.lincolnmullen.com) and [Shawn Graham's notebook](http://electricarchaeology.ca/2015/10/06/an-elegant-open-notebook/). So, welcome to my notebook. Here's how things work.
+I've long been intrigued by Carl Boettiger's [open science notebook](http://carlboettiger.info), as well as [Caleb McDaniel's open history notebook](http://wiki.wcaleb.rice.edu). And I'm also inspired by [Lincoln Mullen's notebook](http://notebook.lincolnmullen.com) and [Shawn Graham's notebook](http://electricarchaeology.ca/2015/10/06/an-elegant-open-notebook/). So, welcome to my notebook. Here's how things work.
 
 ## Overview
 
@@ -88,10 +88,9 @@ The notebook uses Jekyll at its most recent release. I only modify Jekyll by add
 
 I take advantage of several plugins:
 
-- **markdown**: I want to occassionally include Markdown files from the `_includes` directory, but using liquid's `include` expects `.html`. The plugin adds a new liquid controller called `markdown` that allows me to pass these files along and have them markdownified. I use this in particular for the front page.
+- **markdown**: I want to occasionally include Markdown files from the `_includes` directory, but using liquid's `include` expects `.html`. The plugin adds a new liquid controller called `markdown` that allows me to pass these files along and have them markdownified. I use this in particular for the front page.
 - **Jekyll-Scholar**: I use this to take advantage of BibTeX files for referencing articles, books, and other materials.
-- **greycite_biblio**: This plugin by [Madsen](http://github.com/mmadsen) creates a persistent bioliographic reference on note pages using metadata embedded in Jekyll templates and [Greycite](http://greycite.knowledgeblog.org/).
-- **git_modified**: A plugin borrowed from carl Boettiger for looking at git modification time for a file, and using that to set a Liquid variable of last modification time. I use this in the metadata of posts and essays for indicating difference between when a file was originally written and last modified.
+- **git_modified**: A plugin borrowed from Carl Boettiger for looking at git modification time for a file, and using that to set a Liquid variable of last modification time. I use this in the metadata of posts and essays for indicating difference between when a file was originally written and last modified.
 
 ## Pandoc
 
