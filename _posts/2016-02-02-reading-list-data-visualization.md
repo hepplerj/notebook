@@ -31,6 +31,9 @@ categories:
 - Myra, *Interdisciplinary Conversations*
 - Lima, *Visual Complexity*
 - *Let Them Eat Data*
+- Tufte, *Visual Display of Quantitative Information*; *Beautiful Evidence*
+- Brian Baigrie, *Picturing Knowledge*
+- Eviatar Zerubavel, *Time Maps*
 
 # Data
 
