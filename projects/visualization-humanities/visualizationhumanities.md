@@ -41,6 +41,15 @@ AHR Forum introduced in June 1978 (vol 83 no 3).
 
 I'm under contract with Wiley Blackwell for the *Companion to Digital History* edited by David Staley. I'm authoring a piece on historical approaches to data visualization.
 
+### Historical Visualizations
+
+- Elizabeth Palmer Peabody, *[Chronological history of the United States, arranged with plates on Bem's principle](https://archive.org/details/chronologicalhis00peab)* (1856)
+
+#### Digital 
+
+- Michael Friendly, [milestones in data visualization timeline](http://www.datavis.ca/milestones/)
+- Michael Hatten, "[Historical Charts and David Ramsay’s Narrative of Progress](https://earlyamericanists.com/2015/05/26/historical-charts-and-david-ramsays-narrative-of-progress/)"
+
 ## Related Notes
 
 <table class="table-stripped">
