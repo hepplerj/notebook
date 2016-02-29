@@ -10,5 +10,6 @@ _site
 public
 .bundle
 _drafts
+_Rmd
 Gemfile.lock
 
