@@ -203,7 +203,7 @@ output {
   font-family: Menlo, Monaco, Consolas, Courier, monospace;
 }
 pre {
-  font-size: 90%;
+  font-size: 12px;
   line-height: 24px;
   color: rgba(0, 0, 0, 0.9);
   overflow: auto;
@@ -228,7 +228,7 @@ kbd {
   border-radius: 2px;
 }
 code {
-  background: rgba(0, 0, 0, 0.07);
+  background: #f8f8f8;
 }
 pre code {
   font-size: 100%;
