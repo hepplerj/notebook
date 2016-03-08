@@ -10,7 +10,7 @@ categories:
 * Table of Contents
 {:toc}
 
-# Books
+# Books and Articles
 
 - Steven Few, *Now You See It*
 - Jacques Bertin, *Semiology of Graphics*
@@ -21,7 +21,7 @@ categories:
 - David McCandless, *The Visual Miscellaneum*
 - Herbert Bayer, *World Geographic Atlas*
 - Joost Grootens, *Metropolitan World Atlas*
-- Rosenberg, *Cartographies of Time* (2010)
+- Rosenberg, *Cartographies of Time* (2010) [rosenberg2010cartographies](/rosenberg2010cartographies/)
 - Shawn Graham, Ian Milligan, Scott Weingart, *Exploring Big Historical Data: The Historian’s Macroscope*
 - Daniel Kaplan, *Data Computing: An Introduction to Wrangling and Visualization with R*
 - Isabel Meirelles, *Design for Information: An Introduction to the Histories, Theories, and Best Practices Behind Effective Information Visualizations*
@@ -29,7 +29,7 @@ categories:
 - *Form+Code*
 - *Close Up at a Distance*
 - Myra, *Interdisciplinary Conversations*
-- Lima, *Visual Complexity*
+- Lima, *Visual Complexity* [lima2011visual](/lima2011visual/)
 - *Let Them Eat Data*
 - Tufte, *Visual Display of Quantitative Information*; *Beautiful Evidence*
 - Brian Baigrie, *Picturing Knowledge*
