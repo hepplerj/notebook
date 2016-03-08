@@ -9,6 +9,10 @@ gems: ['jekyll/scholar']
 permalink: /:title/
 repo: notebook
 
+source: source
+destination: public
+exclude: ["Rakefile", "README.md", "public"]
+
 # Author information
 author:
   name: Jason A. Heppler
