@@ -120,6 +120,8 @@ Bruce Wyman, et al., "Digital Storytelling in Museums: Observations and Best Pra
 
 Tim Hitchcock and Robert Shoemaker, "Digitising History from Below: The Old Bailey Proceedings Online, 1674--1834," *History Compass* 4 (March 2006): 193--202.
 
+Andrew Hurley, "Chasing the Frontiers of Digital Technology: Public History Meets the Digital Divide," *The Public Historian* 38:1 (February 2016): 69--88.
+
 # Digital Scholarship
 
 Mills Kelly, *Teaching History in the Digital Age* (Ann Arbor: University of Michigan Press, 2013).
