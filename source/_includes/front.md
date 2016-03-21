@@ -10,4 +10,4 @@ Also, check out the project tabs along the lefthand side. I also maintain [GitHu
 ### Active Projects
 
 - [Machines in the Valley](/machines-valley-manuscript/). This is my dissertation and soon-to-be book manuscript based on a rewrite of my dissertation. While I may not port over all of my notes into this new notebook, you can find traces of the work throughout.
-- [Visualization in the Humanities](/visualization-humanities/). I'm collectiong research on ways historians have used visualization in their work in order to inform my own thinking about visualization in digital history.
+- [Visualization in the Humanities](/visualization-humanities/). I'm collecting research on ways historians have used visualization in their work in order to inform my own thinking about visualization and narrative in digital history.
