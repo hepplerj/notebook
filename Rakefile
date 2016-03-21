@@ -23,9 +23,9 @@ CONFIG = YAML.load_file("_config.yml")
 DATE = Time.now.strftime("%Y-%m-%d")
 
 # Directories
-POSTS = "_posts"
-DRAFTS = "_drafts"
-RDRAFTS = "_Rmd"
+POSTS = "source/_posts"
+DRAFTS = "source/_drafts"
+RDRAFTS = "source/_Rmd"
 
 # == Helpers ===================================================================
 # Execute a system command
@@ -98,7 +98,7 @@ desc "New draft post"
 task :draft do |t|
 
   title    = get_stdin("What is the title of your post? ")
-  filename = "_drafts/#{title.to_url}.md"
+  filename = "source/_drafts/#{title.to_url}.md"
 
   puts "Creating new draft: #{filename}"
   open(filename, "w") do |post|
@@ -120,7 +120,7 @@ desc "New reading note"
 task :readnote do |t|
 
   title    = get_stdin("What is the title of your note? ")
-  filename = "_drafts/#{title.to_url}.md"
+  filename = "source/_drafts/#{title.to_url}.md"
 
   puts "Creating new draft: #{filename}"
   open(filename, "w") do |post|
@@ -214,12 +214,12 @@ CLOBBER.include('public/*')
 
 desc "Edit drafts"
 task :write do
-  sh %[mvim _drafts/*]
+  sh %[mvim source/_drafts/*]
 end
 
 desc "Edit Rmd drafts"
 task :rwrite do
-  sh %[mvim _Rmd/*]
+  sh %[mvim source/_Rmd/*]
 end
 
 task :version do
