@@ -182,7 +182,9 @@ blockquote {
   font-size: 100%;
   line-height: 28px;
   padding-left: 24px;
-  border-left: 3px solid rgba(0, 0, 0, 0.2);
+  font-style: italic;
+  opacity: .7;
+  quotes: "“" "”";
 }
 blockquote cite {
   font-size: 86%;
