@@ -16,7 +16,8 @@ layout: default
     <table class="table table-condensed" id="post-info">
       <tr class="info">
         <td><small><i class="glyphicon glyphicon-calendar"></i>&nbsp;Created: {{ page.date | date_to_string }}</small></td>
-        <td><small><i class="glyphicon glyphicon-calendar"></i>&nbsp;Modified: {{ page.path | prepend:'_posts/' | git_modified | date_to_string }}</small></td>
+        <td><small><i class="glyphicon glyphicon-calendar"></i>&nbsp;Modified: 
+            {{ page.path | prepend:'source/_posts/' | git_modified | date_to_string }}</small></td>
         <td><small><i class="fa fa-github-square"></i>&nbsp;<a 
               href="https://github.com/{{site.author.github_username}}/{{ 
               site.repo }}/commits/master/{{ page.path }}">History</a></small></td>
