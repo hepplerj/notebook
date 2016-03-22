@@ -21,3 +21,5 @@ categories:
 ## Blog Posts
 
 - David Robinson, "[Understanding empirical Bayes estimation (using baseball statistics)](http://varianceexplained.org/r/empirical_bayes_baseball/)"
+
+A few resources come from [Lincoln](http://notebook.lincolnmullen.com/Machine%20learning).
