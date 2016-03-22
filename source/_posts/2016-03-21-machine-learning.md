@@ -10,12 +10,13 @@ categories:
 * Table of Contents
 {:toc}
 
-## To Read
+## Books / Articles / Resources
 
 - James, Gareth. *An Introduction to Statistical Learning with Applications in R*. Springer, 2013.
 - Wickham, Hadley. *Advanced R*. Chapman and Hall/CRC, 2014.
-- Introduction to information retrieval. <http://www-nlp.stanford.edu/IR-book/>
-- Mining of Massive Datasets: <http://www.mmds.org/>
+- Introduction to information retrieval <http://www-nlp.stanford.edu/IR-book/>
+- Mining of Massive Datasets <http://www.mmds.org/>
+- Neural Networks Demystified videos <http://lumiverse.io/series/neural-networks-demystified>
 
 ## Blog Posts
 
