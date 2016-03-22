@@ -2,6 +2,7 @@
 layout: page
 title: Spatial History
 permalink: /spatial-history/
+date: 2016-02-22 09:14:39
 tags: [spatial history, gis]
 ---
 

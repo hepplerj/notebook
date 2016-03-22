@@ -3,6 +3,7 @@ layout: page
 title: Visualization in the Humanities
 permalink: /visualization-humanities/
 tags: [visualization]
+date: 2016-02-22 09:14:39
 ---
 
 * Table of Contents

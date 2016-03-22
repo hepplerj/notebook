@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Open Research"
+date: 2016-02-22 09:14:39
 permalink: /open-research/
 ---
 

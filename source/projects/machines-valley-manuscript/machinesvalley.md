@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Machines in the Valley
+date: 2016-02-22 09:14:39
 permalink: /machines-valley-manuscript/
 ---
 
