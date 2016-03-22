@@ -57,33 +57,33 @@ h6 {
   font-family: $header-font;
 }
 
-h1 {
-  font-size: 3rem;
-  line-height: 32px;
-}
-h2 {
-  font-size: 2.4rem;
-  line-height: 32px;
-}
+// h1 {
+//   font-size: 3rem;
+//   line-height: 32px;
+// }
+// h2 {
+//   font-size: 2.4rem;
+//   line-height: 32px;
+// }
 h3 {
-  font-size: 2rem;
-  line-height: 24px;
-  font-weight: 300;
+  // font-size: 2rem;
+  // line-height: 24px;
+  // font-weight: 300;
   color: rgb(236, 93, 87);
 }
-h4 {
-  font-size: 1.8rem;
-  line-height: 24px;
-}
-h5 {
-  font-size: 1.6rem;
-  line-height: 24px;
-}
-h6 {
-  font-size: 1.5rem;
-  line-height: 24px;
-  text-transform: uppercase;
-}
+// h4 {
+//   font-size: 1.8rem;
+//   line-height: 24px;
+// }
+// h5 {
+//   font-size: 1.6rem;
+//   line-height: 24px;
+// }
+// h6 {
+//   font-size: 1.5rem;
+//   line-height: 24px;
+//   text-transform: uppercase;
+// }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -168,12 +168,17 @@ span.date {
 /* =Links
 -----------------------------------------------------------------------------*/
 a {
-  color: #256bc9;
+  color: #337ab7;
+  border-bottom: 1px solid transparent;
+  transition: all .25s;
+  text-decoration: none;
 }
+a:focus,
 a:hover {
-  -moz-transition: all linear 0.2s;
-  transition: all linear 0.2s;
-  color: #e21e3b;
+  // -moz-transition: all linear 0.2s;
+  // transition: all linear 0.2s;
+  color: #23527c;
+  border-bottom-color: #666666;
 }
 
 /* =Quotes
