@@ -7,8 +7,7 @@ tags: [California, water, infrastructure, Central Valley]
 categories:
 - Readings
 ---
-* Table of Contents
-{:toc}
+
 
 <h4>{% reference hundley2001thirst %}</h4>
 

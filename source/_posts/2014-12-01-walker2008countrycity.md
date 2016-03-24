@@ -5,8 +5,7 @@ tags: [reading notes, open space, Bay Area, environmentalism, political culture,
 categories:
 - Readings
 ---
-* Table of Contents
-{:toc}
+
 
 <h4>{% reference walker2007countrycity %}</h4>
 

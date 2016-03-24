@@ -5,8 +5,7 @@ tags: [reading notes, Richard White, American West, urban growth]
 categories:
 - Readings
 ---
-* Table of Contents
-{:toc}
+
 
 <h4>{% reference white1991misfortune %}</h4>
 

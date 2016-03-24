@@ -7,8 +7,7 @@ tags: [suburbanization, urbanization, cities, reading notes]
 categories:
 - Readings
 ---
-* Table of Contents
-{:toc}
+
 
 <h4>{% reference jackson1985crabgrass %}</h4>
 

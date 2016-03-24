@@ -6,8 +6,7 @@ categories:
 - Readings
 ---
 
-* Table of Contents
-{:toc}
+
 
 <h4>{% reference marx1969machinegarden %}</h4>
 

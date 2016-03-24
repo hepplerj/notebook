@@ -7,7 +7,6 @@ categories:
 - Readings
 ...
 
-* Table of Contents
-{:toc}
+
 
 <h4>{% reference fienberg1979graphical %}</h4>

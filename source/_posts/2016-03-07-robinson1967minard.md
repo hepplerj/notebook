@@ -7,7 +7,6 @@ categories:
 - Readings
 ...
 
-* Table of Contents
-{:toc}
+
 
 <h4>{% reference robinson1967minard %}</h4>

@@ -2,13 +2,12 @@
 layout: post
 title: "2016-02-01 - Nature and Suburbs"
 date: 2016-02-01 15:16
-tags: [suburbanization, nature, environmentalism, dissertation]
+tags: [suburbanization, nature, environmentalism, dissertation, manuscript]
 categories:
 - Essays
 ...
 
-* Table of Contents
-{:toc}
+
 
 I'm thinking a lot about the potential directions that this project can go. At
 its core, I still keep thinking about these contested but overlapping

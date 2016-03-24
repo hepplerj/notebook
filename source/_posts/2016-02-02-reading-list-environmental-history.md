@@ -7,8 +7,7 @@ categories:
 - Readings
 ...
 
-* Table of Contents
-{:toc}
+
 
 # Surveys
 

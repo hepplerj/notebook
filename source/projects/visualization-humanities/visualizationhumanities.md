@@ -6,9 +6,6 @@ tags: [visualization]
 date: 2016-02-22 09:14:39
 ---
 
-* Table of Contents
-{:toc}
-
 ## Project Description
 
 In what ways can historians take advantage of visualization techniques in the presentation and communication of historical arguments? Can we, through data-drive and visualization-driven research, shape new methods of revealing ambiguity, complexity, and exploration of the past?

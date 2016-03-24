@@ -122,6 +122,7 @@
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
     font-size: 14px;
+    font-family: $header-font; 
 }
 
 .footer-heading {
@@ -495,6 +496,14 @@ ul#markdown-toc {
 
 ul#markdown-toc li {
   margin-left: 9px;
+}
+
+div#TOC {
+  background-color: #f0f0f0;
+  border: 10px solid white;
+  margin: 0.8em;
+  margin-right: 0;
+  padding: 0.4em;
 }
 
 input[type="search"] {

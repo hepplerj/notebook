@@ -5,8 +5,7 @@ tags: [reading notes, landscape, methodology, postindustrial]
 categories:
 - Readings
 ---
-* Table of Contents
-{:toc}
+
 
 <h4>{% reference zukin1991landscapes %}</h4>
 

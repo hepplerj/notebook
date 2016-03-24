@@ -7,8 +7,7 @@ categories:
 - Readings
 ...
 
-* Table of Contents
-{:toc}
+
 
 <h4>{% reference rosenberg2010cartographies %}</h4>
 

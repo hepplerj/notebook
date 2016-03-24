@@ -5,8 +5,7 @@ tags: [reading notes, capitalism, design, urban design, labor, workplaces, subur
 categories:
 - Readings
 ---
-* Table of Contents
-{:toc}
+
 
 <h4>{% reference mozingo2011pastoral %}</h4>
 

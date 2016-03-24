@@ -7,8 +7,7 @@ categories:
 - Readings
 ...
 
-* Table of Contents
-{:toc}
+
 
 <h4>{% reference nicolaides2002suburbs  %}</h4>
 

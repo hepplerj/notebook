@@ -5,8 +5,7 @@ tags: [reading notes, spatial history]
 categories:
 - Readings
 ---
-* Table of Contents
-{:toc}
+
 
 Books and Articles
 ------------------

@@ -2,14 +2,13 @@
 layout: post
 title: "Superfund Sites and Income by Census Tract"
 date: 2016-02-10 08:07
-tags: [R, Superfund, Santa Clara County, dissertation, mapping, GIS, Silicon 
+tags: [R, Superfund, Santa Clara County, dissertation, manuscript, mapping, GIS, Silicon 
 Valley]
 categories: 
 - Code
 ...
 
-* Table of Contents
-{:toc}
+
 
 
 

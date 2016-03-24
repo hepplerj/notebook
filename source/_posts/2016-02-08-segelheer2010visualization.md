@@ -7,8 +7,7 @@ categories:
 - Readings
 ...
 
-* Table of Contents
-{:toc}
+
 
 <h4>{% reference segelheer2010visualization %}</h4>
 

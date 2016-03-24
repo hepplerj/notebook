@@ -2,13 +2,12 @@
 layout: post
 title: "Reading List - Dissertation"
 date: 2016-02-02 20:18
-tags: [Silicon Valley, California, American West, dissertation]
+tags: [Silicon Valley, California, American West, dissertation, manuscript]
 categories:
 - Readings
 ...
 
-* Table of Contents
-{:toc}
+
 
 The list here is a frequently changing list of things I will read or re-read organized by theme. Books or articles that have been read are followed by a link to my notes. I am maintaining a [Zotero database](http://zotero.org/hepplerj) for a more complete set of citations.
 

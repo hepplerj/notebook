@@ -5,8 +5,7 @@ tags: [reading notes, Frederick Terman, Silicon Valley, Stanford University, MIT
 categories:
 - Readings
 ---
-* Table of Contents
-{:toc}
+
 
 <h4>{% reference leslie1996selling %}</h4>
 

@@ -5,8 +5,7 @@ tags: [reading notes, World War II]
 categories:
 - Readings
 ---
-* Table of Contents
-{:toc}
+
 
 <h4>{% reference nash1990transformed %}</h4>
 

@@ -7,8 +7,7 @@ categories:
 - Readings 
 ...
 
-* Table of Contents
-{:toc}
+
 
 <h4>{% reference drucker2014graphesis %}</h4>
 

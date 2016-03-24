@@ -1,0 +1,23 @@
+---
+layout: page
+title: Machines in the Valley
+date: 2016-02-22 09:14:39
+permalink: /machines-valley-manuscript/
+---
+
+{% markdown machinesvalley.md %}
+
+<h2>Related Notes</h2>
+
+<table class="table-stripped">
+    <tr>
+      <th>Date</th>
+      <th>Title</th>
+    </tr>
+    {% for post in site.tags["manuscript"] %}
+    <tr>
+      <td width="15%;">{{ post.date | date_to_string }}</td>
+      <td width="70%;"><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></td>
+      </tr>
+    {% endfor %}
+  </table>

@@ -1,13 +1,3 @@
----
-layout: page
-title: Machines in the Valley
-date: 2016-02-22 09:14:39
-permalink: /machines-valley-manuscript/
----
-
-* Table of Contents
-{:toc}
-
 >  This page is a running log of my thoughts on my dissertation and eventual book manuscript. Ideas here might
 >  be convoluted and change frequently as my research direction changes.
 >  Interpretations here are provisional and dependent on research in progress.
@@ -161,21 +151,6 @@ as I go along.
 ## Research Archives
 
 Notes organized by [research archive](/research-archives/).
-
-## Related Notes
-
-<table class="table-stripped">
-    <tr>
-      <th>Date</th>
-      <th>Title</th>
-    </tr>
-    {% for post in site.tags["dissertation"] %}
-    <tr>
-      <td width="15%;">{{ post.date | date_to_string }}</td>
-      <td width="70%;"><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></td>
-      </tr>
-    {% endfor %}
-  </table>
 
 [^1]: Carl Abbott, "Frontiers and Sections: Cities and Regions in American Growth," *American Quarterly* 37 (1985): 398.
 

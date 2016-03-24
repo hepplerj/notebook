@@ -7,8 +7,7 @@ categories:
 - Administrative
 ...
 
-* Table of Contents
-{:toc}
+
 
 ## Notebook Todo
 

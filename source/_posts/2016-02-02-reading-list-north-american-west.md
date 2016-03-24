@@ -7,8 +7,7 @@ categories:
 - Readings
 ...
 
-* Table of Contents
-{:toc}
+
 
 Jason A. Heppler
 University of Nebraska -- Department of History  

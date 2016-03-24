@@ -7,8 +7,7 @@ categories:
 - Resources
 ...
 
-* Table of Contents
-{:toc}
+
 
 ## Books / Articles / Resources
 

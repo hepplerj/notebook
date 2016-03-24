@@ -5,7 +5,7 @@ baseurl: ""
 url: "http://notebook.jasonheppler.org"
 root: /
 highlighter: pygments
-gems: ['jekyll/scholar']
+gems: ['jekyll/scholar','jekyll-pandoc']
 permalink: /:title/
 repo: notebook
 
@@ -32,9 +32,11 @@ scholar:
 
 # Build settings
 destination: public
-markdown: kramdown
-# pandoc:
-#   extensions:
-#     - smart
+markdown: pandoc 
+pandoc:
+  extensions:
+    - normalize
+    - template: .pandoc/toc.html
+    - toc
 markdown_ext:  markdown,mkdown,mkdn,mkd,md,Rmd,rmd
 exclude: ['Makefile', 'Rakefile', '_drafts']

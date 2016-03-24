@@ -7,8 +7,7 @@ tags: [reading notes, spatial history, GIS, urban history, planning history]
 categories:
 - Readings
 ---
-* Table of Contents
-{:toc}
+
 
 <h4>{% reference hillier2010mapping %}</h4>
 

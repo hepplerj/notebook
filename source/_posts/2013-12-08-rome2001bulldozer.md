@@ -5,8 +5,7 @@ tags: [reading notes, open space, California, environmentalism, urban sprawl]
 categories:
 - Readings
 ---
-* Table of Contents
-{:toc}
+
 
 <h4>{% reference rome2001bulldozer %}</h4>
 

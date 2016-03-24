@@ -7,8 +7,7 @@ categories:
 - Readings
 ...
 
-* Table of Contents
-{:toc}
+
 
 > This is the comprehensive exam list I maintain for graduate students looking to add digital history to their fields.
 

@@ -6,9 +6,6 @@ date: 2016-02-22 09:14:39
 tags: [spatial history, gis]
 ---
 
-* Table of Contents
-{:toc}
-
 ## Project Description
 
 In what ways can spatial history benefit from the use of computation and visualization? My notes here are collected as part of my large professional interest in spatial history as a framework for understanding the past. Spatial history plays a large role in my manuscript as well as digital projects.

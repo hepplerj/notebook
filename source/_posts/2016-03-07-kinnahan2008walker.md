@@ -7,7 +7,6 @@ categories:
 - Readings
 ...
 
-* Table of Contents
-{:toc}
+
 
 <h4>{% reference kinnahan2008walker %}</h4>
