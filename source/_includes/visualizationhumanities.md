@@ -1,11 +1,3 @@
----
-layout: page
-title: Visualization in the Humanities
-permalink: /visualization-humanities/
-tags: [visualization]
-date: 2016-02-22 09:14:39
----
-
 ## Project Description
 
 In what ways can historians take advantage of visualization techniques in the presentation and communication of historical arguments? Can we, through data-drive and visualization-driven research, shape new methods of revealing ambiguity, complexity, and exploration of the past?
@@ -47,18 +39,3 @@ I'm under contract with Wiley Blackwell for the *Companion to Digital History* e
 
 - Michael Friendly, [milestones in data visualization timeline](http://www.datavis.ca/milestones/)
 - Michael Hatten, "[Historical Charts and David Ramsay’s Narrative of Progress](https://earlyamericanists.com/2015/05/26/historical-charts-and-david-ramsays-narrative-of-progress/)"
-
-## Related Notes
-
-<table class="table-stripped">
-    <tr>
-      <th>Date</th>
-      <th>Title</th>
-    </tr>
-    {% for post in site.tags.visualization %}
-    <tr>
-      <td width="15%;">{{ post.date | date_to_string }}</td>
-      <td width="70%;"><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></td>
-      </tr>
-    {% endfor %}
-  </table>
