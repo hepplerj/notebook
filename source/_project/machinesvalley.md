@@ -1,3 +1,9 @@
+---
+description: "A running log of my thoughts on my book manuscript."
+title: "Machines in the Valley"
+status: Active
+---
+
 >  This page is a running log of my thoughts on my dissertation and eventual book manuscript. Ideas here might
 >  be convoluted and change frequently as my research direction changes.
 >  Interpretations here are provisional and dependent on research in progress.

@@ -7,13 +7,13 @@ categories:
 - Research
 ...
 
-# Sources
+## Sources
 
-## To Read 
+### To Read 
 
 - David Sproul, "Post-modern Cowboys: The Transformation of Sport in the Twentieth Century," Ph.D. diss., University of Nevada-Las Vegas, 2005 [WorldCat](http://www.worldcat.org/title/post-modern-cowboys-the-transformation-of-sport-in-the-twentieth-century/oclc/70117984)
 
-## High Country News
+### High Country News
 
 - Jim Hasenauer, "[There’s a wilderness niche for mountain biking](https://www.hcn.org/wotr/13690)," Jan. 7, 2003
 - Wayne Hare, "[Enough already!](http://www.hcn.org/wotr/enough-already)," March 5, 2013

@@ -1,3 +1,8 @@
+---
+description: "In what ways can spatial history benefit from the use of computation and visualization?"
+title: "Spatial History"
+status: Active
+---
 
 ## Project Description
 

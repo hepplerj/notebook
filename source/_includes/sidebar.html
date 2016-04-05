@@ -1,39 +1,37 @@
-<div class="span3">
+<hr class="visible-xs-* hidden-sm hidden-md hidden-lg">
 
-  <div class="well sidebar-nav">
-
-  <center><img src="{{ "/images/logo.png" | prepend: site.baseurl }}" class="img-responsive" alt="Jason Heppler's Notebook"/><br/>
-  <a href="http://jasonheppler.org">Jason Heppler</a>
-  </center>
-
-  <br/>
-
-  <div id="search">
-    <form action="http://duckduckgo.com/" method="get">
-    <input type="hidden" name="sites" value="notebook.jasonheppler.org" />
-      <input type="text" id="search_input" name="q" placeholder="Search" autocomplete="off">
-    </form>
+<form action="http://duckduckgo.com/" method="get" class="sidebar-search">
+  <div class="form-group has-feedback">
+    <input type="hidden" name="sites" value="jasonheppler.org/projects/notebook" />
+    <input type="text" id="search_input" name="q" placeholder="Search this notebook" autocomplete="off" class="form-control" />
+    <i class="glyphicon glyphicon-search form-control-feedback"></i>
   </div>
+</form>
 
-    <ul class="nav nav-list">
-      <li class="nav-header">General</li>
-      <li><a href="{{ site.baseurl }}/tagged/">Notes by Tag</a></li>
-      <li><a href="{{ site.baseurl }}/archive/">All Notes by Date</a></li>
-      <li><a href="{{ site.baseurl }}/archive-alphabetical/">All Notes Alphabetically</a></li>
-      <li><a href="{{ site.baseurl }}/essays/">Essays and General Writing</a></li>
-      <li><a href="{{ site.baseurl }}/categories/">Categories</a></li>
+<ul class="nav nav-list">
+  <li class="nav-header">General</li>
+  <li><a href="{{ '/tagged/' | prepend: site.baseurl | prepend: site.url }}">Notes by Tag</a></li>
+  <li><a href="{{ '/archive/' | prepend: site.baseurl | prepend: site.url }}">All Notes by Date</a></li>
+  <li><a href="{{ '/archive-alphabetical/' | prepend: site.baseurl | prepend: site.url }}">All Notes Alphabetically</a></li>
+  <li><a href="{{ '/essays/' | prepend: site.baseurl | prepend: site.url }}">Essays and General Writing</a></li>
+  <li><a href="{{ '/categories/' | prepend: site.baseurl | prepend: site.url }}">Categories</a></li>
+</ul>
 
-      <li class="nav-header">Topics and Projects</li>
-      <li><a href="{{ site.baseurl }}/reading-notes/">Reading Notes</a></li>
-      <li><a href="{{ site.baseurl }}/machines-valley-manuscript/">Machines in the Valley</a></li>
-      <li><a href="{{ site.baseurl }}/visualization-humanities/">Visualization in the Humanities</a></li>
-      <li><a href="{{ site.baseurl }}/spatial-history/">Spatial History</a></li>
+<ul class="nav nav-list">
+  <li class="nav-header">Topics and Projects</li>
+  {% assign projects_sorted = site.project | sort: 'title' %}
+  {% for project in projects_sorted %}
+        <li>
+          <a href="{{ project.url | prepend: site.baseurl | prepend: site.url }}">
+            {{ project.title }}
+          </a>
+        </li>
+      {% endfor %}
+</ul>
 
+<ul class="nav nav-list">
       <li class="nav-header">Meta</li>
       <li><a href="{{ site.baseurl }}/project-news/">Notebook News</a></li>
       <li><a href="{{ site.baseurl }}/about/">About Me</a></li>
       <li><a href="{{ site.baseurl }}/notebook/">About This Notebook</a></li>
-    </ul>
-  </div>
-
-</div> <!-- / span3 -->
+</ul>

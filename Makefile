@@ -1,16 +1,16 @@
-%.md : _Rmd/%.Rmd _cache
-	R --slave -e "set.seed(100); rmarkdown::render('$(<F)')"
+preview : clean
+	# Builds for local
+	bundle exec jekyll build --watch --incremental --config _config.yml,_config-pow.yml
 
-build:
-	jekyll build
+build :
+	# Builds for web
+	bundle exec jekyll build --config _config.yml
 
-serve:
-	jekyll serve --watch --drafts --incremental --config _config.yml,_config-pow.yml
+deploy : clean build
+	rsync --checksum --stats --info=progress2 -avx -e 'ssh -p 22' --exclude-from ./rsync-exclude --delete _site/ jasonhep@jasonheppler.org:~/public_html/notebook
 
-clean:
-	git clean -fdX
+clean :
+	rm -rf _site/*
+	rm -rf .sass-cache/
+	rm -f .jekyll-metadata
 
-nuke:
-	rm -rf public/
-
-.PHONY: build serve clean

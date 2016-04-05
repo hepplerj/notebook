@@ -6,8 +6,3 @@ My name is [Jason Heppler](http://jasonheppler.org) and I am a digital historian
 - [All pages](/archive-alphabetical/): see all pages in the notebook alphabetically
 
 Also, check out the project tabs along the lefthand side. I also maintain [GitHub repositories](http://github.com/hepplerj) for other work related to my research and scholarship.
-
-### Active Projects
-
-- [Machines in the Valley](/machines-valley-manuscript/). This is my dissertation and soon-to-be book manuscript based on a rewrite of my dissertation. While I may not port over all of my notes into this new notebook, you can find traces of the work throughout.
-- [Visualization in the Humanities](/visualization-humanities/). I'm collecting research on ways historians have used visualization in their work in order to inform my own thinking about visualization and narrative in digital history.

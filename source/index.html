@@ -4,6 +4,21 @@ date: 2015-11-14 05:56:38
 ---
 
   {% markdown front.md %}
+  
+  <h3>Active Projects</h3>
+  
+  <ul>
+  {% assign projects_sorted = site.project | sort: 'status' %}
+  {% for project in projects_sorted %}
+    <li>
+      {% if project.status == "Active" %}
+         <a class="project-link" href="{{ project.url | prepend: site.baseurl | prepend: site.url }}">
+          {{ project.title }}
+        </a>: {{ project.description }}
+      {% endif%}
+    </li>
+  {% endfor %}
+</ul>
 
   <h3 class="page-heading">Recent Essays and Posts</h3>
 

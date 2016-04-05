@@ -1,13 +1,33 @@
 # Site settings
 title: Open History Notebook
 description: "The open history notebook of historian Jason A. Heppler."
-baseurl: ""
-url: "http://notebook.jasonheppler.org"
-root: /
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://notebook.jasonheppler.org" # the base hostname & protocol for your site
+
 highlighter: pygments
 gems: ['jekyll/scholar','jekyll-pandoc']
 permalink: /:title/
 repo: notebook
+
+collections:
+  note:
+    output: true
+  project:
+    output: true
+      
+defaults:
+  - scope:
+      path: ""
+      type: note
+    values:
+      layout: note
+      permalink: /:slug/
+  - scope:
+      path: ""
+      type: project
+    values:
+      layout: project
+      permalink: /project/:slug/
 
 source: source
 destination: public
@@ -31,7 +51,6 @@ scholar:
   bibliography: bibliography.bib
 
 # Build settings
-destination: public
 markdown: pandoc 
 pandoc:
   extensions:

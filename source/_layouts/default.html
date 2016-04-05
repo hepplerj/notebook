@@ -4,22 +4,22 @@
   {% include head.html %}
 
   <body>
-
     {% include header.html %}
-
-    <div class="page-content">
-    <div class="container-fluid">
-      <div class="row-fluid">
-        {% include sidebar.html %}
-
-        <div class="span9">
-        {{ content }}
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-9 col-md-9 col-sm-push-3 col-md-push-3 main">
+          {{ content }}
+        </div>
+        <div class="col-sm-3 col-md-3 col-sm-pull-9 col-md-pull-9 sidebar">
+          {% include sidebar.html %}
         </div>
       </div>
-    </div>
-    </div>
-
-    {% include footer.html %}
+      <div class="row">
+        <div class="col-sm-9 col-md-9 col-sm-push-3 col-md-push-3 footer">
+          <hr>
+          {% include footer.html %}
+        </div>
+      </div>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

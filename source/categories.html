@@ -1,14 +1,14 @@
 ---
-layout: page
+layout: default
 title: Categories
-permalink: /categories/
 ---
+<h2>{{ page.title }}</h2>
 
 <p>Notes organized by category.</p>
 
 {% for category in site.categories %}
 
-### {{ category | first }}
+<h3> {{ category | first }} </h3>
 
 <ul>
 {% for posts in category %}

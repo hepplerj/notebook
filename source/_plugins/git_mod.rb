@@ -1,24 +1,22 @@
-# Author: Carl Boettiger, @cboettig
+# Author: Lincoln Mullen
+# Original author: Carl Boettiger, @cboettig
 # License: MIT
 #
-# A simple filter to access the git modification time of a page
-# Example use:
-#
-#  {{ post.path | prepend:'_posts/' | git_mod }}
-#
-#
+# This Jekyll plugin is modified from an original by Carl Boettiger. The 
+# suggested modification came from this Stack Overflow question:
+# http://stackoverflow.com/questions/36263812/sort-by-a-modified-variable-in-liquid-and-jekyll/36267438#36267438
 
 require 'git'
-require 'json'
 
-module Jekyll
-  module GitModFilter
-    def git_mod(input)
-      path = input # File.join(".", page.dir, page.name)
-      g = Git.open(".") # replace with site source path, see martin's code maybe
-      mod = g.log(1).object(path).first.date
-      mod
-    end
+Jekyll::Hooks.register :documents, :pre_render do |document, payload|
+
+  g = Git.open(".") 
+  begin
+    git_mod = g.log(1).object(document.path).first.date
+  rescue NoMethodError
+    $stderr.print "No method for #{document.path}. It probably has not been committed to the Git repository"
+    git_mod = Time.new
   end
+  document.data['git_modified'] = git_mod
+
 end
-Liquid::Template.register_filter(Jekyll::GitModFilter)

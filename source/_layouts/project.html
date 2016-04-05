@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<h2 class="page-title">{{ page.title }}</h2>
+
+{{ page.content }}
+
+<h3>All Project Notes</h3>
+
+<table class="table table-hover">
+  <tr>
+    <th>
+      Modified
+    </th>
+    <th>
+      Title
+    </th>
+  </tr>
+  {% assign project_pages = (site.posts | where: "project", page.slug) %}
+  {% assign project_pages = project_pages | sort: "title" %}
+  {% for project_page in project_pages %}
+    <tr>
+      <td>
+        {{ project_page.git_mod | date_to_string }}
+      </td>
+      <td>
+        <a href="{{ project_page.url | prepend: site.baseurl | prepend: site.url }}">
+          {{ project_page.title }}
+        </a>
+      </td>
+    </tr>
+  {% endfor %}
+</table>
