@@ -1,0 +1,114 @@
+---
+layout: post
+title: "2016-02-01 - Nature and Suburbs"
+date: 2016-02-01 15:16
+tags: [suburbanization, nature, environmentalism, dissertation, manuscript]
+categories:
+- Essays
+...
+
+
+
+I'm thinking a lot about the potential directions that this project can go. At
+its core, I still keep thinking about these contested but overlapping
+landscapes and the ways that conflict shaped the area's identity and thinking
+about "nature." I want to document a few threads I am trying to follow.
+
+## Nature and Silicon Valley: The Bird's Eye View
+
+Looking at the patterns of environmental thought and conservation in the Bay
+Areas as a whole, there are patterns that reflect other nationwide trends or
+follow specific regional and state-wide trends.
+
+## Nature and Silicon Valley: At the Neighborhood View
+
+There are, I think, a few things I can conclude about the importance of
+neighborhoods in the story:
+
+1. I see the suburbs having a far larger impact on modern
+   environmentalism that other historians have given credit. I echo the
+   claim of others, including [sellers2013crabgrass](),
+   [hayden2000suburban](), and [rome2001bulldozer](). Many of the
+   environmental organizations I look at can trace their origins to
+   suburban homeowners who became particularly concerned about the
+   industrialization of the Santa Clara Valley and began to question
+   whether the benefits outweighed the detriments.
+2. [walker2008countrycity]() makes the claim that the Bay Area is
+   exceptionally "green" and tries to document how that came to be. He
+   claims that conservationists and environmentalists in the Bay Area
+   were particularly attuned to the environment. His story tends to
+   focus on elites (which he readily admits) but the story sometimes
+   reads like a laundry list of people and environmental organizations.
+3. Environmentalism in Silicon Valley moves through phases. The first
+   begins in the early 1950s that attempted to protect farmland from
+   urban expansion.  Farmland served two roles, the first as food
+   producer, and the second aesthetic. The next phase remained concerned
+   about the disappearance of the countryside, but became much more
+   concerned about industry's impact on that landscape. The third phase
+   entered the realm of slow-growth and no-growth activism that
+   advocated the end of urban sprawl and strict limits on
+   industrialization. The fourth and final phase (in my study) focuses
+   on public health and environmental justice, finding the toxic leaks
+   and heavy use of chemicals among the supposed "clean" industries to
+   be a significant threat to families and neighborhoods. Through each
+   of these phases, the paramount concern always remained neighborhoods
+   and homeowners.
+4. In many cases, neighborhoods led the way in defining environmental
+   thought: contests with Stanford; contests with industrial parks;
+   contests with businesses. The question is *why* they took such an
+   interest in defining the landscape. [davis1999quartz]() has argued,
+   for Los Angeles, it centered around property rights and the
+   protection of private property. I see it differently, that activism
+   by neighborhood organizations reflects a genuine concern about the
+   environment (*à la* [rome2001bulldozer]()---but that concern is defined
+   in very specific ways. Boosters and environmentalists often touted
+   climate and beauty in their motivations for conservation. In some
+   ways that could be viewed as a protection of property values, but I
+   feel the expression of environmental thought actually springs from
+   wanting to experience "nature"---physically through recreation and
+   "picturesque" views. The protection of a countryside landscape
+   becomes a desired feature of suburbanites up and down the
+   Peninsula---zoning lot sizes, preservation of open space,
+   establishment of parks, conservation of farmland. These become
+   manifestations of an impulse to see the environment as something
+   worth preserving. But this is imbued by culture, also.
+5. There's also an element of historical memory I'm still trying to work
+   through. There's a memory about the Valley of Heart's Delight that
+   is embedded in some environmental critiques, and continues to play
+   out well into the 1970s.
+
+## Potential Directions
+
+All of these findings have presented me with a few directions I could take as
+the project moves forward.
+
+What do all of these sources point to?
+
+- a way to understand environmentalism?
+- a way to explore the growth of environmentalism in suburbs?
+- a new way of understanding shifting perceptions about nature and cities?
+- examining more closely the role of "beauty" and "aesthetics" and
+"countryside" in the story of Silicon Valley?
+- [klingle2003emerald]() speaks of an "ethic of place" with regard to Seattle. Does
+something similar happen in Santa Clara Valley?
+
+I have also been thinking recently that my work could fit within the new
+emphasis on the history of capitalism. Richard White stated at the History of
+Capitalism Conference (2014) stated that:
+
+> "Capitalism has not only affected nature, but has set the very terms of
+what counts as nature."
+(via @[cdc29](https://twitter.com/cdc29/status/530759547053674496))[^1]
+
+This, in some ways, also strikes a chord with the sort of things I am working
+on. Industry in Silicon Valley does attempt to define what counts as
+nature---from the well-groomed lawns around Stanford University to the planned
+industrial parks in south San Jose. But maybe it goes beyond what industry
+considered nature. How do debates over city parks reflect competing ideas about
+nature? How do debates about protected lands, state and county parks,
+wilderness areas, and recreational facilities shape ideas about "nature"? Even
+beyond the cultural aspects, does the shaping of nature factor into capital and
+commodity flows or vice versa (e.g., [cronon1991metropolis]())? Do these factor
+into the story?
+
+ [^1]: Also, via @[heathwcarter](https://twitter.com/heathwcarter/status/530754356275335168): "Richard White speaking on how nature fits in hist of capitalism at #HOC2014: commodity, capital, exogenous to economy, ecosystem services."
