@@ -4,6 +4,7 @@ title: nash1999landscape
 tags: [reading notes, World War II]
 categories:
 - Readings
+project: machinesvalley
 ---
 
 

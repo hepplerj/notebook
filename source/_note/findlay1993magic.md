@@ -5,6 +5,7 @@ date: Tue Nov 17 16:40:59 2015
 tags: [Stanford University, Stanford Industrial Park, urban growth, suburbs]
 categories:
 - Readings
+project: machinesvalley
 ---
 
 

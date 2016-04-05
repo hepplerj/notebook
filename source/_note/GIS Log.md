@@ -3,6 +3,9 @@ layout: post
 title: "GIS Log"
 date: 2012-12-03 04:29:21
 tags: [GIS]
+categories:
+- Research
+project: machinesvalley
 ...
 
 

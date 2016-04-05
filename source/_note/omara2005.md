@@ -4,6 +4,7 @@ title: omara2005
 tags: [reading notes, Stanford University, Stanford Industrial Park, research parks, California, urbanization, suburbanization, universities]
 categories:
 - Readings
+project: machinesvalley
 ---
 
 

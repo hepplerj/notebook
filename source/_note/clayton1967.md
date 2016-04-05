@@ -5,6 +5,7 @@ date: Tue Nov 17 16:32:12 2015
 tags: [reading notes, urban growth, department of defense]
 categories:
 - Readings
+project: machinesvalley
 ---
 
 

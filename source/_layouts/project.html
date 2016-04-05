@@ -22,7 +22,7 @@ layout: default
   {% for project_page in project_pages %}
     <tr>
       <td>
-        {{ project_page.git_mod | date_to_string }}
+        {{ project_page.git_modified | date_to_string }}
       </td>
       <td>
         <a href="{{ project_page.url | prepend: site.baseurl | prepend: site.url }}">

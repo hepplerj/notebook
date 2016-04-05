@@ -4,6 +4,7 @@ layout: post
 tags: [reading notes, companies, population, Stanford University, Austin, Texas, California, urban growth, industrialization, Sematech, Samsung, Stanford Industrial Park]
 categories:
 - Readings
+project: machinesvalley
 ---
 
 

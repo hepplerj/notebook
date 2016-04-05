@@ -4,6 +4,7 @@ title: zukin1991landscapes
 tags: [reading notes, landscape, methodology, postindustrial]
 categories:
 - Readings
+project: machinesvalley
 ---
 
 

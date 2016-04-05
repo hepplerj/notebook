@@ -6,6 +6,7 @@ tags: [urban history, race, housing, civil rights, suburban history,
 deindustrialization, segregation, African Americans, reading notes]
 categories: 
 - Readings 
+project: machinesvalley
 ...
 
 

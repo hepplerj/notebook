@@ -4,6 +4,7 @@ title: mozingo2011pastoral
 tags: [reading notes, capitalism, design, urban design, labor, workplaces, suburbanization, urbanization]
 categories:
 - Readings
+project: machinesvalley
 ---
 
 

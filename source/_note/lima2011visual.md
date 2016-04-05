@@ -5,6 +5,7 @@ date: 2016-03-01 14:07
 tags: [visualization]
 categories: 
 - Readings
+project: visualization-humanities
 ...
 
 

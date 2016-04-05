@@ -4,6 +4,7 @@ title: white1991misfortune
 tags: [reading notes, Richard White, American West, urban growth]
 categories:
 - Readings
+project: machinesvalley
 ---
 
 

@@ -4,6 +4,7 @@ title: pitti2003devil
 tags: [reading notes, Mexican Americans]
 categories:
 - Readings
+project: machinesvalley
 ---
 
 

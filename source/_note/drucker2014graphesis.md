@@ -8,8 +8,6 @@ categories:
 project: visualization-humanities
 ...
 
-
-
 <h4>{% reference drucker2014graphesis %}</h4>
 
 p. 4: Not a history of visualization but "an outline of principles and precepts 

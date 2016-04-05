@@ -4,6 +4,7 @@ tags: [San Jose, American West, urban history]
 layout: post
 categories:
 - Readings
+project: machinesvalley
 ---
 
 

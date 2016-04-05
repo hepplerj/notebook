@@ -4,6 +4,7 @@ title: walker2007countrycity
 tags: [reading notes, open space, Bay Area, environmentalism, political culture, Stanford University, Committee for Green Foothills, Karl Belser, Wallace Stegner]
 categories:
 - Readings
+project: machinesvalley
 ---
 
 

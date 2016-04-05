@@ -5,6 +5,7 @@ date: 2016-02-07 10:25
 tags: [conservatism, suburbanization, class, race, housing, Los Angeles, California, reading notes]
 categories: 
 - Readings
+project: machinesvalley
 ...
 
 

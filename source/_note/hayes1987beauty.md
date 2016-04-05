@@ -4,6 +4,7 @@ title: hayes1987beauty
 tags: [reading notes, environmental politics]
 categories:
 - Readings
+project: machinesvalley
 ---
 
 

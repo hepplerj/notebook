@@ -20,24 +20,6 @@ date: 2015-11-14 05:56:38
   {% endfor %}
 </ul>
 
-  <h3 class="page-heading">Recent Essays and Posts</h3>
-
-  <table class="table-stripped">
-    <tr>
-      <th>Date</th>
-      <th>Title</th>
-      <th>Category</th>
-    </tr>
-  {% for post in site.categories["Essays"] limit:5 %}
-    <tr>
-      <td width="15%;">{{ post.date | date_to_string }}</td>
-      <td width="70%;"><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></td>
-      <td style="width: 15%;"><span class="label label-success">{{post.categories}}</span></td>
-    </tr>
-
-  {% endfor %}
-  </table>
-
   <h3 class="page-heading">Recent Notes</h3>
 
   <table class="table-stripped">
@@ -46,12 +28,12 @@ date: 2015-11-14 05:56:38
       <th>Title</th>
       <th>Category</th>
     </tr>
-    {% assign nonessays = site.posts | posts_without_essays %}
-    {% for post in nonessays limit:10 | sort:'date' %}
+    {% assign notes_sorted = site.note | sort: 'git_modified' | reverse %}
+    {% for note in notes_sorted limit:10 %}
 
-      <td width="15%;">{{ post.date | date_to_string }}</td>
-      <td width="70%;"><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></td>
-      <td style="width: 15%;"><span class="label label-success">{{post.categories}}</span></td>
+      <td width="20%">{{ note.git_modified | date_to_string }}</td>
+      <td width="65%"><a href="{{ note.url | prepend: site.baseurl | prepend: site.url }}">{{note.title}}</a></td>
+      <td width="10%"><span class="label label-success">{{note.categories}}</span></td>
       </tr>
 
     {% endfor %}

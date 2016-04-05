@@ -5,6 +5,7 @@ date: 2016-02-04 14:17
 tags: [visualization, digital history, reading notes]
 categories: 
 - Readings
+project: visualization-humanities
 ...
 
 

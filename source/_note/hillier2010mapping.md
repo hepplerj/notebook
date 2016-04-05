@@ -6,6 +6,7 @@ date modified: Sun Nov 22 09:49:01 2015
 tags: [reading notes, spatial history, GIS, urban history, planning history]
 categories:
 - Readings
+project: spatialhistory
 ---
 
 

@@ -5,6 +5,7 @@ date: 2016-02-04 14:21
 tags: [visualization, narrative, reading notes]
 categories: 
 - Readings
+project: visualization-humanities
 ...
 
 

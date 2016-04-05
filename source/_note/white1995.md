@@ -4,6 +4,7 @@ title: white1995organic
 tags: [reading notes, Seattle, Columbia River]
 categories:
 - Readings
+project: machinesvalley
 ---
 
 
