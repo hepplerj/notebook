@@ -52,3 +52,4 @@ Date        Note
 1999        Weinhardt steps down as CEO, remains as chairman. W. Richard Roth replaces him as CEO.
 2001        Crystal Choice Water Service is launched. It offered San Jose Water customers a chance to rent or purchase Kinetico's total home water treatment system, which combined in a single unit chlorine removal, water softening and a reverse osmosis process to produce drinking water.
 2002        Weinhardt retires as chairman and is succeeded by Drew Gibson.
+

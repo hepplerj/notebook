@@ -4,13 +4,14 @@ title: All Notes by Date
 permalink: /archive/
 ---
 
-<h2>{{ page.title }} ({{ site.posts | size }} total)</h2>
+<h2>{{ page.title }} ({{ site.note | size }} total)</h2>
 
 <table class="table-stripped">
-  {% for post in site.posts %}
+  {% assign notes_sorted = site.note | sort: 'git_modified' %}
+  {% for note in notes_sorted reversed %}
     <tr>
-    <td>{{ post.date | date_to_string }}</td>
-    <td><a href="{{ post.url }}">{{post.title}}</a></td>
+    <td>{{ note.git_modified | date_to_string }}</td>
+    <td><a href="{{ note.url | prepend: site.baseurl | prepend: site.url }}">{{note.title}}</a></td>
     </tr>
   {% endfor %}
 </table>
