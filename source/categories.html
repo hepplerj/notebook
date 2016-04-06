@@ -6,18 +6,13 @@ title: Categories
 
 <p>Notes organized by category.</p>
 
-{% for category in site.categories %}
-
-<h3> {{ category | first }} </h3>
-
-<ul>
-{% for posts in category %}
-  {% for post in posts %}
-    {% if post.title %}
-    <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}
+{% assign collection = site.note | group_by: "categories" %}
+{% for group in collection %}
+{% comment %} This is super hacky and I don't like it {% endcomment%}
+  <h3>{{ group.name | replace: '"', '' | replace: '[', '' | replace: ']', '' }}</h3>
+  <ul>
+  {% for item in group.items %}
+    <li><a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}">{{ item.title }}</a></li>
   {% endfor %}
-{% endfor %}
-</ul>
-
-{% endfor %}
+  </ul>
+{%endfor%}
