@@ -46,3 +46,4 @@ I'm under contract with Wiley Blackwell for the *Companion to Digital History* e
 - Michael Friendly, [milestones in data visualization timeline](http://www.datavis.ca/milestones/)
 - Michael Hatten, "[Historical Charts and David Ramsay’s Narrative of Progress](https://earlyamericanists.com/2015/05/26/historical-charts-and-david-ramsays-narrative-of-progress/)"
 - Scott Klein, "[Infographics in the Time of Cholera](https://www.propublica.org/nerds/item/infographics-in-the-time-of-cholera)"
+- [The Bombing of Britain, 1942: Visual Display of Quantitative Data](http://longstreet.typepad.com/thesciencebookstore/2008/12/the-bombing-of-britain-1942-visual-display-of-quantitative-data.html)
