@@ -18,6 +18,7 @@ layout: default
       <tr class="info">
         <td><small><i class="glyphicon glyphicon-calendar"></i>&nbsp;Modified: 
             {{ page.path | prepend: 'source/' | git_mod | date_to_string }}</small></td>
+        <td><small><i class="fa fa-file-text"></i>&nbsp;<a href="https://raw.githubusercontent.com/{{ site.author.github_username }}/{{ site.repo }}/master/source/{{ page.path }}">Markdown</a></small></td>
         <td><small><i class="fa fa-github-square"></i>&nbsp;<a 
               href="https://github.com/{{site.author.github_username}}/{{ 
               site.repo }}/commits/master/source/{{ page.path }}">History</a></small></td>

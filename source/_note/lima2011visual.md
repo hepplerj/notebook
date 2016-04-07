@@ -8,6 +8,4 @@ categories:
 project: visualization-humanities
 ...
 
-
-
 <h4>{% reference lima2011visual %}</h4>

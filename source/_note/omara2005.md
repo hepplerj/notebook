@@ -7,8 +7,7 @@ categories:
 project: machinesvalley
 ---
 
-
-<h5>{% reference omara2005cities %}</h5>
+<h4>{% reference omara2005cities %}</h4>
 
 O'Mara's launching point is a question: why was Silicon Valley successful while other attempts to replicate its success have failed? She uses three intense case studies to examine the causes and factors that play into its success. Using Stanford University/Palo Alto, the University of Pennsylvania/Philadelphia, and Georgia Tech/Atlanta, she seeks to understand how these institutions succeeded or failed in their attempts to become "cities of knowledge." What defines a city of knowledge includes a physical community, anchored by a research institution that can capitalize on relationships between the university (and its federal research grants) and innovative companies transforming their theoretical research into applied technologies. O'Mara finds that the relationships between the local economy, landscape, and demographics were primed to serve government-funded university research initiatives.
 

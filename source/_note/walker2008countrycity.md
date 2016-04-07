@@ -7,7 +7,6 @@ categories:
 project: machinesvalley
 ---
 
-
 <h4>{% reference walker2007countrycity %}</h4>
 
 **Thesis**: Walker posits that the San Francisco Bay Area is exceptionally
@@ -193,28 +192,24 @@ Pete McCloskey — look into him
 
 The Committee had strong ties to various other conservation groups
 
-* Wallace Stegner and Martin Litton were Sierra Club directors in the 1960s
-(102)
-* Stegner heavily influenced by Bernard DeVoto and David Brower (102)
-* Litton was a defender of redwoods, the Grand Canyon, and Mineral King (102)
+* Wallace Stegner and Martin Litton were Sierra Club directors in the 1960s (p. 102)
+* Stegner heavily influenced by Bernard DeVoto and David Brower (p. 102)
+* Litton was a defender of redwoods, the Grand Canyon, and Mineral King (p. 102)
 * Morgan Stedman was on the Santa Clara County Planning Commission and
-resisted sprawl (102)
-* Barbara Eastman was a key organizer in Save Our Seashore (102)
-* Dorothy Varian was a member of the Conservation Associates and a friend
-(102)
+resisted sprawl (p. 102)
+* Barbara Eastman was a key organizer in Save Our Seashore (p. 102)
+* Dorothy Varian was a member of the Conservation Associates and a friend (p. 102)
 * Bill and Mel Lane, owners of Sunset, were longtime allies. Mel directed the
-Bay and Coastal commissions. (102)
+Bay and Coastal commissions. (p. 102)
 * Eleanor Fowle was the sister of Alan Cranston, a former real estate broker
-in Los Angeles and a Democratic Senator.
+in Los Angeles and a Democratic Senator. (p. 102)
 * Lewis Mumford wrote Ruth Spangenberg at the founding that "since Dr.
 Tresidder's death the university has gone more more 'fashionable' and more
 expensive advice, promising immediate profits and ultimate debacle. Keep up
-the fight. The weight of good sense and public decency is on your side!" (102)
+the fight. The weight of good sense and public decency is on your side!" (p. 102)
 
 Between 1960 to 1985, Stanford University doubled its building space from four
 million to eight million square feet; a fight broke out in 1985 over a
 proposal for the Reagan Library to exist in the foothills.^[Richard Walker,
 *The Country in the City: The Greening of the San Francisco Bay Area*
 (Seattle: University of Washington Press, 2008), 103.]
-
-**Broader Notes**:
