@@ -9,6 +9,39 @@ title: Tagged Notes
 <div class="tag-page">
 <p>Click on a tag to see relevant list of notes.</p>
 
+<!-- Create empty arrays -->
+{% assign tags = '' | split: ',' %}
+{% assign unique_tags = '' | split: ',' %}
+{% assign counter = 0 %}
+
+<!-- Map and flatten -->
+{% assign note_tags =  site.note | map: 'tags' | join: ','  | split: ',' %}
+
+<!-- Push to tags -->
+{% for tag in note_tags '%}
+  {% assign tags = tags | push: tag %}
+{% endfor %}
+
+<!-- Uniq -->
+{% assign tags = tags | sort %}
+{% for tag in tags %}
+  <!-- If not equal to previous then it must be unique -->
+  {% unless tag == previous %}    
+    <!-- Push to unique_tags -->
+    {% assign unique_tags = unique_tags | push: tag %}
+    {% assign counter = counter | plus: 1 %}
+  {% endunless %}
+  {% assign previous = tag %}
+{% endfor %}
+
+{% for tag in unique_tags %}
+  <span style="font-size: {{ tag | last | size | times: 3 | plus: 90 }}%;">
+  <a href="/tagged/#{{ tag | downcase | replace: " ", "-"}}">{{ tag | replace: "-", " "}} ({{ tag | size }})</a>
+  </span>
+{% endfor %}
+
+<hr>
+
 {% assign tags = site.tags | sort %}
 {% for tag in tags %}
  <span class="site-tag">
