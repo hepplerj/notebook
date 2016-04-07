@@ -23,7 +23,7 @@ CONFIG = YAML.load_file("_config.yml")
 DATE = Time.now.strftime("%Y-%m-%d")
 
 # Directories
-POSTS = "source/_posts"
+POSTS = "source/_notes"
 DRAFTS = "source/_drafts"
 RDRAFTS = "source/_Rmd"
 
@@ -149,7 +149,7 @@ task :publish do
   number = $stdin.gets
   if number =~ /\D/
     filename = files[number.to_i - 1].sub("#{DRAFTS}/", "")
-    FileUtils.mv("#{DRAFTS}/#{filename}", "#{POSTS}/#{DATE}-#{filename}")
+    FileUtils.mv("#{DRAFTS}/#{filename}", "#{POSTS}/#{filename}")
     puts "#{filename} was moved to '#{POSTS}'."
   else
     puts "Please choose a draft by the assigned number."
