@@ -3,6 +3,7 @@
 *.run.xml
 *.synctex.gz
 *.bbl
+*.log
 .ipynb_checkpoints
 _site
 .sass-cache
@@ -12,3 +13,5 @@ public
 _drafts
 _Rmd
 Gemfile.lock
+node_modules
+
