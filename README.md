@@ -14,9 +14,9 @@ Or help me develop it. Feel free to issue tickets or open push requests.
 
 # Set-Up
 
-You can close this repository:
+You can clone this repository:
 
-  git clone git@github.com:hepplerj/notebook.git
+`git clone git@github.com:hepplerj/notebook.git`
 
 and use `jekyll serve` or `rake preview` to run it locally. It will load up under [localhost:4000](http://localhost:4000).
 
