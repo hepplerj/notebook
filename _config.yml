@@ -1,20 +1,23 @@
 # Site settings
-title: Open History Notebook
+title: Heppler Research Notebook
 description: "The open history notebook of historian Jason A. Heppler."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://notebook.jasonheppler.org" # the base hostname & protocol for your site
 
 highlighter: pygments
-gems: ['jekyll/scholar','jekyll-pandoc']
-permalink: /:title/
+gems: 
+  - jekyll/scholar
+  - jekyll-pandoc
 repo: notebook
 
+# We're using collections instead of posts
 collections:
   note:
     output: true
   project:
     output: true
-      
+
+# Defaults      
 defaults:
   - scope:
       path: ""
@@ -28,10 +31,6 @@ defaults:
     values:
       layout: project
       permalink: /project/:slug/
-
-source: source
-destination: public
-exclude: ["Rakefile", "README.md", "public"]
 
 # Author information
 author:
@@ -51,6 +50,9 @@ scholar:
   bibliography: bibliography.bib
 
 # Build settings
+source: source
+destination: public
+exclude: ["Rakefile", "README.md", "public"]
 markdown: pandoc 
 pandoc:
   extensions:
@@ -58,4 +60,14 @@ pandoc:
     - template: .pandoc/toc.html
     - toc
 markdown_ext:  markdown,mkdown,mkdn,mkd,md,Rmd,rmd
-exclude: ['Makefile', 'Rakefile', '_drafts']
+exclude:
+- Makefile
+- Rakefile
+- _drafts
+- LICENSE
+- README
+- Gruntfile.js 
+- package.json
+- .jekyll-assets-cache
+- .sass-cache
+- .bundle
