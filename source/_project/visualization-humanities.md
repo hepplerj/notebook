@@ -20,7 +20,8 @@ My notes and research into visualization in the humanities feeds several areas o
 I want to know what sorts of visualizations (charts, figures, graphs, maps,
 tables) historians use in their publications. To visualize the visualizations, as it were. A sensible place to start is by looking at the entire run of the AHR. 
 
-- [s] Download the run of AHR articles
+- [x] Download the run of AHR articles
+    - Ended at Vol. 155 No. 1 February 2010
 - [ ] Devise an R script to extract images from PDFs, which should also record a data table of author, title, and date.
 
 **2016-02-11**
