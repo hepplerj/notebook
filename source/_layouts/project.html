@@ -4,9 +4,13 @@ layout: default
 
 <h2 class="page-title">{{ page.title }}</h2>
 
+<p>
+  <strong>Project description:</strong> {{ page.description }}
+</p>
+
 {{ page.content }}
 
-<h3>All Project Notes</h3>
+<h3>Project Notes</h3>
 
 <table class="table table-hover">
   <tr>
@@ -32,3 +36,19 @@ layout: default
     </tr>
   {% endfor %}
 </table>
+
+
+<p class="text-info">
+  <table class="table table-condensed" id="post-info">
+    <tr class="info">
+      <td><small><i class="glyphicon glyphicon-calendar"></i>&nbsp;Created: {{ page.date | date_to_string }}</small></td>
+      <td><small><i class="glyphicon glyphicon-calendar"></i>&nbsp;Modified: {{ page.git_modified | date_to_string }}</small></td>
+      <td><small><i class="fa fa-github-square"></i>&nbsp;<a
+            href="https://github.com/{{site.author.github_username}}/{{
+            site.repo }}/commits/master/source/{{ page.path }}">History</a></small></td>
+      <td><small><i class="fa fa-file-text"></i>&nbsp;<a href="https://raw.githubusercontent.com/{{ site.author.github_username }}/{{ site.repo }}/master/source/{{ page.path }}">Markdown</a></small></td>
+      <td><small><a href="javascript:window.print()"><i class="glyphicon glyphicon-print"></i>&nbsp;Print</a></small></td>
+      <td><small><a href="{{ page.url | prepend: site.baseurl }}"><i class="glyphicon glyphicon-link"></i>Permalink</a></small></td>
+    </tr>
+  </table>
+  </p>
