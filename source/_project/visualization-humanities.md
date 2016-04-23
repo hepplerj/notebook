@@ -4,8 +4,6 @@ title: "Visualization in the Humanities"
 status: Active
 ---
 
-## Project Description
-
 In what ways can historians take advantage of visualization techniques in the presentation and communication of historical arguments? Can we, through data-drive and visualization-driven research, shape new methods of revealing ambiguity, complexity, and exploration of the past?
 
 My notes and research into visualization in the humanities feeds several areas of current work:
@@ -18,7 +16,7 @@ My notes and research into visualization in the humanities feeds several areas o
 ### Analyzing the AHR
 
 I want to know what sorts of visualizations (charts, figures, graphs, maps,
-tables) historians use in their publications. To visualize the visualizations, as it were. A sensible place to start is by looking at the entire run of the AHR. 
+tables) historians use in their publications. To visualize the visualizations, as it were. A sensible place to start is by looking at the entire run of the AHR.
 
 - [x] Download the run of AHR articles
     - Ended at Vol. 155 No. 1 February 2010
@@ -28,7 +26,7 @@ tables) historians use in their publications. To visualize the visualizations, a
 
 Talked to Lincoln about the idea; interested in collaborating.
 
-Started downloading articles using a JSTOR -> Zotero workflow, and using Zotfiles to push PDFs to a separate folder. I'm only grabbing articles; not "Documents" or "Book Reviews." In 1915, "Notes and Suggestions" are introduced, I'm continuing to ignore these. 
+Started downloading articles using a JSTOR -> Zotero workflow, and using Zotfiles to push PDFs to a separate folder. I'm only grabbing articles; not "Documents" or "Book Reviews." In 1915, "Notes and Suggestions" are introduced, I'm continuing to ignore these.
 
 **2016-02-16**
 
@@ -42,9 +40,10 @@ I'm under contract with Wiley Blackwell for the *Companion to Digital History* e
 
 - Elizabeth Palmer Peabody, *[Chronological history of the United States, arranged with plates on Bem's principle](https://archive.org/details/chronologicalhis00peab)* (1856)
 
-#### Digital 
+#### Digital
 
 - Michael Friendly, [milestones in data visualization timeline](http://www.datavis.ca/milestones/)
 - Michael Hatten, "[Historical Charts and David Ramsay’s Narrative of Progress](https://earlyamericanists.com/2015/05/26/historical-charts-and-david-ramsays-narrative-of-progress/)"
 - Scott Klein, "[Infographics in the Time of Cholera](https://www.propublica.org/nerds/item/infographics-in-the-time-of-cholera)"
 - [The Bombing of Britain, 1942: Visual Display of Quantitative Data](http://longstreet.typepad.com/thesciencebookstore/2008/12/the-bombing-of-britain-1942-visual-display-of-quantitative-data.html)
+- Susan Schulten, "[How A Civil War Vet Invented The American Infographic](http://www.fastcodesign.com/1671605/how-a-civil-war-soldier-invented-the-american-infographic#1)"
