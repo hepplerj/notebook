@@ -154,6 +154,10 @@ as I go along.
 7.    The Tap Water Rebellion
 8.    Eco-Region
 
+### Title Ideas
+
+*Bucolic Capitalism: Nature, Community, and the Making of Silicon Valley, 1945-1990*
+
 ## Research Archives
 
 Notes organized by [research archive](/research-archives/).
