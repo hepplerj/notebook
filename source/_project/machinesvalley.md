@@ -1,7 +1,7 @@
 ---
 description: "A running log of my thoughts on my book manuscript."
 title: "Machines in the Valley"
-status: Active
+status: active
 ---
 
 >  This page is a running log of my thoughts on my dissertation and eventual book manuscript. Ideas here might

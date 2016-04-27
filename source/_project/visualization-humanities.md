@@ -1,7 +1,7 @@
 ---
 description: "In what ways can historians take advantage of visualization techniques in the presentation and communication of historical arguments?"
 title: "Visualization in the Humanities"
-status: Active
+status: active
 ---
 
 In what ways can historians take advantage of visualization techniques in the presentation and communication of historical arguments? Can we, through data-drive and visualization-driven research, shape new methods of revealing ambiguity, complexity, and exploration of the past?

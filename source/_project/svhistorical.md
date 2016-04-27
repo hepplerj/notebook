@@ -1,7 +1,7 @@
 ---
 description: "A public history project built upon Curatescape."
 title: "Silicon Valley Historical"
-status: Active
+status: active
 ---
 
 ## Curatescape
