@@ -3,17 +3,9 @@
 ---
 @charset "utf-8";
 
-// Our variables
-$base-font-family: 'Droid Serif', Georgia, serif;
-$base-font-size:   1.6em;
-$small-font-size:  14px;
-$large-font-size: 18px;
-$base-line-height: 1.5;
-$header-font: "Open Sans", "Source Sans Pro", Helvetica, sans-serif;
-
-$spacing-unit:     30px;
-
-$text-color:       #202020;
+//== Colors
+//
+$text-color:       #383838;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
 
@@ -24,8 +16,32 @@ $blue-color-dark: #2B3A42;
 $blue-color-light: #337ab7;
 $white-color-off: #f2f2f2;
 
+//== Typography
+//
+$font-size-base:          15px !default;
+$font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-small:         12px !default;
+
+$header-font: 'Open Sans', sans-serif;
+// $base-font-size:   1.6em;
+$small-font-size:  12px;
+// $large-font-size: 18px;
+$base-line-height: 1.5;
+$base-font-family: "Droid Serif", Georgia, serif;
+
+$font-size-h1:            floor(($font-size-base * 2.6)) !default; // ~36px
+$font-size-h2:            floor(($font-size-base * 2.15)) !default; // ~30px
+$font-size-h3:            ceil(($font-size-base * 1.7)) !default; // ~24px
+$font-size-h4:            ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-h5:            $font-size-base !default;
+$font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px
+
+//== Layout and Scaffolding
+//
+//## Global settings and styles
 $on-palm:          600px;
 $on-laptop:        800px;
+$spacing-unit:     30px;
 
 // Using media queries with like this:
 // @include media-query($palm) {
@@ -39,8 +55,6 @@ $on-laptop:        800px;
         @content;
     }
 }
-
-
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import

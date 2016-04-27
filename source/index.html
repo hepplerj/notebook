@@ -7,18 +7,24 @@ date: 2015-11-14 05:56:38
 
   <h3>Active Projects</h3>
 
-  <ul>
+<dl>
   {% assign projects_sorted = site.project | sort: 'status' %}
   {% for project in projects_sorted %}
-    <li>
-      {% if project.status == "Active" %}
-         <a class="project-link" href="{{ project.url | prepend: site.baseurl | prepend: site.url }}">
-          {{ project.title }}
-        </a>: {{ project.description }}
+    <dt>
+      <a class="project-link" href="{{ project.url | prepend: site.baseurl | prepend: site.url }}">
+        {{ project.title }}
+      </a>
+      {% if project.status == "active" %}
+        <span class="label label-success">{{ project.status }}</span>
+      {% elsif project.status == "collecting" %}
+        <span class="label label-info">{{ project.status }}</span>
+      {% elsif project.status == "on hold" %}
+        <span class="label label-warning">{{ project.status }}</span>
       {% endif%}
-    </li>
+    </dt>
+    <dd>{{ project.description }}</dd>
   {% endfor %}
-</ul>
+</dl>
 
   <h3 class="page-heading">Recent Updates</h3>
 
