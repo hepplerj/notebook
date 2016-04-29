@@ -11,9 +11,7 @@ date: 2015-11-14 05:56:38
   {% assign projects_sorted = site.project | sort: 'status' %}
   {% for project in projects_sorted %}
     <dt>
-      <a class="project-link" href="{{ project.url | prepend: site.baseurl | prepend: site.url }}">
-        {{ project.title }}
-      </a>
+      <a class="project-link" href="{{ project.url | prepend: site.baseurl | prepend: site.url }}">{{ project.title }}</a>  
       {% if project.status == "active" %}
         <span class="label label-success">{{ project.status }}</span>
       {% elsif project.status == "collecting" %}

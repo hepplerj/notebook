@@ -263,58 +263,16 @@ ul#post-categories li:last-child:after {
   margin-bottom: 20px;
 }
 
-// .post-title {
-//     font-size: 42px;
-//     letter-spacing: -1px;
-//     line-height: 1;
-
-//     @include media-query($on-laptop) {
-//         font-size: 36px;
-//     }
-// }
-
-// .post-content {
-//     margin-bottom: $spacing-unit;
-
-//     h1 {
-//         font-size: 30px;
-
-//         @include media-query($on-laptop) {
-//             font-size: 28px;
-//         }
-//     }
-
-//     h2 {
-//         font-size: 26px;
-
-//         @include media-query($on-laptop) {
-//             font-size: 24px;
-//         }
-//     }
-
-//     h3 {
-//         font-size: 22px;
-
-//         @include media-query($on-laptop) {
-//             font-size: 20px;
-//         }
-//     }
-
-//     h4 {
-//         font-size: 18px;
-//         font-weight: bold;
-
-//         @include media-query($on-laptop) {
-//             font-size: 16px;
-//         }
-//     }
-// }
+dl dd {
+  margin-bottom: 12px;
+}
 
 /* =Misc Styles
 -----------------------------------------------------------------------------*/
 div#TOC {
   background-color: rgba(0,0,0,0.03);
   padding: 14px;
+  padding-bottom: 1px;
   margin-bottom: 10px;
 }
 

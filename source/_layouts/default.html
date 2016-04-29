@@ -21,6 +21,33 @@
         </div>
       </div>
 
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script>
+  $("img").each(function() {
+    old = $(this).attr("src");
+    if (old.indexOf("figure-markdown") > -1) {
+      $(this).attr("src", "../figures/" + old);
+    }
+  })
+</script>
+<!-- Todo lists (via Lincoln Mullen) -->
+<script type="text/javascript">
+  /* <![CDATA[ */
+  $(document).ready(function() {
+    $("li:contains('[ ]')").html(function(_, html) {
+      return html.replace('[ ]', '<span style="color:red;">☐</span>');
+    });
+    $("li:contains('[s]')").html(function(_, html) {
+      return html.replace('[s]', '<span style="color:gold;">☐</span>');
+    });
+    $("li:contains('[x]')").html(function(_, html) {
+      return html.replace('[x]', '<span style="color:green;">☑</span>');
+    });
+  });
+  /* ]]> */
+</script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

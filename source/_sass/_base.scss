@@ -168,6 +168,7 @@ blockquote {
   font-style: italic;
   opacity: .7;
   quotes: "“" "”";
+  border-left: 5px solid $blue-color-dark;
 }
 blockquote cite {
   font-size: 86%;
@@ -340,6 +341,7 @@ tr.info a:visited {
 .label,
 .badge {
   font-size: 11px;
+  font-family: $font-sans-serif;
   font-weight: normal;
   display: inline;
   line-height: 1;
