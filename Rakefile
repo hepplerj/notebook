@@ -23,7 +23,7 @@ CONFIG = YAML.load_file("_config.yml")
 DATE = Time.now.strftime("%Y-%m-%d")
 
 # Directories
-POSTS = "source/_notes"
+POSTS = "source/_note"
 DRAFTS = "source/_drafts"
 RDRAFTS = "source/_Rmd"
 
@@ -77,7 +77,7 @@ desc "New draft post"
 task :rdraft do |t|
 
   title    = get_stdin("What is the title of your post? ")
-  filename = "_Rmd/#{title.to_url}.Rmd"
+  filename = "_Rmd/#{title}.Rmd"
 
   puts "Creating new draft: #{filename}"
   open(filename, "w") do |post|
@@ -90,7 +90,6 @@ task :rdraft do |t|
     post.puts "- "
     post.puts "..."
     post.puts "\n"
-    post.puts "* Table of Contents\n{:toc}"
   end
 end
 
@@ -98,7 +97,7 @@ desc "New draft post"
 task :draft do |t|
 
   title    = get_stdin("What is the title of your post? ")
-  filename = "source/_drafts/#{title.to_url}.md"
+  filename = "source/_drafts/#{title}.md"
 
   puts "Creating new draft: #{filename}"
   open(filename, "w") do |post|
@@ -111,7 +110,6 @@ task :draft do |t|
     post.puts "- "
     post.puts "..."
     post.puts "\n"
-    post.puts "* Table of Contents\n{:toc}"
   end
 end
 
@@ -133,7 +131,6 @@ task :readnote do |t|
     post.puts "- Readings"
     post.puts "..."
     post.puts "\n"
-    post.puts "* Table of Contents\n{:toc}"
     post.puts "\n<h4>{% reference #{title} %}</h4>"
   end
 end
