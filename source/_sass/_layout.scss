@@ -270,10 +270,25 @@ dl dd {
 /* =Misc Styles
 -----------------------------------------------------------------------------*/
 div#TOC {
-  background-color: rgba(0,0,0,0.03);
-  padding: 14px;
-  padding-bottom: 1px;
-  margin-bottom: 10px;
+  padding: 0 1em 1em;
+  font-family: $font-sans-serif;
+  border-top: 8px solid #4c4c4c;
+  border-bottom: 2px solid #e2e2e2;
+  margin-bottom: 2rem;
+  width: 80%;
+}
+
+div#TOC .toc__title {
+  margin: 1em 0;
+  font-size: 2.25rem;
+  color: #4c4c4c;
+}
+
+div#TOC li {
+  padding: 5px 0;
+  clear: both;
+  display: block;
+  font-weight: bold;
 }
 
 input[type="search"] {

@@ -3,8 +3,9 @@ layout: post
 title: "HIST205F syllabus revisions"
 date: 2016-04-29 12:02
 tags: [teaching]
-categories: 
-- teaching
+categories:
+- Teaching
+project: svhistorical
 ...
 
 ## Projects
@@ -27,6 +28,3 @@ categories:
 -   Herbert G. Ruffin II. *Uninvited Neighbors: African Americans in Silicon Valley, 1769-1990*. University of Oklahoma Press, 2014.
 
 Look back on the [spatial history list](/spatial-history-annotated-bibliography/) and see what readings would be a good fit. Also, what readings can I pull in about public history? About digital exhibits and digital archives?
-
-
-
