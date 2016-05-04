@@ -119,6 +119,11 @@ ul#post-categories li:last-child:after {
   opacity: 1;
 }
 
+section.footnotes {
+  font-size: 10px;
+  font-family: $font-sans-serif;
+}
+
 /* =Fluid Layout
 -----------------------------------------------------------------------------*/
 .row-fluid {
