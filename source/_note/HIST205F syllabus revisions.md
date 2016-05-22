@@ -18,6 +18,8 @@ project: svhistorical
 
 -   Neal Stephenson, *[In the Beginning Was the Command Line](http://www.cryptonomicon.com/beginning.html)* (Avon, 1999).
 -   Paul Ford, "[What is Code](http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)"
+-   Scott Weingart, "['Digital History' Can Never Be New](http://scottbot.net/digital-history-can-never-be-new/)"
+-   Lara Putnam, "The Transnational and the Text-Searchable: Digitized Sources and the Shadows They Cast" *JAH*
 -   Margaret O’Mara, *Cities of Knowledge: Cold War Science and the Search for the Next Silicon Valley*. Princeton University Press, 2004.
 -   John M. Findlay. *Magic Lands: Western Cityscapes and American Culture After 1940*. University of California Press, 1992.
 -   Roger Lotchin. *Fortress California, 1910-1961: From Warfare to Welfare*. University of Illinois Press, 2002.
