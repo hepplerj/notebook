@@ -19,7 +19,9 @@ project: svhistorical
 -   Neal Stephenson, *[In the Beginning Was the Command Line](http://www.cryptonomicon.com/beginning.html)* (Avon, 1999).
 -   Paul Ford, "[What is Code](http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)"
 -   Scott Weingart, "['Digital History' Can Never Be New](http://scottbot.net/digital-history-can-never-be-new/)"
+-   Fred Gibbs, "[New Forms of History: Critiquing Data and Its Representations](http://tah.oah.org/february-2016/new-forms-of-history-critiquing-data-and-its-representations/)" *The American Historian*
 -   Lara Putnam, "The Transnational and the Text-Searchable: Digitized Sources and the Shadows They Cast" *JAH*
+-   Andrew Hurley, "[Chasing the Frontiers of Digital Technology](http://tph.ucpress.edu/content/38/1/69.full.pdf+html)" *The Public Historian* vol. 38 no. 1 (February 2016): 69--88.
 -   Margaret O’Mara, *Cities of Knowledge: Cold War Science and the Search for the Next Silicon Valley*. Princeton University Press, 2004.
 -   John M. Findlay. *Magic Lands: Western Cityscapes and American Culture After 1940*. University of California Press, 1992.
 -   Roger Lotchin. *Fortress California, 1910-1961: From Warfare to Welfare*. University of Illinois Press, 2002.
