@@ -72,6 +72,51 @@ Using `wget` to download PDFs:
 wget --wait=5 --random-wait -i urls-clean.csv
 ```
 
+3.  Using a `Makefile`, we will OCR each of the pages of the journal to extract text and clean them up with an R script.
+
+```
+OCR_OUTPUTS := $(patsubst pdf/#.pdf, text/%.txt, $(wildcard pdf/*.pdf))
+CLEAN_TEXTS := $(patsubst text/%.txt, eh-journals/%.txt, $(wildcard text/*.txt))
+
+texts : $(CLEAN_TEXTS)
+
+lsh : cache/corpus-lsh.rda
+
+eh-journals/%.txt : text/%.txt
+	    Rscript --vanilla scripts/clean-text.R $^ $@
+
+text/%.txt : temp/%.txt
+	    cp $^ $@
+
+temp/%.txt : pdf/%.pdf
+	    mkdir -p temp
+	    @echo "\nBursting $^ into separate files"
+	    pdftk $^ burst output temp/$*.page-%04d.pdf
+	    @echo "\nConverting the PDFs for $^ to the image files"
+	    for pdf in temp/$*.page-*.pdf ; do \
+	    	convert -density 600 -depth 8 $$pdf $$pdf.png ; \
+	    done
+	    @echo "\nDoing OCR for each page in $^"
+	    for png in temp/$*.page-*.pdf.png ; do \
+	    	tesseract $$png $$png tesseract-config ; \
+	    done
+	    @echo "\nConcatenating the text files into $@"
+	    cat temp/$*.page-*.pdf.png.txt > temp/$*.txt
+
+.PHONY : clean
+clean :
+	rm -rf temp/*
+
+.PHONY : clean-splits
+clean-splits :
+	rm -rf text/*
+	rm -f eh-journals/*
+	rm -f cache/corpus-lsh.rda
+
+.PHONY : clobber
+clobber : clean
+```
+
 
 ### Primary Sources
 
@@ -86,7 +131,7 @@ What is it we hope to achieve with a digital methodology?
 
 ### TODO
 
--   [s] Finish the scrape of the articles from E&S
+-   [x] Finish the scrape of the articles from E&S
 -   [ ] Reconvene with Mike in the month of May
 -   [ ] Set up research notebook for hosting R scripts and visualizations
--   [ ] Create a metadata spreadsheet for each of the articles in the journal issues, including date, title, author, and topics.
+-   [s] Create a metadata spreadsheet for each of the articles in the journal issues, including date, title, author, and topics.
