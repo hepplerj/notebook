@@ -278,9 +278,10 @@ div#TOC {
   padding: 0 1em 1em;
   font-family: $font-sans-serif;
   border-top: 8px solid #4c4c4c;
-  border-bottom: 2px solid #e2e2e2;
   margin-bottom: 2rem;
   width: 80%;
+  font-size: 1.2rem;
+  background: #fafafa;
 }
 
 div#TOC .toc__title {

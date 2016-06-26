@@ -58,12 +58,19 @@ h6 {
   letter-spacing: 0.049em;
   font-weight: 300;
 }
-h1{ font-size: $font-size-h1; }
+h1 { font-size: $font-size-h1; }
 h2 { font-size: $font-size-h2; }
 h3 { font-size: $font-size-h3; color: rgb(236, 93, 87); }
 h4 { font-size: $font-size-h4; }
 h5 { font-size: $font-size-h5; }
 h6 { font-size: $font-size-h6; }
+
+h1,
+h2,
+h3 {
+  padding-bottom: 3px;
+  border-bottom: 1px solid #aaa;
+}
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -193,7 +200,7 @@ pre {
   line-height: 24px;
   color: rgba(0, 0, 0, 0.9);
   overflow: auto;
-  background: rgba(0, 0, 0, 0.03);
+  background: #f8f8f8;
   padding: 24px;
   word-wrap: normal;
 }
