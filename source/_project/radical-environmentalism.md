@@ -22,7 +22,8 @@ Using Import.io, I scraped the *Environment & Society* archive with two passes.
    data and created a `url-clean.csv` file. That file became the input for
    `wget` to download the PDFs in bulk.
 
-```{r}
+<pre>
+<code class="r">
 library(dplyr)
 library(readr)
 library(lubridate)
@@ -64,7 +65,8 @@ url_alone <- as.data.frame(url_alone)
 
 write_csv(csv_data, "pdf-clean.csv", na="")
 write_csv(url_alone, "urls-clean.csv", na="")
-```
+</code>
+</pre>
 
 Using `wget` to download PDFs:
 
@@ -74,7 +76,8 @@ wget --wait=5 --random-wait -i urls-clean.csv
 
 3.  Using a `Makefile`, we will OCR each of the pages of the journal to extract text and clean them up with an R script.
 
-```
+<pre>
+<code class="makefile">
 OCR_OUTPUTS := $(patsubst pdf/#.pdf, text/%.txt, $(wildcard pdf/*.pdf))
 CLEAN_TEXTS := $(patsubst text/%.txt, eh-journals/%.txt, $(wildcard text/*.txt))
 
@@ -115,8 +118,8 @@ clean-splits :
 
 .PHONY : clobber
 clobber : clean
-```
-
+</code>
+</pre>
 
 ### Primary Sources
 
