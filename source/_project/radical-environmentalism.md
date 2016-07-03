@@ -81,17 +81,17 @@ wget --wait=5 --random-wait -i urls-clean.csv
 OCR_OUTPUTS := $(patsubst pdf/#.pdf, text/%.txt, $(wildcard pdf/*.pdf))
 CLEAN_TEXTS := $(patsubst text/%.txt, eh-journals/%.txt, $(wildcard text/*.txt))
 
-texts : $(CLEAN_TEXTS)
+texts: $(CLEAN_TEXTS)
 
-lsh : cache/corpus-lsh.rda
+lsh: cache/corpus-lsh.rda
 
-eh-journals/%.txt : text/%.txt
+eh-journals/%.txt: text/%.txt
 	    Rscript --vanilla scripts/clean-text.R $^ $@
 
-text/%.txt : temp/%.txt
+text/%.txt: temp/%.txt
 	    cp $^ $@
 
-temp/%.txt : pdf/%.pdf
+temp/%.txt: pdf/%.pdf
 	    mkdir -p temp
 	    @echo "\nBursting $^ into separate files"
 	    pdftk $^ burst output temp/$*.page-%04d.pdf
@@ -106,18 +106,18 @@ temp/%.txt : pdf/%.pdf
 	    @echo "\nConcatenating the text files into $@"
 	    cat temp/$*.page-*.pdf.png.txt > temp/$*.txt
 
-.PHONY : clean
-clean :
+.PHONY: clean
+clean:
 	rm -rf temp/*
 
-.PHONY : clean-splits
-clean-splits :
+.PHONY: clean-splits
+clean-splits:
 	rm -rf text/*
 	rm -f eh-journals/*
 	rm -f cache/corpus-lsh.rda
 
-.PHONY : clobber
-clobber : clean
+.PHONY: clobber
+clobber: clean
 </code>
 </pre>
 
