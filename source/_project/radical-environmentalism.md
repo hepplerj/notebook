@@ -135,6 +135,8 @@ What is it we hope to achieve with a digital methodology?
 ### TODO
 
 -   [x] Finish the scrape of the articles from E&S
--   [ ] Reconvene with Mike in the month of May
+-   [s] OCR the texts of the journals
+-   [s] Clean up OCR
+    -   [ ] Remove hyphens, join words that are hyphenated
 -   [ ] Set up research notebook for hosting R scripts and visualizations
 -   [s] Create a metadata spreadsheet for each of the articles in the journal issues, including date, title, author, and topics.
