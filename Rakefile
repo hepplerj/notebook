@@ -32,7 +32,7 @@ task :draft do |t|
   filename      = "#{POSTS}/#{title}.#{md_extension}"
 
     puts "Checking out a new draft branch: #{POSTS}/#{branch}"
-    `git checkout -b #{POSTS}/#{branch}`
+    `git checkout -b #{branch}`
 
     puts "Creating new draft: #{filename}"
     open(filename, "w") do |post|
