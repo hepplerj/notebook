@@ -53,7 +53,7 @@ scholar:
 source: source
 destination: public
 exclude: ["Rakefile", "README.md", "public"]
-markdown: pandoc 
+markdown: Pandoc 
 pandoc:
   extensions:
     - normalize
