@@ -98,7 +98,7 @@ Yet the research also intersects with the histories of postwar liberalism and co
 
 ### History of Capitalism
 
-Still thinking through this and I'll fill this out more as I confront the issues further. Some initial notes are in [20141112 - Suburbs and Nature#potential-directions](/nature-and-suburbs/#potential-directions).
+Still thinking through this and I'll fill this out more as I confront the issues further. Some initial notes are in [20141112 - Suburbs and Nature#potential-directions](/2016-02-01-nature-and-suburbs/#potential-directions).
 
 ### GIS
 
