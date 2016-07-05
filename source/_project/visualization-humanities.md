@@ -39,6 +39,7 @@ I'm under contract with Wiley Blackwell for the *Companion to Digital History* e
 ### Historical Visualizations
 
 - Elizabeth Palmer Peabody, *[Chronological history of the United States, arranged with plates on Bem's principle](https://archive.org/details/chronologicalhis00peab)* (1856)
+- Moses Greenleaf, "[Maine, inhabited part.](http://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~24208~880040:Maine,-inhabited-part-?sort=pub_list_no_initialsort%2Cpub_list_no_initialsort%2Cpub_list_no_initialsort%2Cpub_date?&qvq=q:Greenleaf%2Bmoses;sort:pub_list_no_initialsort%2Cpub_list_no_initialsort%2Cpub_list_no_initialsort%2Cpub_date;lc:RUMSEY~8~1&mi=8&trs=10)" (1829)
 
 #### Digital
 
