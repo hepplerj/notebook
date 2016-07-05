@@ -34,7 +34,7 @@
 }
 
 .post {
-  width: 820px;
+  width: 780px;
 }
 
 .post-list {
@@ -275,13 +275,11 @@ dl dd {
 /* =Misc Styles
 -----------------------------------------------------------------------------*/
 div#TOC {
-  padding: 0 1em 1em;
-  font-family: $font-sans-serif;
-  border-top: 8px solid #4c4c4c;
-  margin-bottom: 2rem;
-  width: 80%;
-  font-size: 1.2rem;
-  background: #fafafa;
+  margin: 2em 0;
+  padding: 1em;
+  background-color: #ecf1f6;
+  border-top: 0.25em solid #a2b9d4;
+  border-bottom: 0.25em solid #a2b9d4;
 }
 
 div#TOC .toc__title {
