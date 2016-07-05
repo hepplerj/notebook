@@ -92,7 +92,7 @@ task :draft do |t|
   task :preview do
     puts "Previewing the site locally with Jekyll."
 
-    jekyllPid  = Process.spawn("bundle exec jekyll serve --watch --drafts --incremental --config _config.yml,_config-pow.yml")
+    jekyllPid  = Process.spawn("bundle exec jekyll serve --watch --drafts --incremental --profile --config _config.yml,_config-pow.yml")
 
     trap("INT") {
       [jekyllPid].each { |pid| Process.kill(9, pid) rescue Errno::ESRCH }
