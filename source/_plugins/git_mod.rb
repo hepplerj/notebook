@@ -14,7 +14,7 @@ Jekyll::Hooks.register :documents, :pre_render do |document, payload|
   begin
     git_mod = g.log(1).object(document.path).first.date
   rescue NoMethodError
-    $stderr.print "No method for #{document.path}. It probably has not been committed to the Git repository"
+    $stderr.print "\nNo method for #{document.path}. It probably has not been committed to the Git repository"
     git_mod = Time.new
   end
   document.data['git_modified'] = git_mod
