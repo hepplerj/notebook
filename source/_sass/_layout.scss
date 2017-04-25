@@ -256,7 +256,7 @@ section.footnotes {
 #search_input {
   font: $header-font;
   color: #333;
-  padding: 12px 12px 12px 40px;
+  padding: 10px 10px 10px 38px;
   width: 100%;
   border: 1px solid #e2e2e2;
   border-radius: 0;
@@ -278,13 +278,11 @@ div#TOC {
   margin: 2em 0;
   padding: 1em;
   background-color: #ecf1f6;
-  border-top: 0.25em solid #a2b9d4;
-  border-bottom: 0.25em solid #a2b9d4;
 }
 
 div#TOC .toc__title {
   margin: 1em 0;
-  font-size: 2.25rem;
+  font-size: $font-size-large;
   color: #4c4c4c;
 }
 

@@ -56,11 +56,10 @@ h6 {
   text-rendering: optimizeLegibility;
   font-family: $header-font;
   letter-spacing: 0.049em;
-  font-weight: 300;
 }
 h1 { font-size: $font-size-h1; }
 h2 { font-size: $font-size-h2; }
-h3 { font-size: $font-size-h3; color: rgb(236, 93, 87); }
+h3 { font-size: $font-size-h3; }
 h4 { font-size: $font-size-h4; }
 h5 { font-size: $font-size-h5; }
 h6 { font-size: $font-size-h6; }
@@ -138,7 +137,7 @@ ul.tags li {
 
 span.date {
   padding-left: 1rem;
-  font-size: .8rem;
+  font-size: 0.9rem;
 }
 
 .tag-page ul {

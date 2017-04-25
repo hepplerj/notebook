@@ -47,7 +47,7 @@ author:
 scholar:
   style: chicago-fullnote-bibliography
   source: ./_bibliography
-  bibliography: bibliography.bib
+  bibliography: references.bib
 
 # Build settings
 source: source

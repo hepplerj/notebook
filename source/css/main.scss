@@ -18,17 +18,17 @@ $white-color-off: #f2f2f2;
 
 //== Typography
 //
-$font-size-base:          15px !default;
+$font-size-base:          14px !default;
 $font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
 $font-size-small:         12px !default;
 
-$header-font: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$font-sans-serif: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$header-font: "Fira Sans", 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-sans-serif: 'Open Sans','Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 // $base-font-size:   1.6em;
 $small-font-size:  12px;
 // $large-font-size: 18px;
 $base-line-height: 1.5;
-$base-font-family: "Lato", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$base-font-family: 'Open Sans', "Lato", 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 $font-size-h1:            floor(($font-size-base * 2.6)) !default; // ~36px
 $font-size-h2:            floor(($font-size-base * 2.15)) !default; // ~30px

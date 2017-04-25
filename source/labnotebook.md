@@ -18,13 +18,13 @@ I've long been intrigued by Carl Boettiger's [open science notebook](http://carl
 
 ## Overview
 
-My original notebook ran on Gitit, but remained local to my laptop rather than open on the web. I still use that while I'm working on my dissertation, though some of that material will be moved to this notebook as well -- especially as I start revising my dissertation into a book manuscript. While Gitit mostly hit the above requirements, there were a few thing about it I didn't like. I don't write in Haskell, and don't have any desire to learn the language, so I wanted a system built in a language I already knew so I could extend the platform as I needed. Since I've long been a user of [Ruby]() and [Jekyll](), the platform made much more sense to me. I also never liked Gitit's `.page` extension, preferring to keep my files as `.md`.
+My original notebook ran on Gitit, but remained local to my laptop rather than open on the web. I still use that while I'm working on my manuscript, though some of that material will be moved to this notebook as well -- especially as I start revising my dissertation into a book manuscript. While Gitit mostly hit the above requirements, there were a few thing about it I didn't like. I don't write in Haskell, and don't have any desire to learn the language, so I wanted a system built in a language I already knew so I could extend the platform as I needed. Since I've long been a user of Ruby and Jekyll, the platform made much more sense to me. I also never liked Gitit's default `.page` extension, preferring to keep my files as `.md`.
 
-There are a few drawbacks to Jekyll. It doesn't have the same ease of wiki functionality built into Gitit, so internal linking isn't as clean as I'd like. Plus, Jekyll's `_posts` filenames require the addition of YYY-MM-DD appended to them, making it harder for me to scan for a file I want when I'm reading them locally as raw Markdown. One workaround for that has been the creation of a small `bash` script that copies the `_posts` into a `_md` directory, removing the appended date. When I edit files, I edit files inside of `_md`, which are then copied into `_posts` and appended with the date parsed out of the YAML frontmatter. I'm so very thankful for automation.
+There are a few drawbacks to Jekyll. It doesn't have the same ease of wiki functionality built into Gitit, so internal linking isn't as clean as I'd like. I also cannot edit these files on the web as cleanly as I could with Gitit, although web editing on Github circumvents that to some degree.
 
 ## Notes, Essays, Categories, Tags
 
-Everything in the notebook is a `_post`, apart from some of the descriptive pages I've put together (like this page). Everything here is a Markdown file contained in `_posts`.
+Everything in the notebook is a `_note`, apart from some of the descriptive pages I've put together (like this page). Everything here is a Markdown file contained in `_note`.
 
 At a conceptual level, I distinguish from "essays" and "notes." A note is any page in a notebook for recording something useful---reading notes, archive notes, primary sources notes, and so on, but a note cannot stand alone without extra context. So, context for notes live inside of a `project` that those notes relate to. Each of this metadata is contained in `category` in Jekyll's YAML, providing me a way to break down notes into units. Notes often appear in more than one category. For example, a note might look like:
 
@@ -38,7 +38,7 @@ categories:
 ---
 ~~~
 
-Toward the bottom of the YAML header, the note belongs to the categorires `Readings`, relating the note to categories that I can then sort by and parse. These categories are used in the notebook itself to build lists from project pages.
+Toward the bottom of the YAML header, the note belongs to the categories `Readings`, relating the note to categories that I can then sort by and parse. These categories are used in the notebook itself to build lists from project pages.
 
 Essays, in contrast, are related to specific projects or collections of notes, meant for me to make things more comprehensible or extend the context around historical information. For example, an essay might include the following metadata:
 
@@ -63,18 +63,17 @@ Each post also has a series of [tags](/tagged/) which I often use for grouping t
 
 ## Documentation
 
-There are a few scripts to make it easy to create new notes and essays. Most of these are contained in the `Rakefile`. The task `newnote` copies a template Markdown file with proper YAML header information and date stamp to the `_md` directory. The task `newessay` does the same thing. The task `prep` copies over the `_md` files into `_posts` with the appropriate date appended to the filename.
+There are a few scripts to make it easy to create new notes and essays. Most of these are contained in the `Rakefile`. The task `newnote` copies a template Markdown file with proper YAML header information and date stamp to the `_md` directory. The task `newessay` does the same thing. The task `prep` copies over the `_md` files into `_note` with the appropriate date appended to the filename.
 
-Additionally, since I'm using the R language more and more for visualization and statistical information, I've started using a script called `KnitPost` that reads files inside the `_Rmd` directory and converts them into Jekyll posts. This also preserves all of the R markup, figures, charts, and tables that come along with the document.
+Additionally, since I'm using the R language more and more for visualization and data manipulation/tidying, I've started using a script called `KnitPost` that reads files inside the `_Rmd` directory and converts them into Jekyll posts. This also preserves all of the R markup, figures, charts, and tables that come along with the document.
 
 These scripts help keep categories, tags, and layout correct, and automate most of the maintenance I would otherwise be doing by hand.
-
 
 ## Deployment
 
 When I'm ready to push notes or edits to the live site, my `Rakefile` does the following:
 
-- Files in `_md` and `_Rmd` are copied into `_posts` with the appropriate filenames.
+- Files in `_md` and `_Rmd` are copied into `_note` with the appropriate filenames.
 - Changes to the local source are checked into git.
 - The local sources are pushed to Github to maintain the record of each change.
 - Jekyll builds a new version of the static website from the local source into a local `_site` directory, which contains the notebook.
@@ -84,7 +83,7 @@ This takes around sixty seconds for the entire process to happen. It's a little 
 
 ## Details
 
-The notebook uses Jekyll at its most recent release. I only modify Jekyll by adding plugins. In particular, it's important to make sure the Jekyll Scholar dependencies are updated along with any Jekyll system updates. I also use [Bootstrap]() to handle most of the CSS, icons, and layout of the notebook, with some heavy tweaks inside the `main.css` file. These are pre-processed `sass` files.
+The notebook uses Jekyll at its most recent release. I only modify Jekyll by adding plugins. In particular, it's important to make sure the Jekyll Scholar dependencies are updated along with any Jekyll system updates. I also use [Bootstrap](https://getbootstrap.com/) to handle most of the CSS, icons, and layout of the notebook, with some heavy tweaks inside the `main.css` file. These are pre-processed `sass` files.
 
 I take advantage of several plugins:
 
@@ -96,7 +95,7 @@ I take advantage of several plugins:
 
 I have replaced Jekyll's default Markdown parser with [Pandoc](http://johnmacfarlane.net/pandoc/), because Pandoc is awesome. It's a document utility written in Haskell for translating Markdown.
 
-I have templates for writing in RMarkdown with embedded R code, using [Knitr]() to produce plain Markdown with source code annotations. These are useful as reproducable research within the notebook and easy to transition into print publications. I blame [Lincoln](http://lincolnmullen.com) for all this R stuff.
+I have templates for writing in RMarkdown with embedded R code, using [Knitr](https://cran.r-project.org/web/packages/knitr/index.html) to produce plain Markdown with source code annotations. These are useful as reproducable research within the notebook and easy to transition into print publications. I blame [Lincoln](http://lincolnmullen.com) for all this R stuff.
 
 ## Summary
 

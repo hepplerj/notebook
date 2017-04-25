@@ -57,7 +57,7 @@ title: Tagged Notes
     {% if note.tags contains tag %}
     <li>
       <a href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a>
-      <span class="date">{{ note.date | date_to_string }}</span>
+      <span class="date" title="{{ note.date | date_to_string }}">{{ note.date | date_to_string }}</span>
     </li>
     {% endif %}
   {% endfor %}

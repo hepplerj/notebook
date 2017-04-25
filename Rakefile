@@ -88,21 +88,7 @@ task :draft do |t|
     end
   end
 
-  desc "Preview the site with POW"
-  task :preview do
-    puts "Previewing the site locally with Jekyll."
-
-    jekyllPid  = Process.spawn("bundle exec jekyll serve --watch --drafts --incremental --profile --config _config.yml,_config-pow.yml")
-
-    trap("INT") {
-      [jekyllPid].each { |pid| Process.kill(9, pid) rescue Errno::ESRCH }
-      exit 0
-    }
-
-    [jekyllPid].each { |pid| Process.wait(pid) }
-  end
-
-  task :rmdpost do
+ task :rmdpost do
     system "Rscript _Rmd/rmd2jekyll.R"
   end
 
