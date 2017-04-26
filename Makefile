@@ -9,7 +9,7 @@ build :
 rebuild : clean build
 
 deploy : clean build
-	rsync --checksum --stats -avx -e 'ssh -p 22' --exclude-from ./rsync-exclude --delete _site/ jasonhep@jasonheppler.org:~/public_html/notebook
+	rsync --checksum --stats -avx -e 'ssh -p 22' --exclude-from ./rsync-exclude --delete public/ jasonhep@jasonheppler.org:~/public_html/notebook
 
 clean :
 	rm -rf public/*
