@@ -1,7 +1,10 @@
 ---
 layout: note
 title: "2015-10-03 - Future Directions"
-tags: [dissertation, manuscript]
+date: 2015-10-03
+tags: 
+- dissertation
+- manuscript
 categories:
 - Essays
 genre: Essays
@@ -13,7 +16,13 @@ project: machinesvalley
 
 ## Sustainability Studies
 
+There are a few book to check out in this vein that might prove fruitful
+for my work:
 
+- [sanders2010seattle]()
+- [birch2008sustainability]()
+- [fitzgerald2010emerald]()
+- [swearingen2008austin]()
 
 ## Suburban Liberalism
 
