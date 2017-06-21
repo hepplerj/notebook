@@ -20,3 +20,7 @@ categories:
 
 -   Digital Silicon Valley
 
+### Spring 2018
+
+-	Introduction to Digital Humanities
+
