@@ -2,6 +2,7 @@
 description: "A running log of my thoughts on my book manuscript."
 title: "Machines in the Valley"
 status: active
+progress: true
 ---
 
 >  This page is a running log of my thoughts on my dissertation and eventual book manuscript. Ideas here might

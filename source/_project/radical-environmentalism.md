@@ -2,6 +2,7 @@
 description: "A computational and spatial analysis of radical environmentalism."
 title: "Radical Environmentalism"
 status: collecting
+progress: true
 ---
 
 **2016-04-05**
