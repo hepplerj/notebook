@@ -7,22 +7,29 @@ date: 2015-11-14 05:56:38
 
   <h3>Active Projects</h3>
 
-<dl>
-  {% assign projects_sorted = site.project | sort: 'status' %}
-  {% for project in projects_sorted %}
-    <dt>
-      <a class="project-link" href="{{ project.url | prepend: site.baseurl | prepend: site.url }}">{{ project.title }}</a>  
-      {% if project.status == "active" %}
-        <span class="label label-success">{{ project.status }}</span>
-      {% elsif project.status == "collecting" %}
-        <span class="label label-info">{{ project.status }}</span>
-      {% elsif project.status == "on hold" %}
-        <span class="label label-warning">{{ project.status }}</span>
-      {% endif%}
-    </dt>
-    <dd>{{ project.description }}</dd>
-  {% endfor %}
-</dl>
+  <table class="table-stripped">
+    <tr>
+      <th>Project</th>
+      <th>Description</th>
+      <th>Status</th>
+    </tr>
+    {% assign projects_sorted = site.project | sort: 'status' %}
+    {% for project in projects_sorted %}
+    <tr>
+      <td width="20%"><a class="project-link" href="{{ project.url | prepend: site.baseurl | prepend: site.url }}">{{ project.title }}</a></td>
+      <td width="65%">{{ project.description }}</td>
+      <td width="10%">
+        {% if project.status == "active" %}
+          <span class="label label-success">{{ project.status }}</span>
+        {% elsif project.status == "collecting" %}
+          <span class="label label-info">{{ project.status }}</span>
+        {% elsif project.status == "on hold" %}
+          <span class="label label-warning">{{ project.status }}</span>
+        {% endif%}
+      </td>
+    </tr>
+    {% endfor %}
+  </table>
 
   <h3 class="page-heading">Recent Updates</h3>
 
