@@ -1,7 +1,7 @@
 ---
 layout: note
 title: "2017-06-21 - Writing Revisions"
-date: 2016-02-01 15:16
+date: 2017-06-21
 tags: [writing]
 categories: 
 - Essays
