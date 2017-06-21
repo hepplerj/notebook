@@ -18,7 +18,7 @@
 </ul>
 
 <ul class="nav nav-list">
-  <li class="nav-header">Topics and Projects</li>
+  <li class="nav-header">Projects</li>
   {% assign projects_sorted = site.project | sort: 'title' %}
   {% for project in projects_sorted %}
     <li><a href="{{ project.url | prepend: site.baseurl | prepend: site.url }}">{{ project.title }}</a></li>

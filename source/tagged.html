@@ -52,16 +52,16 @@ title: Tagged Notes
  {% assign tags =  site.note | map: 'tags' | join: ','  | split: ',' | uniq %}
 {% for tag in tags %}
 <h4><a name="{{tag | downcase | replace:" ","-" }}"></a><a class="internal" href="/tagged/#{{tag | downcase | replace:" ","-" }}">{{ tag | downcase }}</a></h4>
-  <ul>
-  {% for note in site.note %}
-    {% if note.tags contains tag %}
-    <li>
-      <a href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a>
-      <span class="date" title="{{ note.date | date_to_string }}">{{ note.date | date_to_string }}</span>
-    </li>
-    {% endif %}
-  {% endfor %}
-  </ul>
-  <hr>
+  <table class="table-stripped">
+    {% for note in site.note %}
+      {% if note.tags contains tag %}
+      <tr>
+        <td width="20%"><span title="{{ note.date | date_to_string }}">{{ note.date | date_to_string }}</span></td>
+        <td width="75%"><a href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a></td>
+      </tr>
+      {% endif %}
+    {% endfor %}
+  </table>
+  <br/>
 {% endfor %}
 </div>
