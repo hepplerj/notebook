@@ -9,17 +9,13 @@ progress: true
 >  be convoluted and change frequently as my research direction changes.
 >  Interpretations here are provisional and dependent on research in progress.
 
-Broadly speaking, my dissertation traces the environmental politics of Silicon Valley
-between 1945 and 1990. Activists, residents, politicians, and business owners
-all sought to shape the political structure of the changing urban environment,
-and this highlights contests over space and who contested power over space at a
-moment in time when the postindustrial economy was exerting enormous change upon
-metropolitan regions.
+Dissertations are funny things. When I first proposed my dissertation topic in the winter of 2012, I was focused on the origins of the Internet as a physical place: the four western universities that made up the original nodes of the Internet. I was curious about exploring how these places came to be the origins of ARPANET and whether there was something about their history as major urban centers that led to them becoming a core site in network research. After I moved to Silicon Valley, immediately after defending my dissertation proposal, I came to another realization: that no history of Silicon Valley had considered the environmental impact of high tech suburbs. I was curious about the link between the West's high-tech suburbs and the environmental cost of their presence: water, energy, land. And thus, my dissertation's topic shifted.
+
+I feel as though my dissertation is now entering its third life as it starts its transformation from dissertation to book. Broadly, I am tracing the emergence environmental politics in Silicon Valley between 1945 and 1990. Activists, residents, politicians, and business owners all sought to shape the political structure of the changing urban environment, and this highlights contests over space and who contested power over space at a moment in time when the postindustrial economy was exerting enormous change upon metropolitan regions.
 
 ## Urban Environmentalism in Silicon Valley
 
-I started with a seemingly simple question: Does nature matter to Silicon
-Valley?
+I started with a seemingly simple question: Does nature matter to Silicon Valley?
 
 The story I plan to tell plays out in many metropolitan areas across the
 United States. Many urban areas in the American West in particular
@@ -56,7 +52,7 @@ ties to the growing military-industrial complex, and these industries
 attracted a better-educated workforce and urban populace. Urban westerners
 were better educated than Americans overall: almost 46% of adults in the
 metropolitan regions of the West were high school graduates in 1950, compared
-to 34.3% in the rest of the nation.  As the national average rose over the
+to 34.3% in the rest of the nation. As the national average rose over the
 next two decades the West maintained its 10% edge. In 1960, Albuquerque, New
 Mexico, boasted more Ph.D. degrees per capita than any other American
 city.[^6] Six of the ten metropolitan areas with the highest number of
@@ -81,21 +77,17 @@ politics. The importance of local politics means an intensive examination of the
 experiences in the metropolitan region and illustrates broader patterns of
 environmental activism throughout the United States.
 
-In addition to environmental politics and political culture, the project uses
-*place and landscape* as a central point for analysis. Henri Lefebvre has noted that social
-relations are cultural and spatial constructions.[^2] So too are environmental
-relations entirely defined by individual relationships to space and culture.
-As Robert Self notes, people and communities do "not compete for resources for
-abstract goals and purposes. They competed to put those resources to use to
-create particular and concrete places.  . . . [People] called for very
-specific things in relation to very specific places."[^8] The environmental
-politics of Silicon Valley were tied to spatial politics.
+In addition to environmental politics and political culture, the project uses *place and landscape* as a central point for analysis. Henri Lefebvre has noted that social relations are cultural and spatial constructions.[^2] So too are environmental relations entirely defined by individual relationships to space and culture. As Robert Self notes, people and communities do "not compete for resources for abstract goals and purposes. They competed to put those resources to use to create particular and concrete places.  . . . [People] called for very specific things in relation to very specific places."[^8] The environmental politics of Silicon Valley were tied to spatial politics. 
 
 ### Suburban Environmentalism
 
 My work engages with the suburban origins of environmentalism identified by previous scholars, among them [rome2001bulldozer](/rome2001bulldozer/), [sellers2012crucible](/sellers2012crucible/), [mozingo2011pastoral](/mozingo2011pastoral/), and [klingle2007emerald](/klingle2007emerald/). Much of the criticism leveled against industrial and urban growth by suburbanites was couched in the language of the countryside and idealism of country living.
 
-Yet the research also intersects with the histories of postwar liberalism and conservatism. Rather than bastions of conservative political thought narrated by [mcgirr2006warriors](/mcgirr2006warriors/) and others, I see the suburbs in Silicon Valley as harbingers of a suburban liberalism. Suburbanites of the Valley maintained a belief in the role of government, quality-of-life, civil rights, and environmental quality in their communities.
+Yet the research also intersects with the histories of postwar liberalism and conservatism. Rather than bastions of conservative political thought narrated by [mcgirr2006warriors](/mcgirr2006warriors/) and others, I see the suburbs in Silicon Valley as harbingers of a suburban liberalism. Suburbanites of the Valley maintained a belief in the role of government, quality-of-life, civil rights, and environmental quality in their communities, thus complicating how not only politics worked in American suburbs but also how the origins of environmentalism finds itself in both liberal and conservative politics.
+
+### Urban Sustainability
+
+My work also intersects, to a degree, on the emerging historiography on sustainability. The works here are a bit fewer, and I'm leaning mostly on [sanders2010sustainability](/sanders2010sustainability/). But I'm also continuing to think through how the environmental movement intersects with the sustainability movement. In a place like Silicon Valley, where environmentalists I look into are getting their start on issues as varied as adquate housing and traffic congestion. 
 
 ### History of Capitalism
 
@@ -103,65 +95,11 @@ Still thinking through this and I'll fill this out more as I confront the issues
 
 ### GIS
 
-I am interested in GIS methods for historical research, so I am exploring how
-GIS might be used in my research. I am looking at `R` to construct
-maps that attempt to track the movement of people into and out of Santa Clara
-Valley and using D3.js for building interactive scholarly works. I am keeping
-a [GIS Log](/gis-log/) of my work as I go along.
-
-My current thinking about building such maps are:
-
-1. Most histories of Silicon Valley pay little attention to the area before it
-   became the center of technological entrepreneurship and research. The Valley
-   was originally farmland owned by Leland Stanford and leased to Stanford
-   University, which could use the land in any way it saw fit. Before the
-   1950s, land was leased out to farmers. Only with Frederick Terman's tenure
-   as Dean of Engineering did the land start getting leased to non-agricultural
-   businesses. How does this process play out? How does the landscape transform
-   around Stanford as urban development moves in?
-2. Relatedly, the story of Silicon Valley places Stanford at the epicenter and
-   suggests that high tech companies begin to radiate out from the university
-   throughout the rest of the Valley. My hunch is that isn't actually the
-   case---that high tech was attractive to Stanford *and* other municipalities
-   in the Bay Area. San Jose, for example, is chasing investment by high tech
-   at the same time Stanford does. How can I map these things out? I've started
-   to [collect a database of tech
-   companies](https://github.com/hepplerj/machinesvalley/blob/gh-pages/data-files/sv-companies/sv_companies.csv)
-   in order to map where these companies are in space and time.
-3. A central political debate in the 1970s was disappearing open space, which
-   eventually gave way to anti-growth legislation and new restrictions on urban
-   growth. Where and do what extent are open spaces / green spaces established
-   throughout the Peninsula?
+I've moved my log of thoughts about using GIS to my [GIS log](/gis-log/).
 
 ### Network analysis
 
-I am interested in the relationships among people and institutions. I am looking
-at using network analysis to examine the social connections between activists,
-business leaders, politicians, and institutions such as universities,
-environmental  organizations, and community organizations. How these might play
-out I am unsure of, but the visualization might show interesting connections
-between people in the community that suggests something about how people and
-organizations worked together. I am keeping a [Network Log](/network-log/) to track my work
-as I go along.
-
-## Table of Contents
-
-1.    The Nature of Landscape
-2.    Nature, History, and the Origins of the Countryside
-3.    The Nature of Business
-4.    A Home in the Countryside
-5.    A Place for Nature
-6.    Rejecting the Los Angeles of the North
-7.    The Tap Water Rebellion
-8.    Eco-Region
-
-### Title Ideas
-
-*Bucolic Capitalism: Nature, Community, and the Making of Silicon Valley, 1945-1990*
-
-## Research Archives
-
-Notes organized by [research archive](/research-archives/).
+I am keeping a [Network Log](/network-log/) to track my work as I go along.
 
 [^1]: Carl Abbott, "Frontiers and Sections: Cities and Regions in American Growth," *American Quarterly* 37 (1985): 398.
 

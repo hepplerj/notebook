@@ -8,9 +8,34 @@ categories:
 project: machinesvalley
 ...
 
+I am interested in GIS methods for historical research, so I am exploring how
+GIS might be used in my research. I am looking at `R` to construct
+maps that attempt to track the movement of people into and out of Santa Clara
+Valley and using D3.js for building interactive scholarly works.
 
+My current thinking about building such maps are:
 
-A log of things I've done and things I need to do:
+1. Most histories of Silicon Valley pay little attention to the area before it
+   became the center of technological entrepreneurship and research. The Valley
+   was originally farmland owned by Leland Stanford and leased to Stanford
+   University, which could use the land in any way it saw fit. Before the
+   1950s, land was leased out to farmers. Only with Frederick Terman's tenure
+   as Dean of Engineering did the land start getting leased to non-agricultural
+   businesses. How does this process play out? How does the landscape transform
+   around Stanford as urban development moves in?
+2. Relatedly, the story of Silicon Valley places Stanford at the epicenter and
+   suggests that high tech companies begin to radiate out from the university
+   throughout the rest of the Valley. My hunch is that isn't actually the
+   case---that high tech was attractive to Stanford *and* other municipalities
+   in the Bay Area. San Jose, for example, is chasing investment by high tech
+   at the same time Stanford does. How can I map these things out? I've started
+   to [collect a database of tech
+   companies](https://github.com/hepplerj/machinesvalley/blob/gh-pages/data-files/sv-companies/sv_companies.csv)
+   in order to map where these companies are in space and time.
+3. A central political debate in the 1970s was disappearing open space, which
+   eventually gave way to anti-growth legislation and new restrictions on urban
+   growth. Where and do what extent are open spaces / green spaces established
+   throughout the Peninsula?
 
 # To Do
 
@@ -42,6 +67,10 @@ Start work on the SJ annexation map/timeline -- include charts w/ population by 
 ### October 26, 2015
 
 - Lots of GIS data from the Santa Clara County Planning Department is [online](https://www.sccgov.org/sites/planning/GIS/Interactive/Pages/home.aspx) and downloadable.
+
+### January 13, 2017
+
+- Received the GIS files for Mountain View annexation data from the City of Mountain View. Credit to them as well as May Kao (Mountain View GIS group). This will be integrated into the annexation visualization.
 
 ## Maps
 

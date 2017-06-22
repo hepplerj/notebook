@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Network Log"
+date: 2017-06-22
+tags: [network analysis]
+categories:
+- Research
+project: machinesvalley
+...
+
+I am interested in the relationships among people and institutions. I am looking
+at using network analysis to examine the social connections between activists,
+business leaders, politicians, and institutions such as universities,
+environmental  organizations, and community organizations. How these might play
+out I am unsure of, but the visualization might show interesting connections
+between people in the community that suggests something about how people and
+organizations worked together. 
+
+Some of this is being tracked already in the Master Google Spreadsheet.

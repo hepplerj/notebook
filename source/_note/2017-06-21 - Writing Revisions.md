@@ -27,4 +27,7 @@ Alane Salierno Mason, "[Nine Tips for Academics Writing for a General Audience](
 
 > ...the more successfully you can write about people, and use their stories to carry the weight of your research, the more likely the book is to reach a wide audience. It is, of course, not the only way to do so. In some great books, an idea or a place is really the protagonist. Making the reader care as much about the idea or place as he or she might about a human character is hard to do, but a literary achievement when it happens.
 
+## Examples
 
+- Kevin Kruse, *One Nation Under God*
+- Dan Fagin, *Toms River*
