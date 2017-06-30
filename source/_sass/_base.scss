@@ -194,13 +194,15 @@ output {
   font-family: Menlo, Monaco, Consolas, Courier, monospace;
 }
 pre {
-  font-size: 12px;
+  font-size: 10px;
   line-height: 24px;
   color: rgba(0, 0, 0, 0.9);
   overflow: auto;
   background: #f8f8f8;
   padding: 24px;
   word-wrap: normal;
+  border: none;
+  border-radius: none;
 }
 td pre {
   white-space: pre-wrap;
