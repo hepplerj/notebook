@@ -18,7 +18,7 @@ You can clone this repository:
 
 `git clone git@github.com:hepplerj/notebook.git`
 
-and use `jekyll serve` or `rake preview` to run it locally. It will load up under [localhost:4000](http://localhost:4000).
+and use `bundle exec jekyll serve` or `rake preview` to run it locally. It will load up under [localhost:4000](http://localhost:4000).
 
 # Features to Come:
 
