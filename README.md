@@ -17,7 +17,8 @@ Or help me develop it. Feel free to issue tickets or open push requests. Be sure
 At a minimum, there's a few required things. This notebook runs with Hugo + R:
 
 - R (>=3.3.2)
-- [Blogdown](https://github.com/rstudio/blogdown). Follow the [README](https://github.com/rstudio/blogdown/blob/master/README.md)to install Hugo.
+- [Blogdown](https://github.com/rstudio/blogdown). Follow the [README](https://github.com/rstudio/blogdown/blob/master/README.md) to install Hugo.
+- Hugo (>=0.25)
 
 You can clone this repository:
 
