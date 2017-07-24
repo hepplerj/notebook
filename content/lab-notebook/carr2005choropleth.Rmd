@@ -1,0 +1,7 @@
+---
+title: "carr2005choropleth"
+date: 2016-02-29
+tags: [visualization]
+categories: [Readings]
+---
+

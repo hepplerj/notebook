@@ -1,0 +1,7 @@
+---
+title: "fienberg1979graphical"
+date: 2016-02-29
+tags: [visualization]
+categories: [Readings]
+project: visualization-humanities
+---

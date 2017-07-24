@@ -1,0 +1,113 @@
+---
+title: "Visualizing Topic Models"
+date: 2017-06-22
+tags: [text analysis, topic modeling, Python, visualization]
+categories: [Code]
+---
+
+Taking notes here from [Jeri Wieringa's topic models over time](http://jeriwieringa.com/2017/06/21/Calculating-and-Visualizing-Topic-Significance-over-Time-Part-1/).
+
+The necessary libraries:
+
+{% highlight python %}
+import gensim
+from ggplot import *
+import json
+import logging
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+import os
+import pandas as pd
+import pyLDAvis.gensim
+import seaborn as sns
+import warnings
+{% endhighlight %}
+
+Turn on notebook visualizations:
+
+{% highlight python %}
+%matplotlib inline
+pyLDAvis.enable_notebook()
+
+# Fix stubborn warnings
+warnings.filterwarnings('ignore')
+pd.options.display.max_rows = 10
+
+base_dir = ""
+period = '1859-to-1875'
+directory = "historical_periods"
+{% endhighlight %}
+
+Start the model:
+
+{% highlight python %}
+lda_model = gensim.models.LdaModel.load(os.path.join(base_dir, 'models', directory, '{}.model'.format(period)))
+corpus = gensim.corpora.MmCorpus(os.path.join(base_dir, 'corpora', directory, '{}.mm'.format(period)))
+dictionary = gensim.corpora.Dictionary.load(os.path.join(base_dir, 'corpora', directory, '{}.dict'.format(period)))
+{% endhighlight %}
+
+Now, visualize the model:
+
+{% highlight python %}
+pyLDAviz.gensim.prepare(lda_model, corpus, directory)
+{% endhighlight %}
+
+Preprocess the model and export information about the weights per
+document and topic labels to CSV.
+
+{% highlight python %}
+metadata_filename = os.path.join(base_dir,'2017-05-Composite-OCR-statistics.csv')
+index_filename = os.path.join(base_dir, 'corpora', directory, '{}.txt'.format(period))
+labels_filename = os.path.join(base_dir, 'dataframes', directory, '{}_topicLabels.csv'.format(period))
+doc_topic_filename = os.path.join(base_dir, 'dataframes', directory, '{}_dtm.csv'.format(period))
+
+def doc_list(index_filename):
+    """
+    Read in from a json document with index position and filename. 
+    File was created during the creation of the corpus (.mm) file to document
+    the filename for each file as it was processed.
+    
+    Returns the index information as a dataframe.
+    """
+    with open(index_filename) as data_file:    
+        data = json.load(data_file)
+    docs = pd.DataFrame.from_dict(data, orient='index').reset_index()
+    docs.columns = ['index_pos', 'doc_id']
+    docs['index_pos'] = docs['index_pos'].astype(int)
+  
+    return docs
+
+
+def compile_dataframe( index, dtm, labels, metadata):
+    """
+    Combines a series of dataframes to create a large composit dataframe.
+    """
+    doc2metadata = index.merge(metadata, on='doc_id', how="left")
+    topics_expanded = dtm.merge(labels, on='topic_id')
+    
+    df = topics_expanded.merge(doc2metadata, on="index_pos", how="left")
+    
+    return df
+
+metadata = pd.read_csv(metadata_filename, usecols=['doc_id', 'year','title'])
+docs_index = doc_list(index_filename)
+dt = pd.read_csv(doc_topic_filename)
+labels = pd.read_csv(labels_filename)
+{% endhighlight %}
+
+Clean up some data and compile the data frame:
+
+{% highlight python %}
+# Reorient from long to wide
+dtm = dt.pivot(index='index_pos', columns='topic_id', values='topic_weight').fillna(0)
+
+# Divide each value in a row by the sum of the row to normalize the values
+dtm = (dtm.T/dtm.sum(axis=1)).T
+
+# Shift back to a long dataframe
+dt_norm = dtm.stack().reset_index()
+dt_norm.columns = ['index_pos', 'topic_id', 'norm_topic_weight']
+
+df = compile_dataframe(docs_index, dt_norm, labels, metadata)
+df
+{% endhighlight %}

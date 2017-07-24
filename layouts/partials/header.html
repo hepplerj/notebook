@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  {{ .Hugo.Generator }}
+  {{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
+  {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+
+  <!-- RDFa Metadata (in DublinCore) -->
+  <meta property="dc:title" content="{{ .Site.Params.name }}" />
+  <meta property="dc:creator" content="{{ .Site.Params.name }}" />
+  <meta property="dc:date" content="{{ .Date }}" />
+  <meta property="dc:format" content="text/html" />
+  <meta property="dc:language" content="en" />
+  <meta property="dc:rights" content="CC BY 4.0" />
+  <meta property="dc:source" content="{{ .Site.Title }}" />
+  <meta property="dc:subject" content="History" />
+  <meta property="dc:type" content="website" />
+
+  <!-- RDFa Metadata (in OpenGraph) -->
+  <meta property="og:title" content="{{ .Title }}" />
+  <meta property="og:author" content="{{ .Site.BaseURL }}/about" />
+  <meta property="og:site_name" content="{{ .Site.BaseURL }}" />
+  <meta property="og:url" content="{{ .Site.BaseURL }}" />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Scholar Metadata -->
+  <meta name="citation_author" content="{{ .Site.Params.name }}"/>
+  <meta name="citation_date" content="{{ .Date }}"/>
+  <meta name="citation_title" content="{{ .Title }}"/>
+  <meta name="citation_journal_title" content="{{ .Title }}"/>
+
+  <!-- Twitter cards -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="{{ .Site.Params.twitter }}">
+  <meta name="twitter:creator" content="{{ .Site.Params.twitter }}">
+  <meta name="twitter:url" content="{{ .Site.BaseURL }}">
+  <meta name="twitter:title" content="{{ .Title }}">
+  <meta name="twitter:description" content="{{ .Summary }}">
+
+  <!-- Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,300' rel='stylesheet' type='text/css'>
+
+  {{ $.Scratch.Set "highlight_enabled" true }}
+  {{ if isset .Params "highlight" }}
+    {{ $.Scratch.Set "highlight_enabled" .Params.highlight }}
+  {{ else if isset .Site.Params "highlight" }}
+    {{ $.Scratch.Set "highlight_enabled" .Site.Params.highlight }}
+  {{ end }}
+  {{ if $.Scratch.Get "highlight_enabled" }}
+    {{ $v := .Site.Params.highlight_version | default "9.9.0" }}
+    {{ with .Site.Params.highlight_style }}
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/{{ $v }}/styles/{{ . }}.min.css">
+    {{ else }}
+    <link rel="stylesheet" href="{{ "/css/highlight.min.css" | relURL }}">
+    {{ end }}
+  {{ end }}
+  
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.0/css/academicons.min.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/gaborcsardi/r-font/master/rlogo.css">
+  <link rel="stylesheet" href="/css/bigfoot-default.css">
+  
+  {{ range .Site.Params.custom_css }}
+    <link rel="stylesheet" href="{{ "/css/" | relURL }}{{ . }}">
+  {{ end }}
+  
+  <!-- RSS -->
+  <link rel="alternate" href="{{ .RSSLink | default .Site.RSSLink  }}" type="application/rss+xml" title="{{ .Site.Title }}">
+  <link rel="feed" href="{{ .RSSLink | default .Site.RSSLink }}" type="application/rss+xml" title="{{ .Site.Title }}">
+
+  <link rel="icon" type="image/png" href="{{ "/img/icon.png" | relURL }}">
+  <link rel="apple-touch-icon" type="image/png" href="{{ "/img/apple-touch-icon.png" | relURL }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+
+  <!-- Bigfoot.js -->
+  <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+  <script src="{{ "/js/bigfoot.min.js" | relURL }}"></script>
+  <script type="text/javascript">
+  var bigfoot = $.bigfoot(
+      {
+          deleteOnUnhover: false,
+          preventPageScroll: false,
+          hoverDelay: 250
+      }
+  );
+  </script>
+
+  <!-- Todo lists (via Lincoln Mullen) -->
+  <script type="text/javascript">
+    /* <![CDATA[ */
+    $(document).ready(function() {
+      $("li:contains('[ ]')").html(function(_, html) {
+        return html.replace('[ ]', '<span style="color:red;">☐</span>');
+      });
+      $("li:contains('[s]')").html(function(_, html) {
+        return html.replace('[s]', '<span style="color:gold;">☐</span>');
+      });
+      $("li:contains('[x]')").html(function(_, html) {
+        return html.replace('[x]', '<span style="color:green;">☑</span>');
+      });
+    });
+    /* ]]> */
+  </script>
+
+  <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+

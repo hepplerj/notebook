@@ -1,0 +1,6 @@
+---
+title: "debats2011gis"
+date: 2016-02-29
+tags: [visualization]
+categories: [Readings]
+---

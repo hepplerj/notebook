@@ -1,0 +1,25 @@
+---
+title: "2015-10-03 - Future Directions"
+date: 2015-10-03
+tags: [dissertation, manuscript]
+categories: [Essays]
+genre: Essays
+project: machinesvalley
+---
+
+> This page will be a running log of ideas about potential directions the
+> dissertation might take as it starts to become a book manuscript.
+
+## Sustainability Studies
+
+There are a few book to check out in this vein that might prove fruitful
+for my work:
+
+- [sanders2010seattle]()
+- [birch2008sustainability]()
+- [fitzgerald2010emerald]()
+- [swearingen2008austin]()
+
+## Suburban Liberalism
+
+Something else? More akin to libertarianism, but is it really?

@@ -1,0 +1,7 @@
+---
+title: "kinnahan2008walker"
+date: 2016-02-29
+tags: [visualization]
+categories:  [Readings]
+project: visualization-humanities
+---

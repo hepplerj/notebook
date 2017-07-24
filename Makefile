@@ -1,18 +1,8 @@
-preview : clean
-	# Builds for local
-	bundle exec jekyll build --watch --incremental --config _config.yml,_config-dev.yml
+preview :
+	Rscript -e "blogdown::serve_site()"
 
-build :
-	# Builds for web
-	bundle exec jekyll build --config _config.yml
+build : 
+	Rscript -e "blogdown::build_site()"
 
-rebuild : clean build
-
-deploy : clean build
+deploy : build
 	rsync --checksum --stats -avx -e 'ssh -p 22' --exclude-from ./rsync-exclude --delete public/ jasonhep@jasonheppler.org:~/public_html/notebook
-
-clean :
-	rm -rf public/*
-	rm -rf .sass-cache/
-	rm -f .jekyll-metadata
-

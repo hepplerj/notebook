@@ -1,0 +1,36 @@
+---
+title: Annexation Visualizations
+date: 2017-07-21
+tags: [spatial history, topojson, geojson, ogr2ogr]
+categories: [Code]
+project: machinesvalley
+---
+
+Notes on how I create the annexation visualizations for San Jose and Mountain View.
+
+Some requirements:
+
+- requires 1.x version of Topojson (`npm install -g topojson@1`)
+- requires ogr2ogr (`brew install gdal`)
+
+1. Create separate shapefiles for each year range (1945-1950, 1950-1955, etc.). This work is done in QGIS by selecting the features by a range of years and saving as a new shapefile. 
+
+2. Next, convert each shapefile into a topojson file.  
+
+```
+ogr2ogr \
+	-f GeoJSON \
+	-t_srs EPSG:4328 \
+	YEAR.json \
+	SHAPE.shp
+```
+
+3. Once each year range shapefile has been converted into a GeoJSON file, we merge them into a single topojson file.
+
+```
+topojson \
+	-o mountainview.json \
+	-- \
+	YEAR1.json \
+	YEAR2.json
+```

@@ -1,0 +1,55 @@
+baseurl = "/"
+relativeurls = true
+languageCode = "en-us"
+title = "Heppler Research Notebook"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+publishDir = "public"
+enableGitInfo = true
+
+[permalinks]
+    lab-notebook = "/:slug/"
+
+[[menu.main]]
+    name = "Home"
+    url = "/index.html"
+    weight = 1
+[[menu.main]]
+    name = "Notebook"
+    url = "/lab-notebook"
+    weight = 2
+[[menu.main]]
+    name = "Homepage"
+    url = "http://jasonheppler.org"
+    weight = 3
+
+
+[params]
+    name =  "Jason Heppler"
+    twitter =  "jaheppler"
+    github =  "hepplerj"
+    keybase = "jaheppler"
+    email =  "jason@jasonheppler.org"
+    custom_css = ["heppler.css"]
+    repo = "notebook-hugo"
+    branch = "source"
+    math = true
+
+    date_format = "Mon, Jan 2, 2006"
+    description = "The open history notebook of Jason A. Heppler."
+
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.10.0"
+    highlightCDN = "//cdn.bootcss.com"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+
+    [params.logo]
+    url = "logo.png"
+    width = 50
+    height = 50
+    alt = "Logo"
+
+    
+

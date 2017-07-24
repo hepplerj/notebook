@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+<div class="row">
+  <div class="col-md-7 col-md-offset-1">
+    <article>
+    {{ with .Title }}<h1>{{ . }}</h1> {{ end }}
+      
+    <p><strong>Project Description</strong>: {{ .Params.description }}</p>
+
+    {{ .Content }}
+
+    <h2>Project Notes</h2>
+
+    </article>
+  </div>
+  <div class="col-md-4">
+    <div class="sidebar">
+      {{ partial "sidebar.html" . }}
+    </div>
+  </div>
+</div>
+
+<script async defer src="https://hypothes.is/embed.js"></script>
+{{ end }}

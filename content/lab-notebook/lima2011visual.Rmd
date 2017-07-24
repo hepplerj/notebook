@@ -1,0 +1,7 @@
+---
+title: "lima2011visual"
+date: 2016-03-01
+tags: [visualization]
+categories: [Readings]
+project: visualization-humanities
+---

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+body { 
+  padding-top: 80px; 
+  position: relative;
+  font-family: "Fira Sans", "Open Sans", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  background: #fdfdfd;
+  color: #383838; 
+}
+@media screen and (max-width: 768px) {
+    body { padding-top: 80px; 
+    }
+}
+
+/* Bootstrap customization */
+
+/* Tables */
+table {
+  max-width: 100%;
+  width: 100%;
+  empty-cells: show; }
+
+table caption {
+  text-transform: uppercase;
+  padding: 0;
+  color: #000;
+  font-size: 11px;
+  font-weight: bold; }
+
+table th,
+table td {
+  font-size: 94%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+  padding: 5px; }
+
+table th:first-child,
+table td:first-child {
+  padding-left: 0; }
+
+table th:last-child,
+table td:last-child {
+  padding-right: 0; }
+
+table tfoot th,
+table tfoot td {
+  color: rgba(0, 0, 0, 0.5); }
+
+table.table-stripped td:first-child,
+table.table-stripped th:first-child {
+  padding-left: 16px; }
+
+table.table-stripped td:last-child,
+table.table-stripped th:last-child {
+  padding-right: 16px; }
+
+table.table-stripped tbody tr:nth-child(odd) td {
+  background: #f8f8f8; }
+
+tr.info {
+  color: white; }
+
+tr.info a,
+tr.info a:visited {
+  color: white; }
+
+/* Navbar
+*/
+.navbar-default {
+  background-color: #337ab7;
+  border-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+  color: #ebebeb;
+  border: none;
+}
+.navbar-default .navbar-brand:hover {
+  color: white;
+  border: none;
+}
+.navbar-default .navbar-nav li > a {
+  color: #ebebeb;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: white;
+}
+
+/* Headers
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-rendering: optimizeLegibility;
+  letter-spacing: 0.049em; }
+
+h1 {
+  font-size: 36px; }
+
+h2 {
+  font-size: 24px; }
+
+h3 {
+  font-size: 20px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  font-size: 12px; }
+
+h1{
+  padding-bottom: 3px;
+  border-bottom: 1px solid #aaa; }
+
+/* Definition lists (homepage)
+------------------------------------------- */
+.dl-horizontal dt{
+  text-align: left;
+  width: auto;
+  padding-right: 1em;
+}
+
+.dl-horizontal dd{
+  margin-left: 100px;
+}

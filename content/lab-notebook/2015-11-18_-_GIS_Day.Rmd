@@ -1,0 +1,75 @@
+---
+title: "2015-11-18 - GIS Day"
+date: 2015-11-18
+tags: [mapping, GIS]
+categories: [Essays]
+---
+
+## Alex Barth
+
+- OpenStreetMap
+- Mapbox data scientist
+
+Think of open maps as a layer cake: applications, ratings, shops, names, places, roads)
+
+OpenStreetMap has been going for ten years, enabled by GPS traces and open data.
+
+Around 30,000 people make edits in OSM every month.
+
+Humanitarian mapping in OSM, the example of Haiti used after the hurricane.
+
+Hikers, bikers, runners as 'passive mappers' -- using open data from Strava, Runkeeper, etc., to improve OSM data.
+
+## Alan McConchie
+
+@mappingmashups
+
+Going web native for the Historical Atlas of the United States
+
+Launching the project in mid-December.
+
+"The ideal historical atlas might well be a collection of motion-picture maps, if these could be displayed on the pages of a book without the paraphernalia of projector, reel and screen." -- John K. Wright
+
+"American Panorama: An Atlas of United States History"
+
+Stamen coming in to build the American Panorama. Trying to create the Paullin atlas.
+
+Working on four interactive maps, plus a toolkit.
+
+- Forced Migration of Enslaved Peoples
+- The Overland Trails
+- Foreign-Born Populations
+- Canals
+
+### Forced Migration of Enslaved Peoples
+
+Building on new statistical analysis Richmond was developing. Using Census data to estimate the forced migration of slaves in the South. Few good records on those sales. Using Census data as a proxy.
+
+1. Population data
+  1a. Narratives
+2. Crop data
+3. Linked time series
+  a. economic
+  b. population
+4. County focus
+  a. "surplus labor" calculation and links to more info
+
+Software
+
+- CartoDB
+  - map tiles
+  - GeoJSON
+- Leaflet markers and D3 overlays (svg + canvas)
+- ReactJS for user interaction
+- D3 charts
+- synced tables from Google Sheets
+
+CartoDB gives an online setup for something normally built for each client. Stamen uses it a lot.
+
+Tile from CartoDB + OpenTerrain tile + Stacked tiles in Leaflet.
+
+E. J. Marey's Paris to Lyon train schedule (1885)
+
+Moritz Stefaner, Map Your Moves
+NYTimes Olympics medals visualization
+Andy Woodruff et al., value-by-alpha map

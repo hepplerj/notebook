@@ -1,0 +1,14 @@
+---
+title: marx1969machinegarden
+date: 2017-07-21
+tags: [Leo Marx]
+categories: [Readings]
+---
+
+### Notes
+
+### Related
+
+- Jeffrey L. Meikle, "[Leo Marx's *The Machine in the Garden*][]," *Technology and Culture* 44:1 (2003): 147--159.
+
+[Leo Marx's *The Machine in the Garden*]: https://muse.jhu.edu/journals/technology_and_culture/v044/44.1meikle.html

@@ -1,0 +1,7 @@
+---
+title: "robinson1967minard"
+date: 2016-02-29
+tags: [visualization]
+categories: [Readings]
+project: visualization-humanities
+---

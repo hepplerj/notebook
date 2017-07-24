@@ -1,0 +1,11 @@
+{{ define "main" }}
+    
+      <div class="container">
+        <!-- <div class="jumbotron center-block text-center"> -->
+        <h2 id="title">404: Page not found</h2>
+        <!-- </div> -->
+        <p>If you could let me know you ran into this, that'd be swell! <a href="{{ "/" | relURL }}">Return Home</a>.</p>
+      </div>
+      {{ .Content }}
+      
+{{ end }}
