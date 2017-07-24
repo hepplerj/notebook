@@ -2,7 +2,7 @@
 
 This thing is still a work in progress, so use it at your own risk. There are a lot of things still broken, workflows that aren't completely clear, or things that just simply don't work yet.
 
-Or help me develop it. Feel free to issue tickets or open push requests.
+Or help me develop it. Feel free to issue tickets or open push requests. Be sure to consult [CONTRIBUTING](CONTRIBUTING.md) to learn about issuing tickets, and if you participate in the development of this you must abide by the [code of conduct](CODE_OF_CONDUCT.md).
 
 # Details
 
@@ -12,30 +12,27 @@ Or help me develop it. Feel free to issue tickets or open push requests.
 -   Tags and categories for linking together concepts and notes
 -   Post archives, listing posts alphabetically and by date
 
-# Set-Up
+# Set-up
+
+At a minimum, there's a few required things. This notebook runs with Hugo + R:
+
+- R (>=3.3.2)
+- [Blogdown](https://github.com/rstudio/blogdown). Follow the [README](https://github.com/rstudio/blogdown/blob/master/README.md)to install Hugo.
 
 You can clone this repository:
 
 `git clone git@github.com:hepplerj/notebook.git`
 
-and use `bundle exec jekyll serve` or `rake preview` to run it locally. It will load up under [localhost:4000](http://localhost:4000).
+and use `make preview` to run it locally. It will load up under [localhost:4321](http://localhost:4321).
 
-# Features to Come:
+# Features to come:
 
 - [ ] Easier linking between posts
 - [ ] Better global search
 - [ ] sitemap.xml and robots.txt
-- [ ] 404.html
+- [x] 404.html
 - [ ] PDF export with Pandoc
 
 # License
 
-The MIT License (MIT)
-
-Copyright (c) 2016 Jason A. Heppler
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+See LICENSE.
