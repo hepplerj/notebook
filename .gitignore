@@ -3,5 +3,6 @@
 .Rhistory
 .RData
 .Ruserdata
+.sass-cache
 public/
 /content/lab-notebook/*.html
