@@ -11,10 +11,8 @@
   <br />
 
 <p> <a class="btn btn-default btn-sm" 
-         href='https://github.com/{{ .Site.Params.github}}/{{ .Site.Params.repo }}/blob/{{ .Site.Params.branch }}/content/{{ .File.Path | replaceRE ".html$" ".Rmd"}}'><i class="fa fa-code"></i> RMarkdown</a></p>
-
-
-  <p> <a class="btn btn-default btn-sm" 
+         href='https://github.com/{{ .Site.Params.github}}/{{ .Site.Params.repo }}/blob/{{ .Site.Params.branch }}/content/{{ .File.Path | replaceRE ".html$" ".Rmd"}}'><i class="fa fa-code"></i> RMarkdown</a>
+	<a class="btn btn-default btn-sm" 
          href='https://github.com/{{ .Site.Params.github}}/{{ .Site.Params.repo }}/commits/{{ .Site.Params.branch }}/content/{{ .File.Path | replaceRE ".html$" ".Rmd"}}'><i class="fa fa-clock-o"></i> History</a></p>
 
 {{ partial "git_sha" }}
