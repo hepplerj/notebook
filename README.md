@@ -11,6 +11,7 @@ Or help me develop it. Feel free to issue tickets or open push requests. Be sure
 -   Todo lists using the Github syntax
 -   Tags and categories for linking together concepts and notes
 -   Post archives, listing posts alphabetically and by date
+-   Hypothes.is integration for notes
 
 # Set-up
 
