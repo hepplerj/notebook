@@ -119,6 +119,18 @@ h1{
   padding-bottom: 3px;
   border-bottom: 1px solid #aaa; }
 
+/* Figures */
+article img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.caption {
+  font-size: .8em;
+  font-style: italic;
+}
+
 /* Definition lists (homepage)
 ------------------------------------------- */
 .dl-horizontal dt{
