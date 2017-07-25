@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "http://notebook.jasonheppler.org"
 relativeurls = true
 languageCode = "en-us"
 title = "Heppler Research Notebook"
@@ -32,7 +32,7 @@ enableGitInfo = true
     keybase = "jaheppler"
     email =  "jason@jasonheppler.org"
     custom_css = ["heppler.css"]
-    repo = "notebook-hugo"
+    repo = "notebook"
     branch = "source"
     math = true
 
