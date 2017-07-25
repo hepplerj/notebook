@@ -1,0 +1,130 @@
+---
+title: Government Documents Text Analysis 
+date: 2017-07-24 
+tags: [manuscript, text analysis, government documents, topic modeling]
+categories: [Code]
+project: machinesvalley
+---
+
+Some notes and code on analyzing government documents.
+
+```{r}
+library(tidyverse)   # the One True Package
+library(ggrepel)     # repel text labels
+library(readr)       # Importing data
+library(tibble)      # Better data frames
+library(tidytext)    # Tidy text mining
+library(broom)
+library(topicmodels)
+library(ggthemes)
+```
+
+```{r}
+# Data Prep
+# -------------------------------------------
+
+# Read data and convert to dataframe
+folder <- "~/Dropbox/dissertation/data/govdocs-ocr/data/"
+setwd(folder)
+
+files <- list.files(folder, pattern = "*.txt")
+data <- data_frame(filename = files) %>% 
+  mutate(file_contents = map(filename,
+                             ~ read_file(file.path(folder, .)))
+  )
+docs <- unnest(data)
+
+# Tokenize
+docs_tokens <- docs %>% unnest_tokens(word, file_contents)
+docs_tokens
+
+# Clear out stopwords
+data("stop_words")
+cleaned_docs <- docs_tokens %>% 
+  anti_join(stop_words)
+
+cleaned_docs %>% 
+  count(word, sort = TRUE)
+
+cleaned_docs$id <- seq_len(nrow(cleaned_docs))
+
+# Analysis
+# -------------------------------------------
+
+# Calculate sentiment
+bing <- get_sentiments("bing")
+sentiment <- cleaned_docs %>% 
+  inner_join(bing) %>% 
+  count(filename, index = id %/% 80, sentiment) %>% 
+  spread(sentiment, n, fill = 0) %>% 
+  mutate(sentiment = positive - negative)
+
+# Most common positive and negative words
+sentiment_word_counts <- cleaned_docs %>%  
+  inner_join(bing) %>% 
+  count(word, sentiment, sort = TRUE) %>% 
+  ungroup()
+
+sentiment_word_counts %>% 
+  filter(n > 80) %>% 
+  mutate(n = ifelse(sentiment == "negative", -n, n)) %>% 
+  mutate(word = reorder(word, n)) %>% 
+  ggplot(aes(word, n, fill = sentiment)) +
+  geom_bar(stat = "identity") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  ylab("Contribution to sentiment")
+
+# Create DTM
+word_counts <- cleaned_docs %>% 
+  anti_join(stop_words) %>% 
+  count(id, word, sort = TRUE)
+
+docs_dtm <- word_counts %>% 
+  cast_dtm(id, word, n)
+
+docs_lda <- LDA(
+  x = docs_dtm,
+  k = 16,
+  method = "Gibbs",
+  control = list(seed = 7292)
+)
+
+tidy_lda <- tidy(docs_lda)
+
+# Top five terms of each topic
+top_terms <- tidy_lda %>%  
+  group_by(topic) %>% 
+  top_n(10, beta) %>% 
+  ungroup() %>% 
+  arrange(topic, -beta)
+top_terms
+
+# Graph the top terms
+ggplot(top_terms, aes(term, beta, fill = as.factor(topic))) +
+  geom_bar(stat = "identity", show.legend=FALSE, alpha = 0.8) +
+  coord_flip() +
+  labs(title = "Top 10 Terms in Each LDA Topic",
+       subtitle = "Topic modeling Silicon Valley city planning documents",
+       caption = "Jason A. Heppler",
+       x = NULL, y = "beta") +
+  facet_wrap(~topic, ncol = 4, scales = "free") +
+  theme_tufte(base_family = "Fira Sans", ticks = FALSE) +
+  scale_y_continuous(expand=c(0,0)) +
+  theme(strip.text = element_text(hjust = 0)) +
+  theme(plot.caption = element_text(size = 9))
+
+# Distributed probabilities
+lda_gamma <- tidy(docs_lda, matrix = "gamma")
+
+ggplot(lda_gamma, aes(gamma, fill = as.factor(topic))) +
+  geom_histogram(show.legend = FALSE, alpha = 0.8) +
+  facet_wrap(~topic, ncol = 4) +
+  labs(title = "Distribution of Probability for Each Topic",
+       subtitle = "Topic modeling government documents",
+       caption = "Jason A. Heppler",
+       y = NULL, x = "gamma") +
+  scale_y_log10() +
+  theme_minimal(base_family = "Lato", base_size = 13) +
+  theme(strip.text=element_text(hjust=0)) +
+  theme(plot.caption=element_text(size=9))
+```
