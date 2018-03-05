@@ -6,6 +6,9 @@
     {{ with .Title }}<h1>{{ . }}</h1> {{ end }}
       
     <p><strong>Project Description</strong>: {{ .Params.description }}</p>
+    <p><strong>Last updated</strong>: {{ .Params.Lastmod }}</p>
+    
+    <hr>
 
     {{ .Content }}
 

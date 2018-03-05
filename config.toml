@@ -1,4 +1,4 @@
-baseurl = "http://notebook.jasonheppler.org"
+baseurl = "https://notebook.jasonheppler.org"
 relativeurls = true
 languageCode = "en-us"
 title = "Heppler Research Notebook"
@@ -21,9 +21,8 @@ enableGitInfo = true
     weight = 2
 [[menu.main]]
     name = "Homepage"
-    url = "http://jasonheppler.org"
+    url = "https://jasonheppler.org"
     weight = 3
-
 
 [params]
     name =  "Jason Heppler"
@@ -50,6 +49,3 @@ enableGitInfo = true
     width = 50
     height = 50
     alt = "Logo"
-
-    
-
