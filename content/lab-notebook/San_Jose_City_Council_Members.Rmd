@@ -1,0 +1,145 @@
+---
+title: "San Jose City Council Members"
+date: 2016-04-05
+tags: [San Jose, city council]
+categories: [Research]
+project: machinesvalley
+---
+
+Name                            Date Elected        Date Left
+-------------------------       ------------        ---------
+Clyde L. Fischer                1936                1946
+Fred Watson                     1944                1961
+Parker L. Hathaway              1948                1965
+George Starbird                 1950                1962
+Louis S. Solari                 1952                1969
+Paul Moore                      1954                1962
+Robert C. Doerr                 1956                1965
+Emery J. Delmas                 1956                1960
+Robert J. Welch                 1960                1968
+George Siegfried                1961                1962
+Virginia C. Schaffer            1962                1971
+Clyde L. Fischer                1962                1967
+Joseph L. Pace                  1962                1967
+Robert J. Miller                1965                1969
+Ronald R. James                 1965                1971
+Joseph A. Colla                 1967                1978
+Norman C. Mineta                1967                1971
+John F. Lisher                  1968                1969
+Clyde L. Fischer                1969                1969
+Kurt Gross                      1969                1971
+Walter V. Hays                  1969                1973
+David J. Goglio                 1969                1973
+Janet Gray Hayes                1971                1974
+Roy B. Naylor                   1971                1976
+Alfredo Garza                   1971                1980
+Susanne B. Wilson               1973                1978
+James Self                      1973                1980
+Lawrence R. Pegram              1975                1980
+David Runyon                    1977                1978
+Thomas McEnery                  1978                1980
+Jerry T. Estruth                1979                1980
+Iola M. Williams                1979                1980
+Susan Hammer                    1980                1980
+Robert E. Perez                 1980                1980
+Lu Ryden                        1981                1982
+Lu Ryden                        1983                1986
+Lu Ryden                        1987                1990
+Blanca Alvarado                 1981                1982
+Blanca Alvarado                 1983                1986
+Blanca Alvarado                 1987                1990
+Blanca Alvarado                 1991                1994
+James Beall Jr.                 1981                1982
+James Beall Jr.                 1983                1986 
+James Beall Jr.                 1987                1990
+James Beall Jr.                 1991                1994
+Shirley Lewis                   1981                1984
+Shirley Lewis                   1985                1988
+Shirley Lewis                   1989                1992
+Nancy Ianni                     1981                1984
+Nancy Ianni                     1985                1988
+Nancy Ianni                     1989                1992
+Patricia E. Sausedo             1981                1984
+Patricia E. Sausedo             1985                1988
+Patricia E. Sausedo             1989                1992
+Claude C. Fletcher              1981                1984
+Susan Hammer                    1983                1986
+Susan Hammer                    1987                1990
+Judy Stabile                    1985                1988
+Judy Stabile                    1987                1990
+Bob Putnam                      1985                1988
+Joe Head                        1989                1992
+Joe Head                        1993                1996
+Trixie Johnson                  1991                1994
+Trixie Johnson                  1995                1998
+David Pandori                   1991                1994
+David Pandori                   1995                1998
+George Shirakawa                1991                1994
+Charlotte Powers                1993                1996
+Charlotte Powers                1997                2000
+Margie Fernandes                1993                1996
+Margie Fernandes                1997                2000
+Frank Fiscalini                 1993                1996
+Frank Fiscalini                 1997                2000
+Kathryn Cole                    1993                1996
+Alice E. Woody                  1994                1996
+Alice E. Woody                  1997                2000
+George Shirakawa Jr.            1994                1994
+George Shirakawa Jr.            1995                1998
+George Shirakawa Jr.            1999                2002
+Manny Diaz                      1995                1998
+Manny Diaz                      1999                2002
+John Diquisto                   1995                1998
+John Diquisto                   1999                2002
+Pat Dando                       1995                1996
+Pat Dando                       1997                2000
+Pat Dando                       2001                2004
+Linda J. LeZotte                1999                2002
+Linda J. LeZotte                2003                2006
+Cindy Chavez                    1999                2002
+Cindy Chavez                    2003                2006
+Forrest Williams                2001                2004
+Forrest Williams                2005                2008
+Chuck Reed                      2001                2004
+Chuck Reed                      2005                2006
+Chuck Reed                      2007                2010
+Chuck Reed                      2011                2014
+Ken Yeager                      2001                2004
+Ken Yeager                      2005                2006
+David Cortese                   2001                2004
+David Cortese                   2005                2008
+
+```{r}
+library(googlesheets)
+library(tidyverse)
+library(ggrepel)
+library(ggalt)
+library(jahMisc)
+
+data <- gs_title("San Jose City Council")
+data_sj <- gs_read(ss = data, ws = "Sheet1")
+
+data_transform <- data_sj %>% 
+  mutate(year_elected_jitter = jitter(year_elected)) %>% 
+  mutate(year_left_jitter = year_left + year_elected_jitter - year_elected + 0.01)
+
+# This isn't quite right. Each person needs to be a line segment, not just each year (which is what's happening now)
+ggplot(data_transform, aes(year_elected, years_in_office, label = name)) +
+  geom_segment(aes(x = year_elected_jitter, y = 0, xend = year_left_jitter, yend = years_in_office, color = gender), size = 0.3) +
+  #geom_text_repel(aes(year_left_jitter, label = name)) +
+  theme_minimal()
+```
+
+A different, and better, timeline view:
+
+```{r}
+ggplot(data_sj, aes(y = reorder(name, year_elected), x = year_elected, xend = year_left, color = gender)) + 
+  geom_dumbbell(size = 1, dot_guide = TRUE, dot_guide_size = 0.25) +
+  theme_minimal() +
+  theme(panel.grid.major.x = element_line(size=0.05)) +
+  theme(panel.grid.major.y = element_blank()) +
+  theme(axis.title.y = element_blank()) +
+  xlab("Time in office") +
+  theme_roboto()
+
+```
