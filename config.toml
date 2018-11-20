@@ -9,7 +9,7 @@ publishDir = "public"
 enableGitInfo = true
 
 [permalinks]
-    lab-notebook = "/:slug/"
+    lab-notebook = "/:year/:month/:day/:slug/"
 
 [[menu.main]]
     name = "Home"
@@ -23,6 +23,10 @@ enableGitInfo = true
     name = "Homepage"
     url = "https://jasonheppler.org"
     weight = 3
+[[menu.main]]
+    name = "GitHub"
+    url = "https://github.com/hepplerj/notebook/"
+    weight = 4
 
 [params]
     name =  "Jason Heppler"
@@ -36,6 +40,7 @@ enableGitInfo = true
     math = true
 
     date_format = "Mon, Jan 2, 2006"
+    lastmod = [":git", "lastmod", "date", "publishDate"]
     description = "The open history notebook of Jason A. Heppler."
 
     # options for highlight.js (version, additional languages, and theme)

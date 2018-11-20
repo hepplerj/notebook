@@ -7,18 +7,10 @@
     {{ with .Params.subtitle }}<h2>{{ . }}</h2> {{ end }}
 
   <div class="row">
-    <div class="col-md-5 col-md-offset-1">
+    <div class="col-12 col-md-8">
     
       {{ .Content }}
-       
-    </div> <!-- END col-md-5-->
-    <div class="col-md-3">
-      <img style="height: auto; width: 100%; border-radius: 5px;" src="{{"/img/atxpo_2016-3703_1024.jpg" | relURL }}"/>
-    </div><!-- END col-md-3 -->
-  </div> <!-- END row-->
-
-  <div class="row">
-      <div class="col-md-5 col-md-offset-1">
+      
       <h3>Latest Notes</h3>
         <table class="table-stripped">
             <tr>
@@ -33,9 +25,9 @@
               {{ end }}
           </table>
           <p style="text-align: right;"><a href="/lab-notebook">All notes &rarr;</a></p>
-      </div>
-
-      <div class="col-md-3">
+       
+    </div> <!-- END col-8-->
+    <div class="col-6 col-md-4">
       <form action="http://duckduckgo.com/" method="get" class="sidebar-search">
         <div class="form-group has-feedback">
           <input type="hidden" name="sites" value="http://notebook.jasonheppler.org" />
@@ -44,24 +36,47 @@
         </div>
       </form>
 
-      <h5>General</h5>
+      <h3>General</h3>
       <ul style="list-style: none; margin: 0; padding: 0;">
         <li><a href="/lab-notebook">All Notes by Date</a></li>
         <li><a href="/categories/essays/">Essays and General Writing</a></li>
         <li><a href="/tags">Tags</a></li>
         <li><a href="/categories">Categories</a></li>
       </ul>
+      
+      <hr>
 
-      <h5>Projects</h5>
+      <h3>Sitemap</h3>
       <ul style="list-style: none; margin: 0; padding: 0;">
-        <li><a href="/projects/wfcwildwest/">W.F. Cody and the Wild West</a></li>
-        <li><a href="/projects/machinesvalley/">Machines in the Valley</a></li>
-        <li><a href="/projects/mappingmidwest/">Mapping Midwest</a></li>
-        <li><a href="/projects/radicalenvironmentalism/">Radical Environmentalism</a></li>
-        <li><a href="/projects/visualizationhumanities/">Visualization in the Humanities</a></li>
+        <li><h5>Digital Humanities</h5></li>
+        <ul>
+          <li><a href="/projects/machinesvalley/">Machines in the Valley</a></li>
+          <li><a href="/projects/visualizationhumanities/">Visualization in the Humanities</a></li>
+          <li><a href="/projects/radicalenvironmentalism/">Radical Environmentalism</a></li>
+          <li><a href="/projects/mappingmidwest/">Mapping Midwest</a></li>
+          <li><a href="/projects/wfcwildwest/">W.F. Cody and the Wild West</a></li>
+        </ul>
+        <li><h5>Machine Learning</h5></li>
+          <ul>
+            <li><a href="/projects/machinelearning/">Resources</a></li>
+          </ul>
+        <li><h5>Programming</h5></li>
+        <ul>
+          <li><a href="/post/language-exploration/">Language Exploration</a></li>
+          <li>Open Leadership</li>
+          <li>Resources</li>
+        </ul>
+        <li><h5>Readings</h5></li>
+        <ul>
+          <li>Clippings</li>
+          <li><a href="/categories/readings/">Notes</a></li>
+          <li>Reading List</li>
+        </ul>
       </ul>
+      
+      <hr>
 
-      <h5>Meta</h5>
+      <h3>Meta</h3>
       <ul style="list-style: none; margin: 0; padding: 0;">
         <li><a href="/project-news">Notebook News</a></li>
         <li><a href="/about">About Me</a></li>
@@ -84,8 +99,8 @@
         <dd><a href="https://orcid.org/0000-0003-4158-6186">0000-0003-4158-6186</a></dd>
       </dl>
       </div>
-  </div>
-</div>
+    </div><!-- END col-md-3 -->
+  </div> <!-- END row-->
 </article>
 
 <script type="application/ld+json">
