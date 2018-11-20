@@ -1,0 +1,80 @@
+---
+title: Word Vectors for Treaties
+author: Jason A. Heppler
+date: '2018-11-20'
+slug: word-vectors-for-treaties
+categories: [Research]
+tags: []
+---
+
+Experimenting with word vectors on Native American treaties data. 
+
+```{r}
+suppressPackageStartupMessages(library(text2vec))
+suppressPackageStartupMessages(library(tidyverse))
+suppressPackageStartupMessages(library(wordVectors))
+suppressPackageStartupMessages(library(tsne))
+
+#prep_word2vec("data/", "treaty_all.txt", lowercase = T)
+
+#treaty_model <- train_word2vec("data/treaty_all.txt", output = "data/treaty_all_vectors.bin", threads = 6, vectors = 100, window = 12)
+treaty_model <- read.vectors("data/treaty_all_vectors.bin")
+```
+
+And lets look at a few things.
+
+```{r}
+treaty_model %>% nearest_to(treaty_model[["sioux"]])
+treaty_model %>% nearest_to(treaty_model[["land"]])
+treaty_model %>% nearest_to(treaty_model[["women"]])
+treaty_model %>% nearest_to(treaty_model[["privilege"]])
+treaty_model %>% nearest_to(treaty_model[[c("land","water")]])
+treaty_model %>% nearest_to(treaty_model[[c("sovereign","sovereignty")]])
+treaty_model %>% nearest_to(treaty_model[[c("survey","remove")]])
+treaty_model %>% nearest_to(treaty_model[[c("never","until","unless")]])
+treaty_model %>% nearest_to(treaty_model[[c("sovereign","survey","remove","privilege","annum","liquor")]])
+treaty_model %>% nearest_to(treaty_model[[c("rights","citizen","citizens","independent","sovereign","sovereignty")]])
+treaty_model %>% nearest_to(treaty_model[[c("savage","depredation","depredations","civilized","hostile","friendly","enlightened")]])
+treaty_model %>% nearest_to(treaty_model[[c("religion","chritianity","missionaries","mission")]])
+treaty_model %>% nearest_to(treaty_model[[c("fishing","hunting")]])
+treaty_model %>% nearest_to(treaty_model[[c("right","rights","privilege","privileges")]])
+treaty_model %>% nearest_to(treaty_model[[c("wooded","woods","grass","hills")]])
+treaty_model %>% nearest_to(treaty_model[[c("education","school")]])
+treaty_model %>% nearest_to(treaty_model[[c("children","family")]])
+treaty_model %>% nearest_to(treaty_model[["civilization"]])
+treaty_model %>% nearest_to(treaty_model[[c("nation","citizen","property", "ration")]])
+treaty_model %>% nearest_to(treaty_model[[c("trust","income","economy","money","currency","trade","annum","annuity")]])
+treaty_model %>% nearest_to(treaty_model[[c("governance","governed")]])
+treaty_model %>% nearest_to(treaty_model[["border"]])
+treaty_model %>% nearest_to(treaty_model[[c("slave","slavery")]])
+treaty_model %>% nearest_to(treaty_model[["war"]])
+treaty_model %>% nearest_to(treaty_model[[c("crime","prison","law")]])
+treaty_model %>% nearest_to(treaty_model[[c("law")]])
+treaty_model %>% nearest_to(treaty_model[[c("citizen","citizenship")]])
+treaty_model %>% nearest_to(treaty_model[[c("citizen")]])
+treaty_model %>% nearest_to(treaty_model[[c("citizenship")]])
+```
+
+```{r}
+rights <- treaty_model[rownames(treaty_model),]
+right_score <- rights %>% cosineSimilarity(treaty_model[[c("right","rights")]])
+privilege_score <- rights %>% cosineSimilarity(treaty_model[[c("privilege","privileges")]])
+
+plot(right_score, 
+     privilege_score, 
+     type = 'n', 
+     main = "Words plotted by their similarity to rights \n(x axis) and privileges (y axis)."
+)
+text(right_score, privilege_score, labels = rownames(rights), cex = .7)
+abline(a=0, b=1)
+```
+
+```{r}
+treaties <- treaty_model[rownames(treaty_model),]
+lands <- treaties %>% cosineSimilarity(treaty_model[[c("land","lands")]])
+water <- treaties %>% cosineSimilarity(treaty_model[[c("water", "waters")]])
+
+plot(lands, water, type = 'n', main = "Top words plotted by their similarity to land \n and water")
+text(lands, water, labels = rownames(treaties), cex=.7)
+abline(a=0, b=1)
+```
