@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
 body { 
   padding-top: 80px; 
   position: relative;
-  font-family: "Fira Sans", "Open Sans", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
   font-size: 14px;
-  line-height: 24px;
-  background: #fdfdfd;
-  color: #383838; 
+  line-height: 1.428;
+  color: rgb(72, 72, 86);
 }
 @media screen and (max-width: 768px) {
     body { padding-top: 80px; 
@@ -14,6 +12,21 @@ body {
 }
 
 /* Bootstrap customization */
+
+a {
+  color: rgb(0, 122, 255);
+  text-decoration: none;
+}
+
+a:hover, a:visited {
+  color: rgb(0, 122, 255);
+  text-decoration: none;
+}
+
+p {
+  font-size: 15px;
+  line-height: 24px;
+}
 
 /* Tables */
 table {
@@ -67,23 +80,23 @@ tr.info a:visited {
 /* Navbar
 */
 .navbar-default {
-  background-color: #337ab7;
+  background-color: white;
   border-color: transparent;
 }
 
 .navbar-default .navbar-brand {
-  color: #ebebeb;
+  color: rgb(0, 122, 255);
   border: none;
 }
 .navbar-default .navbar-brand:hover {
-  color: white;
+  color: rgb(0, 122, 255);
   border: none;
 }
 .navbar-default .navbar-nav li > a {
-  color: #ebebeb;
+  color: rgb(72, 72, 86);
 }
 .navbar-default .navbar-nav > li > a:hover {
-  color: white;
+  color: rgb(72, 72, 86);
 }
 
 /* Headers
@@ -95,29 +108,10 @@ h4,
 h5,
 h6 {
   text-rendering: optimizeLegibility;
-  letter-spacing: 0.049em; }
-
-h1 {
-  font-size: 36px; }
-
-h2 {
-  font-size: 24px; }
-
-h3 {
-  font-size: 20px; }
-
-h4 {
-  font-size: 16px; }
-
-h5 {
-  font-size: 14px; }
-
-h6 {
-  font-size: 12px; }
-
-h1{
-  padding-bottom: 3px;
-  border-bottom: 1px solid #aaa; }
+  letter-spacing: 0.008em;
+  font-weight: 700;
+  color: rgb(72, 72, 86);
+}
 
 /* Figures */
 article img {
